@@ -98,3 +98,28 @@ aspell/dict/ru/
 aspell/dict/rw/
 aspell/dict/sc/
 aspell/dict/sk/
+aspell/dict/sl/
+aspell/dict/sr/
+aspell/dict/sv/
+aspell/dict/sw/
+aspell/dict/ta/
+aspell/dict/te/
+aspell/dict/tet/
+aspell/dict/tk/
+aspell/dict/tl/
+aspell/dict/tn/
+aspell/dict/tr/
+aspell/dict/uk/
+aspell/dict/uz/
+aspell/dict/vi/
+aspell/dict/wa/
+aspell/dict/yi/
+aspell/dict/zu/
+aspell/w32/
+auctex/
+auctex/11.51-extra/
+auctex/11.52-extra/
+auctex/11.53-extra/
+auctex/11.54-extra/
+ignoring unsafe symlink "/mirrorswlzx/gnu/autoconf/autoconf-2.53-2.54.xdelta.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/autoconf/autoconf-2.54.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
