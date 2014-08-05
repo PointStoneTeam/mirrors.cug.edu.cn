@@ -1,0 +1,903 @@
+2014-08-06 06:00:03
+rsync://ftp.cn.debian.org/debian/
+ _______________________________________________________________
+|         University of Science and Technology of China         |
+|           Open Source Mirror  (mirrors.ustc.edu.cn)           |
+|===============================================================|
+|                                                               |
+| Debian primary mirror in China mainland (ftp.cn.debian.org),  |
+|     also mirroring a great many OSS projects & Linux distros. |
+|                                                               |
+| This site also provides http/https/ftp access.                |
+|                                                               |
+| Supported by USTC Network Information Center                  |
+|          and USTC Linux User Group (http://lug.ustc.edu.cn/). |
+|                                                               |
+|    Sync Status:  http://mirrors.ustc.edu.cn/status/           |
+|           News:  http://servers.blog.ustc.edu.cn/             |
+|        Contact:  mirrors@ustc.edu.cn                          |
+|_______________________________________________________________|
+
+
+receiving file list ... done
+./
+Archive-Update-Required-ftp.cn.debian.org
+Archive-Update-in-Progress-ftp.cn.debian.org
+README.mirrors.html
+README.mirrors.txt
+dists/experimental/
+dists/experimental/contrib/
+dists/experimental/contrib/Contents-amd64.gz
+dists/experimental/contrib/Contents-arm64.gz
+dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-source.gz
+dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/binary-all/
+dists/experimental/contrib/binary-amd64/
+dists/experimental/contrib/binary-arm64/
+dists/experimental/contrib/binary-armel/
+dists/experimental/contrib/binary-armhf/
+dists/experimental/contrib/binary-hurd-i386/
+dists/experimental/contrib/binary-i386/
+dists/experimental/contrib/binary-kfreebsd-amd64/
+dists/experimental/contrib/binary-kfreebsd-i386/
+dists/experimental/contrib/binary-mips/
+dists/experimental/contrib/binary-mipsel/
+dists/experimental/contrib/binary-powerpc/
+dists/experimental/contrib/binary-s390x/
+dists/experimental/contrib/binary-sparc/
+dists/experimental/contrib/debian-installer/binary-all/
+dists/experimental/contrib/debian-installer/binary-amd64/
+dists/experimental/contrib/debian-installer/binary-arm64/
+dists/experimental/contrib/debian-installer/binary-armel/
+dists/experimental/contrib/debian-installer/binary-armhf/
+dists/experimental/contrib/debian-installer/binary-hurd-i386/
+dists/experimental/contrib/debian-installer/binary-i386/
+dists/experimental/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/experimental/contrib/debian-installer/binary-kfreebsd-i386/
+dists/experimental/contrib/debian-installer/binary-mips/
+dists/experimental/contrib/debian-installer/binary-mipsel/
+dists/experimental/contrib/debian-installer/binary-powerpc/
+dists/experimental/contrib/debian-installer/binary-s390x/
+dists/experimental/contrib/debian-installer/binary-sparc/
+dists/experimental/contrib/i18n/
+dists/experimental/contrib/source/
+dists/experimental/main/
+dists/experimental/main/Contents-amd64.gz
+dists/experimental/main/Contents-arm64.gz
+dists/experimental/main/Contents-armel.gz
+dists/experimental/main/Contents-armhf.gz
+dists/experimental/main/Contents-hurd-i386.gz
+dists/experimental/main/Contents-i386.gz
+dists/experimental/main/Contents-kfreebsd-amd64.gz
+dists/experimental/main/Contents-kfreebsd-i386.gz
+dists/experimental/main/Contents-mips.gz
+dists/experimental/main/Contents-mipsel.gz
+dists/experimental/main/Contents-powerpc.gz
+dists/experimental/main/Contents-s390x.gz
+dists/experimental/main/Contents-source.gz
+dists/experimental/main/Contents-sparc.gz
+dists/experimental/main/Contents-udeb-amd64.gz
+dists/experimental/main/Contents-udeb-armel.gz
+dists/experimental/main/Contents-udeb-armhf.gz
+dists/experimental/main/Contents-udeb-hurd-i386.gz
+dists/experimental/main/Contents-udeb-i386.gz
+dists/experimental/main/Contents-udeb-kfreebsd-amd64.gz
+dists/experimental/main/Contents-udeb-kfreebsd-i386.gz
+dists/experimental/main/Contents-udeb-mips.gz
+dists/experimental/main/Contents-udeb-mipsel.gz
+dists/experimental/main/Contents-udeb-powerpc.gz
+dists/experimental/main/Contents-udeb-s390x.gz
+dists/experimental/main/Contents-udeb-sparc.gz
+dists/experimental/main/Contents-amd64.diff/
+dists/experimental/main/Contents-amd64.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-amd64.diff/Index
+dists/experimental/main/Contents-arm64.diff/
+dists/experimental/main/Contents-arm64.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-arm64.diff/Index
+dists/experimental/main/Contents-armel.diff/
+dists/experimental/main/Contents-armel.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-armel.diff/Index
+dists/experimental/main/Contents-armhf.diff/
+dists/experimental/main/Contents-armhf.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-armhf.diff/Index
+dists/experimental/main/Contents-hurd-i386.diff/
+dists/experimental/main/Contents-hurd-i386.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-hurd-i386.diff/Index
+dists/experimental/main/Contents-i386.diff/
+dists/experimental/main/Contents-i386.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-i386.diff/Index
+dists/experimental/main/Contents-kfreebsd-amd64.diff/
+dists/experimental/main/Contents-kfreebsd-amd64.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-kfreebsd-amd64.diff/Index
+dists/experimental/main/Contents-kfreebsd-i386.diff/
+dists/experimental/main/Contents-kfreebsd-i386.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-kfreebsd-i386.diff/Index
+dists/experimental/main/Contents-mips.diff/
+dists/experimental/main/Contents-mips.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-mips.diff/Index
+dists/experimental/main/Contents-mipsel.diff/
+dists/experimental/main/Contents-mipsel.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-mipsel.diff/Index
+dists/experimental/main/Contents-powerpc.diff/
+dists/experimental/main/Contents-powerpc.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-powerpc.diff/Index
+dists/experimental/main/Contents-s390x.diff/
+dists/experimental/main/Contents-s390x.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-sparc.diff/
+dists/experimental/main/Contents-sparc.diff/2014-08-05-2057.28.gz
+dists/experimental/main/Contents-sparc.diff/Index
+dists/experimental/main/binary-all/
+dists/experimental/main/binary-amd64/
+dists/experimental/main/binary-arm64/
+dists/experimental/main/binary-armel/
+dists/experimental/main/binary-armhf/
+dists/experimental/main/binary-hurd-i386/
+dists/experimental/main/binary-i386/
+dists/experimental/main/binary-kfreebsd-amd64/
+dists/experimental/main/binary-kfreebsd-i386/
+dists/experimental/main/binary-mips/
+dists/experimental/main/binary-mipsel/
+dists/experimental/main/binary-powerpc/
+dists/experimental/main/binary-s390x/
+dists/experimental/main/binary-sparc/
+dists/experimental/main/debian-installer/binary-all/
+dists/experimental/main/debian-installer/binary-amd64/
+dists/experimental/main/debian-installer/binary-arm64/
+dists/experimental/main/debian-installer/binary-armel/
+dists/experimental/main/debian-installer/binary-armhf/
+dists/experimental/main/debian-installer/binary-hurd-i386/
+dists/experimental/main/debian-installer/binary-i386/
+dists/experimental/main/debian-installer/binary-kfreebsd-amd64/
+dists/experimental/main/debian-installer/binary-kfreebsd-i386/
+dists/experimental/main/debian-installer/binary-mips/
+dists/experimental/main/debian-installer/binary-mipsel/
+dists/experimental/main/debian-installer/binary-powerpc/
+dists/experimental/main/debian-installer/binary-s390x/
+dists/experimental/main/debian-installer/binary-sparc/
+dists/experimental/main/i18n/
+dists/experimental/main/source/
+dists/experimental/non-free/
+dists/experimental/non-free/Contents-amd64.gz
+dists/experimental/non-free/Contents-arm64.gz
+dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-hurd-i386.gz
+dists/experimental/non-free/Contents-i386.gz
+dists/experimental/non-free/Contents-source.gz
+dists/experimental/non-free/binary-all/
+dists/experimental/non-free/binary-amd64/
+dists/experimental/non-free/binary-arm64/
+dists/experimental/non-free/binary-armel/
+dists/experimental/non-free/binary-armhf/
+dists/experimental/non-free/binary-hurd-i386/
+dists/experimental/non-free/binary-i386/
+dists/experimental/non-free/binary-kfreebsd-amd64/
+dists/experimental/non-free/binary-kfreebsd-i386/
+dists/experimental/non-free/binary-mips/
+dists/experimental/non-free/binary-mipsel/
+dists/experimental/non-free/binary-powerpc/
+dists/experimental/non-free/binary-s390x/
+dists/experimental/non-free/binary-sparc/
+dists/experimental/non-free/debian-installer/binary-all/
+dists/experimental/non-free/debian-installer/binary-amd64/
+dists/experimental/non-free/debian-installer/binary-arm64/
+dists/experimental/non-free/debian-installer/binary-armel/
+dists/experimental/non-free/debian-installer/binary-armhf/
+dists/experimental/non-free/debian-installer/binary-hurd-i386/
+dists/experimental/non-free/debian-installer/binary-i386/
+dists/experimental/non-free/debian-installer/binary-kfreebsd-amd64/
+dists/experimental/non-free/debian-installer/binary-kfreebsd-i386/
+dists/experimental/non-free/debian-installer/binary-mips/
+dists/experimental/non-free/debian-installer/binary-mipsel/
+dists/experimental/non-free/debian-installer/binary-powerpc/
+dists/experimental/non-free/debian-installer/binary-s390x/
+dists/experimental/non-free/debian-installer/binary-sparc/
+dists/experimental/non-free/i18n/
+dists/experimental/non-free/source/
+dists/jessie-backports/
+dists/jessie-backports/contrib/
+dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-backports/contrib/binary-amd64/
+dists/jessie-backports/contrib/binary-armel/
+dists/jessie-backports/contrib/binary-armhf/
+dists/jessie-backports/contrib/binary-i386/
+dists/jessie-backports/contrib/binary-kfreebsd-amd64/
+dists/jessie-backports/contrib/binary-kfreebsd-i386/
+dists/jessie-backports/contrib/binary-mips/
+dists/jessie-backports/contrib/binary-mipsel/
+dists/jessie-backports/contrib/binary-powerpc/
+dists/jessie-backports/contrib/binary-s390x/
+dists/jessie-backports/contrib/binary-sparc/
+dists/jessie-backports/contrib/debian-installer/binary-amd64/
+dists/jessie-backports/contrib/debian-installer/binary-armel/
+dists/jessie-backports/contrib/debian-installer/binary-armhf/
+dists/jessie-backports/contrib/debian-installer/binary-i386/
+dists/jessie-backports/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-backports/contrib/debian-installer/binary-kfreebsd-i386/
+dists/jessie-backports/contrib/debian-installer/binary-mips/
+dists/jessie-backports/contrib/debian-installer/binary-mipsel/
+dists/jessie-backports/contrib/debian-installer/binary-powerpc/
+dists/jessie-backports/contrib/debian-installer/binary-s390x/
+dists/jessie-backports/contrib/debian-installer/binary-sparc/
+dists/jessie-backports/contrib/i18n/
+dists/jessie-backports/contrib/source/
+dists/jessie-backports/main/
+dists/jessie-backports/main/binary-amd64/
+dists/jessie-backports/main/binary-armel/
+dists/jessie-backports/main/binary-armhf/
+dists/jessie-backports/main/binary-i386/
+dists/jessie-backports/main/binary-kfreebsd-amd64/
+dists/jessie-backports/main/binary-kfreebsd-i386/
+dists/jessie-backports/main/binary-mips/
+dists/jessie-backports/main/binary-mipsel/
+dists/jessie-backports/main/binary-powerpc/
+dists/jessie-backports/main/binary-s390x/
+dists/jessie-backports/main/binary-sparc/
+dists/jessie-backports/main/debian-installer/binary-amd64/
+dists/jessie-backports/main/debian-installer/binary-armel/
+dists/jessie-backports/main/debian-installer/binary-armhf/
+dists/jessie-backports/main/debian-installer/binary-i386/
+dists/jessie-backports/main/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-backports/main/debian-installer/binary-kfreebsd-i386/
+dists/jessie-backports/main/debian-installer/binary-mips/
+dists/jessie-backports/main/debian-installer/binary-mipsel/
+dists/jessie-backports/main/debian-installer/binary-powerpc/
+dists/jessie-backports/main/debian-installer/binary-s390x/
+dists/jessie-backports/main/debian-installer/binary-sparc/
+dists/jessie-backports/main/i18n/
+dists/jessie-backports/main/source/
+dists/jessie-backports/non-free/
+dists/jessie-backports/non-free/binary-amd64/
+dists/jessie-backports/non-free/binary-armel/
+dists/jessie-backports/non-free/binary-armhf/
+dists/jessie-backports/non-free/binary-i386/
+dists/jessie-backports/non-free/binary-kfreebsd-amd64/
+dists/jessie-backports/non-free/binary-kfreebsd-i386/
+dists/jessie-backports/non-free/binary-mips/
+dists/jessie-backports/non-free/binary-mipsel/
+dists/jessie-backports/non-free/binary-powerpc/
+dists/jessie-backports/non-free/binary-s390x/
+dists/jessie-backports/non-free/binary-sparc/
+dists/jessie-backports/non-free/debian-installer/binary-amd64/
+dists/jessie-backports/non-free/debian-installer/binary-armel/
+dists/jessie-backports/non-free/debian-installer/binary-armhf/
+dists/jessie-backports/non-free/debian-installer/binary-i386/
+dists/jessie-backports/non-free/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-backports/non-free/debian-installer/binary-kfreebsd-i386/
+dists/jessie-backports/non-free/debian-installer/binary-mips/
+dists/jessie-backports/non-free/debian-installer/binary-mipsel/
+dists/jessie-backports/non-free/debian-installer/binary-powerpc/
+dists/jessie-backports/non-free/debian-installer/binary-s390x/
+dists/jessie-backports/non-free/debian-installer/binary-sparc/
+dists/jessie-backports/non-free/i18n/
+dists/jessie-backports/non-free/source/
+dists/jessie-proposed-updates/
+dists/jessie-proposed-updates/contrib/
+dists/jessie-proposed-updates/contrib/binary-all/
+dists/jessie-proposed-updates/contrib/binary-amd64/
+dists/jessie-proposed-updates/contrib/binary-armel/
+dists/jessie-proposed-updates/contrib/binary-armhf/
+dists/jessie-proposed-updates/contrib/binary-i386/
+dists/jessie-proposed-updates/contrib/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/contrib/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/contrib/binary-mips/
+dists/jessie-proposed-updates/contrib/binary-mipsel/
+dists/jessie-proposed-updates/contrib/binary-powerpc/
+dists/jessie-proposed-updates/contrib/binary-s390x/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-all/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-amd64/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-armel/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-armhf/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-i386/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-mips/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-mipsel/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-powerpc/
+dists/jessie-proposed-updates/contrib/debian-installer/binary-s390x/
+dists/jessie-proposed-updates/contrib/i18n/
+dists/jessie-proposed-updates/contrib/source/
+dists/jessie-proposed-updates/main/
+dists/jessie-proposed-updates/main/binary-all/
+dists/jessie-proposed-updates/main/binary-amd64/
+dists/jessie-proposed-updates/main/binary-armel/
+dists/jessie-proposed-updates/main/binary-armhf/
+dists/jessie-proposed-updates/main/binary-i386/
+dists/jessie-proposed-updates/main/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/main/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/main/binary-mips/
+dists/jessie-proposed-updates/main/binary-mipsel/
+dists/jessie-proposed-updates/main/binary-powerpc/
+dists/jessie-proposed-updates/main/binary-s390x/
+dists/jessie-proposed-updates/main/debian-installer/binary-all/
+dists/jessie-proposed-updates/main/debian-installer/binary-amd64/
+dists/jessie-proposed-updates/main/debian-installer/binary-armel/
+dists/jessie-proposed-updates/main/debian-installer/binary-armhf/
+dists/jessie-proposed-updates/main/debian-installer/binary-i386/
+dists/jessie-proposed-updates/main/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/main/debian-installer/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/main/debian-installer/binary-mips/
+dists/jessie-proposed-updates/main/debian-installer/binary-mipsel/
+dists/jessie-proposed-updates/main/debian-installer/binary-powerpc/
+dists/jessie-proposed-updates/main/debian-installer/binary-s390x/
+dists/jessie-proposed-updates/main/i18n/
+dists/jessie-proposed-updates/main/source/
+dists/jessie-proposed-updates/non-free/
+dists/jessie-proposed-updates/non-free/binary-all/
+dists/jessie-proposed-updates/non-free/binary-amd64/
+dists/jessie-proposed-updates/non-free/binary-armel/
+dists/jessie-proposed-updates/non-free/binary-armhf/
+dists/jessie-proposed-updates/non-free/binary-i386/
+dists/jessie-proposed-updates/non-free/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/non-free/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/non-free/binary-mips/
+dists/jessie-proposed-updates/non-free/binary-mipsel/
+dists/jessie-proposed-updates/non-free/binary-powerpc/
+dists/jessie-proposed-updates/non-free/binary-s390x/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-all/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-amd64/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-armel/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-armhf/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-i386/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-kfreebsd-i386/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-mips/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-mipsel/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-powerpc/
+dists/jessie-proposed-updates/non-free/debian-installer/binary-s390x/
+dists/jessie-proposed-updates/non-free/i18n/
+dists/jessie-proposed-updates/non-free/source/
+dists/jessie-updates/
+dists/jessie-updates/contrib/
+dists/jessie-updates/contrib/binary-amd64/
+dists/jessie-updates/contrib/binary-armel/
+dists/jessie-updates/contrib/binary-armhf/
+dists/jessie-updates/contrib/binary-i386/
+dists/jessie-updates/contrib/binary-kfreebsd-amd64/
+dists/jessie-updates/contrib/binary-kfreebsd-i386/
+dists/jessie-updates/contrib/binary-mips/
+dists/jessie-updates/contrib/binary-mipsel/
+dists/jessie-updates/contrib/binary-powerpc/
+dists/jessie-updates/contrib/binary-s390x/
+dists/jessie-updates/contrib/binary-sparc/
+dists/jessie-updates/contrib/debian-installer/binary-amd64/
+dists/jessie-updates/contrib/debian-installer/binary-armel/
+dists/jessie-updates/contrib/debian-installer/binary-armhf/
+dists/jessie-updates/contrib/debian-installer/binary-i386/
+dists/jessie-updates/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-updates/contrib/debian-installer/binary-kfreebsd-i386/
+dists/jessie-updates/contrib/debian-installer/binary-mips/
+dists/jessie-updates/contrib/debian-installer/binary-mipsel/
+dists/jessie-updates/contrib/debian-installer/binary-powerpc/
+dists/jessie-updates/contrib/debian-installer/binary-s390x/
+dists/jessie-updates/contrib/debian-installer/binary-sparc/
+dists/jessie-updates/contrib/i18n/
+dists/jessie-updates/contrib/source/
+dists/jessie-updates/main/
+dists/jessie-updates/main/binary-amd64/
+dists/jessie-updates/main/binary-armel/
+dists/jessie-updates/main/binary-armhf/
+dists/jessie-updates/main/binary-i386/
+dists/jessie-updates/main/binary-kfreebsd-amd64/
+dists/jessie-updates/main/binary-kfreebsd-i386/
+dists/jessie-updates/main/binary-mips/
+dists/jessie-updates/main/binary-mipsel/
+dists/jessie-updates/main/binary-powerpc/
+dists/jessie-updates/main/binary-s390x/
+dists/jessie-updates/main/binary-sparc/
+dists/jessie-updates/main/debian-installer/binary-amd64/
+dists/jessie-updates/main/debian-installer/binary-armel/
+dists/jessie-updates/main/debian-installer/binary-armhf/
+dists/jessie-updates/main/debian-installer/binary-i386/
+dists/jessie-updates/main/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-updates/main/debian-installer/binary-kfreebsd-i386/
+dists/jessie-updates/main/debian-installer/binary-mips/
+dists/jessie-updates/main/debian-installer/binary-mipsel/
+dists/jessie-updates/main/debian-installer/binary-powerpc/
+dists/jessie-updates/main/debian-installer/binary-s390x/
+dists/jessie-updates/main/debian-installer/binary-sparc/
+dists/jessie-updates/main/i18n/
+dists/jessie-updates/main/source/
+dists/jessie-updates/non-free/
+dists/jessie-updates/non-free/binary-amd64/
+dists/jessie-updates/non-free/binary-armel/
+dists/jessie-updates/non-free/binary-armhf/
+dists/jessie-updates/non-free/binary-i386/
+dists/jessie-updates/non-free/binary-kfreebsd-amd64/
+dists/jessie-updates/non-free/binary-kfreebsd-i386/
+dists/jessie-updates/non-free/binary-mips/
+dists/jessie-updates/non-free/binary-mipsel/
+dists/jessie-updates/non-free/binary-powerpc/
+dists/jessie-updates/non-free/binary-s390x/
+dists/jessie-updates/non-free/binary-sparc/
+dists/jessie-updates/non-free/debian-installer/binary-amd64/
+dists/jessie-updates/non-free/debian-installer/binary-armel/
+dists/jessie-updates/non-free/debian-installer/binary-armhf/
+dists/jessie-updates/non-free/debian-installer/binary-i386/
+dists/jessie-updates/non-free/debian-installer/binary-kfreebsd-amd64/
+dists/jessie-updates/non-free/debian-installer/binary-kfreebsd-i386/
+dists/jessie-updates/non-free/debian-installer/binary-mips/
+dists/jessie-updates/non-free/debian-installer/binary-mipsel/
+dists/jessie-updates/non-free/debian-installer/binary-powerpc/
+dists/jessie-updates/non-free/debian-installer/binary-s390x/
+dists/jessie-updates/non-free/debian-installer/binary-sparc/
+dists/jessie-updates/non-free/i18n/
+dists/jessie-updates/non-free/source/
+dists/jessie/
+dists/jessie/contrib/
+dists/jessie/contrib/Contents-amd64.gz
+dists/jessie/contrib/Contents-armel.gz
+dists/jessie/contrib/Contents-armhf.gz
+dists/jessie/contrib/Contents-i386.gz
+dists/jessie/contrib/Contents-kfreebsd-amd64.gz
+dists/jessie/contrib/Contents-kfreebsd-i386.gz
+dists/jessie/contrib/Contents-mips.gz
+dists/jessie/contrib/Contents-mipsel.gz
+dists/jessie/contrib/Contents-powerpc.gz
+dists/jessie/contrib/Contents-s390x.gz
+dists/jessie/contrib/Contents-source.gz
+dists/jessie/contrib/binary-all/
+dists/jessie/contrib/binary-amd64/
+dists/jessie/contrib/binary-armel/
+dists/jessie/contrib/binary-armhf/
+dists/jessie/contrib/binary-i386/
+dists/jessie/contrib/binary-kfreebsd-amd64/
+dists/jessie/contrib/binary-kfreebsd-i386/
+dists/jessie/contrib/binary-mips/
+dists/jessie/contrib/binary-mipsel/
+dists/jessie/contrib/binary-powerpc/
+dists/jessie/contrib/binary-s390x/
+dists/jessie/contrib/debian-installer/binary-all/
+dists/jessie/contrib/debian-installer/binary-amd64/
+dists/jessie/contrib/debian-installer/binary-armel/
+dists/jessie/contrib/debian-installer/binary-armhf/
+dists/jessie/contrib/debian-installer/binary-i386/
+dists/jessie/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/jessie/contrib/debian-installer/binary-kfreebsd-i386/
+dists/jessie/contrib/debian-installer/binary-mips/
+dists/jessie/contrib/debian-installer/binary-mipsel/
+dists/jessie/contrib/debian-installer/binary-powerpc/
+dists/jessie/contrib/debian-installer/binary-s390x/
+dists/jessie/contrib/i18n/
+dists/jessie/contrib/source/
+dists/jessie/main/
+dists/jessie/main/Contents-amd64.gz
+dists/jessie/main/Contents-armel.gz
+dists/jessie/main/Contents-armhf.gz
+dists/jessie/main/Contents-i386.gz
+dists/jessie/main/Contents-kfreebsd-amd64.gz
+dists/jessie/main/Contents-kfreebsd-i386.gz
+dists/jessie/main/Contents-mips.gz
+dists/jessie/main/Contents-mipsel.gz
+dists/jessie/main/Contents-powerpc.gz
+dists/jessie/main/Contents-s390x.gz
+dists/jessie/main/Contents-source.gz
+dists/jessie/main/Contents-udeb-amd64.gz
+dists/jessie/main/Contents-udeb-armel.gz
+dists/jessie/main/Contents-udeb-armhf.gz
+dists/jessie/main/Contents-udeb-i386.gz
+dists/jessie/main/Contents-udeb-kfreebsd-amd64.gz
+dists/jessie/main/Contents-udeb-kfreebsd-i386.gz
+dists/jessie/main/Contents-udeb-mips.gz
+dists/jessie/main/Contents-udeb-mipsel.gz
+dists/jessie/main/Contents-udeb-powerpc.gz
+dists/jessie/main/Contents-udeb-s390x.gz
+dists/jessie/main/binary-all/
+dists/jessie/main/binary-amd64/
+dists/jessie/main/binary-armel/
+dists/jessie/main/binary-armhf/
+dists/jessie/main/binary-i386/
+dists/jessie/main/binary-kfreebsd-amd64/
+dists/jessie/main/binary-kfreebsd-i386/
+dists/jessie/main/binary-mips/
+dists/jessie/main/binary-mipsel/
+dists/jessie/main/binary-powerpc/
+dists/jessie/main/binary-s390x/
+dists/jessie/main/debian-installer/binary-all/
+dists/jessie/main/debian-installer/binary-amd64/
+dists/jessie/main/debian-installer/binary-armel/
+dists/jessie/main/debian-installer/binary-armhf/
+dists/jessie/main/debian-installer/binary-i386/
+dists/jessie/main/debian-installer/binary-kfreebsd-amd64/
+dists/jessie/main/debian-installer/binary-kfreebsd-i386/
+dists/jessie/main/debian-installer/binary-mips/
+dists/jessie/main/debian-installer/binary-mipsel/
+dists/jessie/main/debian-installer/binary-powerpc/
+dists/jessie/main/debian-installer/binary-s390x/
+dists/jessie/main/i18n/
+dists/jessie/main/source/
+dists/jessie/non-free/
+dists/jessie/non-free/Contents-amd64.gz
+dists/jessie/non-free/Contents-armel.gz
+dists/jessie/non-free/Contents-armhf.gz
+dists/jessie/non-free/Contents-i386.gz
+dists/jessie/non-free/Contents-kfreebsd-amd64.gz
+dists/jessie/non-free/Contents-kfreebsd-i386.gz
+dists/jessie/non-free/Contents-mips.gz
+dists/jessie/non-free/Contents-mipsel.gz
+dists/jessie/non-free/Contents-powerpc.gz
+dists/jessie/non-free/Contents-s390x.gz
+dists/jessie/non-free/Contents-source.gz
+dists/jessie/non-free/binary-all/
+dists/jessie/non-free/binary-amd64/
+dists/jessie/non-free/binary-armel/
+dists/jessie/non-free/binary-armhf/
+dists/jessie/non-free/binary-i386/
+dists/jessie/non-free/binary-kfreebsd-amd64/
+dists/jessie/non-free/binary-kfreebsd-i386/
+dists/jessie/non-free/binary-mips/
+dists/jessie/non-free/binary-mipsel/
+dists/jessie/non-free/binary-powerpc/
+dists/jessie/non-free/binary-s390x/
+dists/jessie/non-free/debian-installer/binary-all/
+dists/jessie/non-free/debian-installer/binary-amd64/
+dists/jessie/non-free/debian-installer/binary-armel/
+dists/jessie/non-free/debian-installer/binary-armhf/
+dists/jessie/non-free/debian-installer/binary-i386/
+dists/jessie/non-free/debian-installer/binary-kfreebsd-amd64/
+dists/jessie/non-free/debian-installer/binary-kfreebsd-i386/
+dists/jessie/non-free/debian-installer/binary-mips/
+dists/jessie/non-free/debian-installer/binary-mipsel/
+dists/jessie/non-free/debian-installer/binary-powerpc/
+dists/jessie/non-free/debian-installer/binary-s390x/
+dists/jessie/non-free/i18n/
+dists/jessie/non-free/source/
+dists/sid/
+dists/sid/contrib/
+dists/sid/contrib/Contents-amd64.gz
+dists/sid/contrib/Contents-arm64.gz
+dists/sid/contrib/Contents-armel.gz
+dists/sid/contrib/Contents-armhf.gz
+dists/sid/contrib/Contents-hurd-i386.gz
+dists/sid/contrib/Contents-i386.gz
+dists/sid/contrib/Contents-kfreebsd-amd64.gz
+dists/sid/contrib/Contents-kfreebsd-i386.gz
+dists/sid/contrib/Contents-mips.gz
+dists/sid/contrib/Contents-mipsel.gz
+dists/sid/contrib/Contents-powerpc.gz
+dists/sid/contrib/Contents-s390x.gz
+dists/sid/contrib/Contents-source.gz
+dists/sid/contrib/Contents-sparc.gz
+dists/sid/contrib/binary-all/
+dists/sid/contrib/binary-amd64/
+dists/sid/contrib/binary-arm64/
+dists/sid/contrib/binary-armel/
+dists/sid/contrib/binary-armhf/
+dists/sid/contrib/binary-hurd-i386/
+dists/sid/contrib/binary-i386/
+dists/sid/contrib/binary-kfreebsd-amd64/
+dists/sid/contrib/binary-kfreebsd-i386/
+dists/sid/contrib/binary-mips/
+dists/sid/contrib/binary-mipsel/
+dists/sid/contrib/binary-powerpc/
+dists/sid/contrib/binary-s390x/
+dists/sid/contrib/binary-sparc/
+dists/sid/contrib/debian-installer/binary-all/
+dists/sid/contrib/debian-installer/binary-amd64/
+dists/sid/contrib/debian-installer/binary-arm64/
+dists/sid/contrib/debian-installer/binary-armel/
+dists/sid/contrib/debian-installer/binary-armhf/
+dists/sid/contrib/debian-installer/binary-hurd-i386/
+dists/sid/contrib/debian-installer/binary-i386/
+dists/sid/contrib/debian-installer/binary-kfreebsd-amd64/
+dists/sid/contrib/debian-installer/binary-kfreebsd-i386/
+dists/sid/contrib/debian-installer/binary-mips/
+dists/sid/contrib/debian-installer/binary-mipsel/
+dists/sid/contrib/debian-installer/binary-powerpc/
+dists/sid/contrib/debian-installer/binary-s390x/
+dists/sid/contrib/debian-installer/binary-sparc/
+dists/sid/contrib/i18n/
+dists/sid/contrib/source/
+dists/sid/main/
+dists/sid/main/Contents-amd64.gz
+dists/sid/main/Contents-arm64.gz
+dists/sid/main/Contents-armel.gz
+dists/sid/main/Contents-armhf.gz
+dists/sid/main/Contents-hurd-i386.gz
+dists/sid/main/Contents-i386.gz
+dists/sid/main/Contents-kfreebsd-amd64.gz
+dists/sid/main/Contents-kfreebsd-i386.gz
+dists/sid/main/Contents-mips.gz
+dists/sid/main/Contents-mipsel.gz
+dists/sid/main/Contents-powerpc.gz
+dists/sid/main/Contents-s390x.gz
+dists/sid/main/Contents-amd64.diff/
+dists/sid/main/Contents-arm64.diff/
+dists/sid/main/Contents-armel.diff/
+dists/sid/main/Contents-armhf.diff/
+project/trace/ftp.cn.debian.org
+dists/experimental/contrib/Contents-i386.gz => dists/experimental/contrib/Contents-amd64.gz
+dists/experimental/contrib/Contents-hurd-i386.gz => dists/experimental/contrib/Contents-arm64.gz
+dists/experimental/contrib/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-arm64.gz
+dists/experimental/contrib/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-arm64.gz
+dists/experimental/contrib/Contents-armhf.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-mips.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-mipsel.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-powerpc.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-s390x.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-sparc.gz => dists/experimental/contrib/Contents-armel.gz
+dists/experimental/contrib/Contents-udeb-arm64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-hurd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/contrib/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/main/Contents-udeb-arm64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-alpha.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-arm64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-hppa.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-hurd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/non-free/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/contrib/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/main/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-backports/non-free/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/main/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-proposed-updates/non-free/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/contrib/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/main/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie-updates/non-free/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/jessie/non-free/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-arm64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-armel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-armhf.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-hurd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-kfreebsd-amd64.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-kfreebsd-i386.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-mips.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-mipsel.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-powerpc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-s390x.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/sid/contrib/Contents-udeb-sparc.gz => dists/experimental/contrib/Contents-udeb-amd64.gz
+dists/experimental/main/Contents-s390x.diff/Index => dists/experimental/main/Contents-armhf.diff/Index
+dists/experimental/non-free/Contents-armhf.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-mips.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-mipsel.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-powerpc.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-s390x.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-sparc.gz => dists/experimental/non-free/Contents-armel.gz
+dists/experimental/non-free/Contents-kfreebsd-amd64.gz => dists/experimental/non-free/Contents-hurd-i386.gz
+dists/experimental/non-free/Contents-kfreebsd-i386.gz => dists/experimental/non-free/Contents-hurd-i386.gz
+dists/jessie-backports/main/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-backports/non-free/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-proposed-updates/contrib/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-proposed-updates/main/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-proposed-updates/non-free/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-updates/contrib/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-updates/main/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+dists/jessie-updates/non-free/Contents-source.gz => dists/jessie-backports/contrib/Contents-source.gz
+
+Number of files: 983536
+Number of files transferred: 137
+Total file size: 968013330676 bytes
+Total transferred file size: 672793077 bytes
+Literal data: 308907128 bytes
+Matched data: 363885949 bytes
+File list size: 32969663
+File list generation time: 9.756 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 954894
+Total bytes received: 342271914
+
+sent 954894 bytes  received 342271914 bytes  2151892.21 bytes/sec
+total size is 968013330676  speedup is 2820.33
