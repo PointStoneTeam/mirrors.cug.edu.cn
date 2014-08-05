@@ -1,0 +1,19 @@
+2014-08-06 00:12:01
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... done
+
+Number of files: 339443
+Number of files transferred: 0
+Total file size: 364658958715 bytes
+Total transferred file size: 0 bytes
+Literal data: 0 bytes
+Matched data: 0 bytes
+File list size: 8472665
+File list generation time: 38.204 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 40
+Total bytes received: 8472700
+
+sent 40 bytes  received 8472700 bytes  95737.18 bytes/sec
+total size is 364658958715  speedup is 43039.08

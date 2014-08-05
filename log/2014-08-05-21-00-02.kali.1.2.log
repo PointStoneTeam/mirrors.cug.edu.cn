@@ -1,0 +1,104 @@
+2014-08-05 21:22:30
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... done
+pool/main/g/gcc-mingw-w64/
+pool/main/g/gcc-mingw-w64/gobjc-mingw-w64-x86-64_4.9.1-3+14.1_i386.deb
+pool/main/g/gcc-mingw-w64/gobjc-mingw-w64_4.9.1-3+14.1_all.deb
+pool/main/g/gcc-mingw-w64/mingw32_4.9.1-3+14.1_all.deb
+pool/main/g/gem2deb/
+pool/main/g/gem2deb/gem2deb_0.7.6.dsc
+pool/main/g/gem2deb/gem2deb_0.7.6.tar.xz
+pool/main/g/gem2deb/gem2deb_0.7.6_all.deb
+pool/main/g/gfxboot/
+pool/main/g/gfxboot/gfxboot-dbg_4.5.2-1.1-5_amd64.deb
+pool/main/g/gfxboot/gfxboot-dbg_4.5.2-1.1-5_i386.deb
+pool/main/g/gfxboot/gfxboot-dev_4.5.2-1.1-5_amd64.deb
+pool/main/g/gfxboot/gfxboot-dev_4.5.2-1.1-5_i386.deb
+pool/main/g/gfxboot/gfxboot-themes_4.5.2-1.1-5_all.deb
+pool/main/g/gfxboot/gfxboot_4.5.2-1.1-5.debian.tar.xz
+pool/main/g/gfxboot/gfxboot_4.5.2-1.1-5.dsc
+pool/main/g/gfxboot/gfxboot_4.5.2-1.1-5_amd64.deb
+pool/main/g/gfxboot/gfxboot_4.5.2-1.1-5_i386.deb
+pool/main/g/gnat-mingw-w64/
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-base_4.9.1-3+14_amd64.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-base_4.9.1-3+14_armel.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-base_4.9.1-3+14_armhf.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-base_4.9.1-3+14_i386.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-i686_4.9.1-3+14_amd64.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-i686_4.9.1-3+14_armel.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-i686_4.9.1-3+14_armhf.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-i686_4.9.1-3+14_i386.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-x86-64_4.9.1-3+14_amd64.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-x86-64_4.9.1-3+14_armel.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-x86-64_4.9.1-3+14_armhf.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64-x86-64_4.9.1-3+14_i386.deb
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64_14.dsc
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64_14.tar.xz
+pool/main/g/gnat-mingw-w64/gnat-mingw-w64_4.9.1-3+14_all.deb
+pool/main/g/gopacket/
+pool/main/g/gopacket/golang-gopacket-dev_1.1.6-1_all.deb
+pool/main/g/gopacket/gopacket_1.1.6-1.debian.tar.xz
+pool/main/g/gopacket/gopacket_1.1.6-1.dsc
+pool/main/g/gopacket/gopacket_1.1.6.orig.tar.gz
+pool/main/h/harfbuzz/
+pool/main/h/harfbuzz/gir1.2-harfbuzz-0.0_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/gir1.2-harfbuzz-0.0_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/gir1.2-harfbuzz-0.0_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/gir1.2-harfbuzz-0.0_0.9.33-1_i386.deb
+pool/main/h/harfbuzz/harfbuzz_0.9.33-1.debian.tar.xz
+pool/main/h/harfbuzz/harfbuzz_0.9.33-1.dsc
+pool/main/h/harfbuzz/harfbuzz_0.9.33.orig.tar.bz2
+pool/main/h/harfbuzz/libharfbuzz-bin_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/libharfbuzz-bin_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/libharfbuzz-bin_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/libharfbuzz-bin_0.9.33-1_i386.deb
+pool/main/h/harfbuzz/libharfbuzz-dev_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/libharfbuzz-dev_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/libharfbuzz-dev_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/libharfbuzz-dev_0.9.33-1_i386.deb
+pool/main/h/harfbuzz/libharfbuzz-doc_0.9.33-1_all.deb
+pool/main/h/harfbuzz/libharfbuzz-gobject0_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/libharfbuzz-gobject0_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/libharfbuzz-gobject0_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/libharfbuzz-gobject0_0.9.33-1_i386.deb
+pool/main/h/harfbuzz/libharfbuzz-icu0_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/libharfbuzz-icu0_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/libharfbuzz-icu0_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/libharfbuzz-icu0_0.9.33-1_i386.deb
+pool/main/h/harfbuzz/libharfbuzz0-udeb_0.9.33-1_amd64.udeb
+pool/main/h/harfbuzz/libharfbuzz0-udeb_0.9.33-1_armel.udeb
+pool/main/h/harfbuzz/libharfbuzz0-udeb_0.9.33-1_armhf.udeb
+pool/main/h/harfbuzz/libharfbuzz0-udeb_0.9.33-1_i386.udeb
+pool/main/h/harfbuzz/libharfbuzz0b_0.9.33-1_amd64.deb
+pool/main/h/harfbuzz/libharfbuzz0b_0.9.33-1_armel.deb
+pool/main/h/harfbuzz/libharfbuzz0b_0.9.33-1_armhf.deb
+pool/main/h/harfbuzz/libharfbuzz0b_0.9.33-1_i386.deb
+pool/main/h/haskell-cabal/
+file has vanished: "/pool/main/h/haskell-cabal/.libghc-cabal-prof_1.20.0.2-1_armhf.deb.qL50VF" (in kali)
+pool/main/h/haskell-cabal/haskell-cabal_1.20.0.2-1.debian.tar.xz
+pool/main/h/haskell-cabal/haskell-cabal_1.20.0.2-1.dsc
+pool/main/h/haskell-cabal/haskell-cabal_1.20.0.2.orig.tar.gz
+pool/main/h/haskell-cabal/libghc-cabal-dev_1.20.0.2-1_amd64.deb
+pool/main/h/haskell-cabal/libghc-cabal-dev_1.20.0.2-1_armel.deb
+pool/main/h/haskell-cabal/libghc-cabal-dev_1.20.0.2-1_armhf.deb
+pool/main/h/haskell-cabal/libghc-cabal-dev_1.20.0.2-1_i386.deb
+pool/main/h/haskell-cabal/libghc-cabal-doc_1.20.0.2-1_all.deb
+pool/main/h/haskell-cabal/libghc-cabal-prof_1.20.0.2-1_amd64.deb
+pool/main/h/haskell-cabal/libghc-cabal-prof_1.20.0.2-1_armel.deb
+
+Number of files: 338638
+Number of files transferred: 76
+Total file size: 363664215994 bytes
+Total transferred file size: 235046472 bytes
+Literal data: 235046472 bytes
+Matched data: 0 bytes
+File list size: 8449092
+File list generation time: 650.496 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 1540
+Total bytes received: 243527565
+
+sent 1540 bytes  received 243527565 bytes  295724.47 bytes/sec
+total size is 363664215994  speedup is 1493.31
+rsync warning: some files vanished before they could be transferred (code 24) at main.c(1505) [generator=3.0.6]

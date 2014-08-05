@@ -1,0 +1,18 @@
+2014-08-06 00:00:27
+rsync://packages.linuxmint.com/packages/
+receiving file list ... done
+
+Number of files: 12292
+Number of files transferred: 0
+Total file size: 16855335670 bytes
+Total transferred file size: 0 bytes
+Literal data: 0 bytes
+Matched data: 0 bytes
+File list size: 370654
+File list generation time: 1.129 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 44
+Total bytes received: 370688
+
+sent 44 bytes  received 370688 bytes  82384.89 bytes/sec
+total size is 16855335670  speedup is 45465.01

@@ -1,0 +1,71 @@
+2014-08-05 15:00:02
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... done
+./
+Archive-Update-in-Progress-mirror3.mirror.garr.it
+dists/debian-testing/
+dists/debian-testing/contrib/binary-amd64/
+dists/debian-testing/contrib/binary-armel/
+dists/debian-testing/contrib/binary-armhf/
+dists/debian-testing/contrib/binary-i386/
+dists/debian-testing/main/binary-amd64/
+dists/debian-testing/main/binary-armel/
+dists/debian-testing/main/binary-armhf/
+dists/debian-testing/main/binary-i386/
+dists/debian-testing/main/debian-installer/binary-amd64/
+dists/debian-testing/main/debian-installer/binary-armel/
+dists/debian-testing/main/debian-installer/binary-armhf/
+dists/debian-testing/main/debian-installer/binary-i386/
+dists/debian-testing/main/source/
+dists/debian-testing/non-free/binary-amd64/
+dists/debian-testing/non-free/binary-armel/
+dists/debian-testing/non-free/binary-armhf/
+dists/debian-testing/non-free/binary-i386/
+dists/debian-testing/non-free/source/
+dists/kali-bleeding-edge/
+dists/kali-bleeding-edge/main/binary-amd64/
+dists/kali-bleeding-edge/main/binary-armel/
+dists/kali-bleeding-edge/main/binary-armhf/
+dists/kali-bleeding-edge/main/binary-i386/
+dists/kali-bleeding-edge/main/source/
+dists/kali-dev/
+dists/kali-dev/Contents-amd64.gz
+dists/kali-dev/Contents-armel.gz
+dists/kali-dev/Contents-armhf.gz
+dists/kali-dev/Contents-i386.gz
+dists/kali-dev/contrib/
+dists/kali-dev/contrib/Contents-amd64.gz
+dists/kali-dev/contrib/Contents-armel.gz
+dists/kali-dev/contrib/Contents-armhf.gz
+dists/kali-dev/contrib/Contents-i386.gz
+dists/kali-dev/contrib/binary-amd64/
+dists/kali-dev/contrib/binary-armel/
+dists/kali-dev/contrib/binary-armhf/
+dists/kali-dev/contrib/binary-i386/
+dists/kali-dev/main/
+file has vanished: "/dists/kali-dev/main/.Contents-amd64.gz.2F54ga" (in kali)
+dists/kali-dev/main/binary-amd64/
+dists/kali-dev/main/binary-armel/
+dists/kali-dev/main/binary-armhf/
+dists/kali-dev/main/binary-i386/
+dists/kali-dev/main/debian-installer/binary-amd64/
+dists/kali-dev/main/debian-installer/binary-armel/
+dists/kali-dev/main/debian-installer/binary-armhf/
+dists/kali-dev/main/debian-installer/binary-i386/
+
+Number of files: 338036
+Number of files transferred: 9
+Total file size: 359969248041 bytes
+Total transferred file size: 107632406 bytes
+Literal data: 106687388 bytes
+Matched data: 945018 bytes
+File list size: 8430202
+File list generation time: 446.729 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 127151
+Total bytes received: 115133405
+
+sent 127151 bytes  received 115133405 bytes  153783.26 bytes/sec
+total size is 359969248041  speedup is 3123.09
+rsync warning: some files vanished before they could be transferred (code 24) at main.c(1505) [generator=3.0.6]

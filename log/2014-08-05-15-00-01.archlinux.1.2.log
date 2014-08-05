@@ -1,0 +1,417 @@
+2014-08-05 19:29:40
+rsync://mirrors.hustunique.com/archlinux/
+Welcome to HUST Open Source Mirror!
+
+This service is brought to you by
+    Unique Studio in Qiming College, HUST
+
+URL:
+    http://mirrors.hustunique.com/
+    rsync://mirrors.hustunique.com/
+
+Contact:
+    it+mirrors@hustunique.com
+
+
+receiving file list ... done
+./
+lastsync
+lastupdate
+community-staging/
+community-staging/os/
+community-staging/os/i686/
+community-staging/os/x86_64/
+community-testing/
+community-testing/os/
+community-testing/os/i686/
+community-testing/os/i686/community-testing.db.tar.gz
+community-testing/os/i686/community-testing.db.tar.gz.old
+community-testing/os/i686/community-testing.files.tar.gz
+community-testing/os/i686/community-testing.files.tar.gz.old
+community-testing/os/x86_64/
+community-testing/os/x86_64/community-testing.db.tar.gz
+community-testing/os/x86_64/community-testing.db.tar.gz.old
+community-testing/os/x86_64/community-testing.files.tar.gz
+community-testing/os/x86_64/community-testing.files.tar.gz.old
+community/
+community/os/
+community/os/i686/
+community/os/i686/community.db.tar.gz
+community/os/i686/community.db.tar.gz.old
+community/os/i686/community.files.tar.gz
+community/os/i686/community.files.tar.gz.old
+community/os/i686/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz -> ../../../pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz
+community/os/i686/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz.sig -> ../../../pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz.sig
+community/os/i686/perl-extutils-config-0.008-1-any.pkg.tar.xz -> ../../../pool/community/perl-extutils-config-0.008-1-any.pkg.tar.xz
+community/os/i686/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig -> ../../../pool/community/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig
+community/os/i686/python-py-1.4.23-1-any.pkg.tar.xz -> ../../../pool/community/python-py-1.4.23-1-any.pkg.tar.xz
+community/os/i686/python-py-1.4.23-1-any.pkg.tar.xz.sig -> ../../../pool/community/python-py-1.4.23-1-any.pkg.tar.xz.sig
+community/os/i686/python2-py-1.4.23-1-any.pkg.tar.xz -> ../../../pool/community/python2-py-1.4.23-1-any.pkg.tar.xz
+community/os/i686/python2-py-1.4.23-1-any.pkg.tar.xz.sig -> ../../../pool/community/python2-py-1.4.23-1-any.pkg.tar.xz.sig
+community/os/i686/squashfs-tools-4.3-3-i686.pkg.tar.xz -> ../../../pool/community/squashfs-tools-4.3-3-i686.pkg.tar.xz
+community/os/i686/squashfs-tools-4.3-3-i686.pkg.tar.xz.sig -> ../../../pool/community/squashfs-tools-4.3-3-i686.pkg.tar.xz.sig
+community/os/i686/tigervnc-1.3.1-5-i686.pkg.tar.xz -> ../../../pool/community/tigervnc-1.3.1-5-i686.pkg.tar.xz
+community/os/i686/tigervnc-1.3.1-5-i686.pkg.tar.xz.sig -> ../../../pool/community/tigervnc-1.3.1-5-i686.pkg.tar.xz.sig
+community/os/i686/wireshark-cli-1.12.0-1-i686.pkg.tar.xz -> ../../../pool/community/wireshark-cli-1.12.0-1-i686.pkg.tar.xz
+community/os/i686/wireshark-cli-1.12.0-1-i686.pkg.tar.xz.sig -> ../../../pool/community/wireshark-cli-1.12.0-1-i686.pkg.tar.xz.sig
+community/os/i686/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz -> ../../../pool/community/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz
+community/os/i686/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz.sig -> ../../../pool/community/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz.sig
+community/os/i686/wireshark-qt-1.12.0-1-i686.pkg.tar.xz -> ../../../pool/community/wireshark-qt-1.12.0-1-i686.pkg.tar.xz
+community/os/i686/wireshark-qt-1.12.0-1-i686.pkg.tar.xz.sig -> ../../../pool/community/wireshark-qt-1.12.0-1-i686.pkg.tar.xz.sig
+community/os/x86_64/
+community/os/x86_64/community.db.tar.gz
+community/os/x86_64/community.db.tar.gz.old
+community/os/x86_64/community.files.tar.gz
+community/os/x86_64/community.files.tar.gz.old
+community/os/x86_64/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz -> ../../../pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz
+community/os/x86_64/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz.sig -> ../../../pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz.sig
+community/os/x86_64/perl-extutils-config-0.008-1-any.pkg.tar.xz -> ../../../pool/community/perl-extutils-config-0.008-1-any.pkg.tar.xz
+community/os/x86_64/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig -> ../../../pool/community/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig
+community/os/x86_64/python-py-1.4.23-1-any.pkg.tar.xz -> ../../../pool/community/python-py-1.4.23-1-any.pkg.tar.xz
+community/os/x86_64/python-py-1.4.23-1-any.pkg.tar.xz.sig -> ../../../pool/community/python-py-1.4.23-1-any.pkg.tar.xz.sig
+community/os/x86_64/python2-py-1.4.23-1-any.pkg.tar.xz -> ../../../pool/community/python2-py-1.4.23-1-any.pkg.tar.xz
+community/os/x86_64/python2-py-1.4.23-1-any.pkg.tar.xz.sig -> ../../../pool/community/python2-py-1.4.23-1-any.pkg.tar.xz.sig
+community/os/x86_64/squashfs-tools-4.3-3-x86_64.pkg.tar.xz -> ../../../pool/community/squashfs-tools-4.3-3-x86_64.pkg.tar.xz
+community/os/x86_64/squashfs-tools-4.3-3-x86_64.pkg.tar.xz.sig -> ../../../pool/community/squashfs-tools-4.3-3-x86_64.pkg.tar.xz.sig
+community/os/x86_64/tigervnc-1.3.1-5-x86_64.pkg.tar.xz -> ../../../pool/community/tigervnc-1.3.1-5-x86_64.pkg.tar.xz
+community/os/x86_64/tigervnc-1.3.1-5-x86_64.pkg.tar.xz.sig -> ../../../pool/community/tigervnc-1.3.1-5-x86_64.pkg.tar.xz.sig
+community/os/x86_64/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz -> ../../../pool/community/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz
+community/os/x86_64/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz.sig -> ../../../pool/community/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz.sig
+community/os/x86_64/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz -> ../../../pool/community/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz
+community/os/x86_64/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz.sig -> ../../../pool/community/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz.sig
+community/os/x86_64/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz -> ../../../pool/community/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz
+community/os/x86_64/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz.sig -> ../../../pool/community/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz.sig
+core/
+core/os/
+core/os/i686/
+core/os/x86_64/
+extra/
+extra/os/
+extra/os/i686/
+extra/os/i686/epiphany-3.12.1-2-i686.pkg.tar.xz -> ../../../pool/packages/epiphany-3.12.1-2-i686.pkg.tar.xz
+extra/os/i686/epiphany-3.12.1-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/epiphany-3.12.1-2-i686.pkg.tar.xz.sig
+extra/os/i686/evolution-3.12.4-2-i686.pkg.tar.xz -> ../../../pool/packages/evolution-3.12.4-2-i686.pkg.tar.xz
+extra/os/i686/evolution-3.12.4-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/evolution-3.12.4-2-i686.pkg.tar.xz.sig
+extra/os/i686/evolution-data-server-3.12.4-3-i686.pkg.tar.xz -> ../../../pool/packages/evolution-data-server-3.12.4-3-i686.pkg.tar.xz
+extra/os/i686/evolution-data-server-3.12.4-3-i686.pkg.tar.xz.sig -> ../../../pool/packages/evolution-data-server-3.12.4-3-i686.pkg.tar.xz.sig
+extra/os/i686/extra.db.tar.gz
+extra/os/i686/extra.db.tar.gz.old
+extra/os/i686/extra.files.tar.gz
+extra/os/i686/extra.files.tar.gz.old
+extra/os/i686/gnumeric-1.12.17-1-i686.pkg.tar.xz -> ../../../pool/packages/gnumeric-1.12.17-1-i686.pkg.tar.xz
+extra/os/i686/gnumeric-1.12.17-1-i686.pkg.tar.xz.sig -> ../../../pool/packages/gnumeric-1.12.17-1-i686.pkg.tar.xz.sig
+extra/os/i686/goffice-0.10.17-1-i686.pkg.tar.xz -> ../../../pool/packages/goffice-0.10.17-1-i686.pkg.tar.xz
+extra/os/i686/goffice-0.10.17-1-i686.pkg.tar.xz.sig -> ../../../pool/packages/goffice-0.10.17-1-i686.pkg.tar.xz.sig
+extra/os/i686/libpeas-1.10.1-1-i686.pkg.tar.xz -> ../../../pool/packages/libpeas-1.10.1-1-i686.pkg.tar.xz
+extra/os/i686/libpeas-1.10.1-1-i686.pkg.tar.xz.sig -> ../../../pool/packages/libpeas-1.10.1-1-i686.pkg.tar.xz.sig
+extra/os/i686/opencv-2.4.9-2-i686.pkg.tar.xz -> ../../../pool/packages/opencv-2.4.9-2-i686.pkg.tar.xz
+extra/os/i686/opencv-2.4.9-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/opencv-2.4.9-2-i686.pkg.tar.xz.sig
+extra/os/i686/opencv-samples-2.4.9-2-i686.pkg.tar.xz -> ../../../pool/packages/opencv-samples-2.4.9-2-i686.pkg.tar.xz
+extra/os/i686/opencv-samples-2.4.9-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/opencv-samples-2.4.9-2-i686.pkg.tar.xz.sig
+extra/os/i686/wildmidi-0.3.7-1-i686.pkg.tar.xz -> ../../../pool/packages/wildmidi-0.3.7-1-i686.pkg.tar.xz
+extra/os/i686/wildmidi-0.3.7-1-i686.pkg.tar.xz.sig -> ../../../pool/packages/wildmidi-0.3.7-1-i686.pkg.tar.xz.sig
+extra/os/x86_64/
+extra/os/x86_64/epiphany-3.12.1-2-x86_64.pkg.tar.xz -> ../../../pool/packages/epiphany-3.12.1-2-x86_64.pkg.tar.xz
+extra/os/x86_64/epiphany-3.12.1-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/epiphany-3.12.1-2-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/evolution-3.12.4-2-x86_64.pkg.tar.xz -> ../../../pool/packages/evolution-3.12.4-2-x86_64.pkg.tar.xz
+extra/os/x86_64/evolution-3.12.4-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/evolution-3.12.4-2-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz -> ../../../pool/packages/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz
+extra/os/x86_64/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/extra.db.tar.gz
+extra/os/x86_64/extra.db.tar.gz.old
+extra/os/x86_64/extra.files.tar.gz
+extra/os/x86_64/extra.files.tar.gz.old
+extra/os/x86_64/gnumeric-1.12.17-1-x86_64.pkg.tar.xz -> ../../../pool/packages/gnumeric-1.12.17-1-x86_64.pkg.tar.xz
+extra/os/x86_64/gnumeric-1.12.17-1-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/gnumeric-1.12.17-1-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/goffice-0.10.17-1-x86_64.pkg.tar.xz -> ../../../pool/packages/goffice-0.10.17-1-x86_64.pkg.tar.xz
+extra/os/x86_64/goffice-0.10.17-1-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/goffice-0.10.17-1-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/libpeas-1.10.1-1-x86_64.pkg.tar.xz -> ../../../pool/packages/libpeas-1.10.1-1-x86_64.pkg.tar.xz
+extra/os/x86_64/libpeas-1.10.1-1-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/libpeas-1.10.1-1-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/opencv-2.4.9-2-x86_64.pkg.tar.xz -> ../../../pool/packages/opencv-2.4.9-2-x86_64.pkg.tar.xz
+extra/os/x86_64/opencv-2.4.9-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/opencv-2.4.9-2-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz -> ../../../pool/packages/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz
+extra/os/x86_64/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz.sig
+extra/os/x86_64/wildmidi-0.3.7-1-x86_64.pkg.tar.xz -> ../../../pool/packages/wildmidi-0.3.7-1-x86_64.pkg.tar.xz
+extra/os/x86_64/wildmidi-0.3.7-1-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/wildmidi-0.3.7-1-x86_64.pkg.tar.xz.sig
+gnome-unstable/
+gnome-unstable/os/
+gnome-unstable/os/i686/
+gnome-unstable/os/x86_64/
+iso/
+iso/2014.06.01/
+iso/2014.06.01/arch/
+iso/2014.06.01/arch/boot/
+iso/2014.06.01/arch/boot/i686/
+iso/2014.06.01/arch/boot/x86_64/
+iso/2014.06.01/arch/i686/
+iso/2014.06.01/arch/x86_64/
+iso/2014.07.03/
+iso/2014.07.03/arch/
+iso/2014.07.03/arch/boot/
+iso/2014.07.03/arch/boot/i686/
+iso/2014.07.03/arch/boot/x86_64/
+iso/2014.07.03/arch/i686/
+iso/2014.07.03/arch/x86_64/
+iso/2014.08.01/
+iso/2014.08.01/arch/
+iso/2014.08.01/arch/boot/
+iso/2014.08.01/arch/boot/i686/
+iso/2014.08.01/arch/boot/x86_64/
+iso/2014.08.01/arch/i686/
+iso/2014.08.01/arch/x86_64/
+iso/archboot/
+iso/archboot/2014.06/
+iso/archboot/2014.06/boot/
+iso/archboot/2014.08/
+iso/archboot/2014.08/boot/
+iso/archboot/history/
+kde-unstable/
+kde-unstable/os/
+kde-unstable/os/i686/
+kde-unstable/os/x86_64/
+multilib-staging/
+multilib-staging/os/
+multilib-staging/os/i686/
+multilib-staging/os/x86_64/
+multilib-testing/
+multilib-testing/os/
+multilib-testing/os/i686/
+multilib-testing/os/x86_64/
+multilib/
+multilib/os/
+multilib/os/i686/
+multilib/os/x86_64/
+pool/
+pool/community/
+pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz
+pool/community/firefox-adblock-plus-2.6.4-1-any.pkg.tar.xz.sig
+pool/community/python-py-1.4.23-1-any.pkg.tar.xz
+pool/community/python-py-1.4.23-1-any.pkg.tar.xz.sig
+pool/community/python2-py-1.4.23-1-any.pkg.tar.xz
+pool/community/python2-py-1.4.23-1-any.pkg.tar.xz.sig
+pool/community/squashfs-tools-4.3-3-i686.pkg.tar.xz
+pool/community/squashfs-tools-4.3-3-i686.pkg.tar.xz.sig
+pool/community/squashfs-tools-4.3-3-x86_64.pkg.tar.xz
+pool/community/squashfs-tools-4.3-3-x86_64.pkg.tar.xz.sig
+pool/community/tigervnc-1.3.1-5-i686.pkg.tar.xz
+pool/community/tigervnc-1.3.1-5-i686.pkg.tar.xz.sig
+pool/community/tigervnc-1.3.1-5-x86_64.pkg.tar.xz
+pool/community/tigervnc-1.3.1-5-x86_64.pkg.tar.xz.sig
+pool/community/wireshark-cli-1.12.0-1-i686.pkg.tar.xz
+pool/community/wireshark-cli-1.12.0-1-i686.pkg.tar.xz.sig
+pool/community/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz
+pool/community/wireshark-cli-1.12.0-1-x86_64.pkg.tar.xz.sig
+pool/community/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz
+pool/community/wireshark-gtk-1.12.0-1-i686.pkg.tar.xz.sig
+pool/community/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz
+pool/community/wireshark-gtk-1.12.0-1-x86_64.pkg.tar.xz.sig
+pool/community/wireshark-qt-1.12.0-1-i686.pkg.tar.xz
+pool/community/wireshark-qt-1.12.0-1-i686.pkg.tar.xz.sig
+pool/community/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz
+pool/community/wireshark-qt-1.12.0-1-x86_64.pkg.tar.xz.sig
+pool/packages/
+pool/packages/epiphany-3.12.1-2-i686.pkg.tar.xz
+pool/packages/epiphany-3.12.1-2-i686.pkg.tar.xz.sig
+pool/packages/epiphany-3.12.1-2-x86_64.pkg.tar.xz
+pool/packages/epiphany-3.12.1-2-x86_64.pkg.tar.xz.sig
+pool/packages/evolution-3.12.4-2-i686.pkg.tar.xz
+pool/packages/evolution-3.12.4-2-i686.pkg.tar.xz.sig
+pool/packages/evolution-3.12.4-2-x86_64.pkg.tar.xz
+pool/packages/evolution-3.12.4-2-x86_64.pkg.tar.xz.sig
+pool/packages/evolution-data-server-3.12.4-3-i686.pkg.tar.xz
+pool/packages/evolution-data-server-3.12.4-3-i686.pkg.tar.xz.sig
+pool/packages/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz
+pool/packages/evolution-data-server-3.12.4-3-x86_64.pkg.tar.xz.sig
+pool/packages/gnumeric-1.12.17-1-i686.pkg.tar.xz
+pool/packages/gnumeric-1.12.17-1-i686.pkg.tar.xz.sig
+pool/packages/gnumeric-1.12.17-1-x86_64.pkg.tar.xz
+pool/packages/gnumeric-1.12.17-1-x86_64.pkg.tar.xz.sig
+pool/packages/goffice-0.10.17-1-i686.pkg.tar.xz
+pool/packages/goffice-0.10.17-1-i686.pkg.tar.xz.sig
+pool/packages/goffice-0.10.17-1-x86_64.pkg.tar.xz
+pool/packages/goffice-0.10.17-1-x86_64.pkg.tar.xz.sig
+pool/packages/libpeas-1.10.1-1-i686.pkg.tar.xz
+pool/packages/libpeas-1.10.1-1-i686.pkg.tar.xz.sig
+pool/packages/libpeas-1.10.1-1-x86_64.pkg.tar.xz
+pool/packages/libpeas-1.10.1-1-x86_64.pkg.tar.xz.sig
+pool/packages/opencv-2.4.9-2-i686.pkg.tar.xz
+pool/packages/opencv-2.4.9-2-i686.pkg.tar.xz.sig
+pool/packages/opencv-2.4.9-2-x86_64.pkg.tar.xz
+pool/packages/opencv-2.4.9-2-x86_64.pkg.tar.xz.sig
+pool/packages/opencv-samples-2.4.9-2-i686.pkg.tar.xz
+pool/packages/opencv-samples-2.4.9-2-i686.pkg.tar.xz.sig
+pool/packages/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz
+pool/packages/opencv-samples-2.4.9-2-x86_64.pkg.tar.xz.sig
+pool/packages/wildmidi-0.3.7-1-i686.pkg.tar.xz
+pool/packages/wildmidi-0.3.7-1-i686.pkg.tar.xz.sig
+pool/packages/wildmidi-0.3.7-1-x86_64.pkg.tar.xz
+pool/packages/wildmidi-0.3.7-1-x86_64.pkg.tar.xz.sig
+project/
+project/trace/
+project/trace/mirror.nl.leaseweb.net
+project/trace/mirror.us.leaseweb.net
+staging/
+staging/os/
+staging/os/i686/
+staging/os/x86_64/
+testing/
+testing/os/
+testing/os/i686/
+testing/os/x86_64/
+deleting community-testing/os/i686/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig
+deleting community-testing/os/i686/perl-extutils-config-0.008-1-any.pkg.tar.xz
+deleting community-testing/os/x86_64/perl-extutils-config-0.008-1-any.pkg.tar.xz.sig
+deleting community-testing/os/x86_64/perl-extutils-config-0.008-1-any.pkg.tar.xz
+deleting community/os/i686/wireshark-gtk-1.10.8-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/wireshark-gtk-1.10.8-2-i686.pkg.tar.xz
+deleting community/os/i686/wireshark-cli-1.10.8-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/wireshark-cli-1.10.8-2-i686.pkg.tar.xz
+deleting community/os/i686/python2-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting community/os/i686/python2-py-1.4.22-1-any.pkg.tar.xz
+deleting community/os/i686/python-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting community/os/i686/python-py-1.4.22-1-any.pkg.tar.xz
+deleting community/os/i686/pymol-1.7.1.3-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/pymol-1.7.1.3-1-i686.pkg.tar.xz
+deleting community/os/i686/perl-extutils-config-0.007-2-any.pkg.tar.xz.sig
+deleting community/os/i686/perl-extutils-config-0.007-2-any.pkg.tar.xz
+deleting community/os/x86_64/wireshark-gtk-1.10.8-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/wireshark-gtk-1.10.8-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/wireshark-cli-1.10.8-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/wireshark-cli-1.10.8-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/python2-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting community/os/x86_64/python2-py-1.4.22-1-any.pkg.tar.xz
+deleting community/os/x86_64/python-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting community/os/x86_64/python-py-1.4.22-1-any.pkg.tar.xz
+deleting community/os/x86_64/pymol-1.7.1.3-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/pymol-1.7.1.3-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/perl-extutils-config-0.007-2-any.pkg.tar.xz.sig
+deleting community/os/x86_64/perl-extutils-config-0.007-2-any.pkg.tar.xz
+deleting extra/os/i686/wildmidi-0.3.6-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/wildmidi-0.3.6-1-i686.pkg.tar.xz
+deleting extra/os/i686/opencv-samples-2.4.9-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/opencv-samples-2.4.9-1-i686.pkg.tar.xz
+deleting extra/os/i686/opencv-2.4.9-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/opencv-2.4.9-1-i686.pkg.tar.xz
+deleting extra/os/i686/libpeas-1.10.0-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/libpeas-1.10.0-1-i686.pkg.tar.xz
+deleting extra/os/i686/goffice-0.10.16-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/goffice-0.10.16-1-i686.pkg.tar.xz
+deleting extra/os/i686/gnumeric-1.12.16-2-i686.pkg.tar.xz.sig
+deleting extra/os/i686/gnumeric-1.12.16-2-i686.pkg.tar.xz
+deleting extra/os/i686/evolution-data-server-3.12.4-2-i686.pkg.tar.xz.sig
+deleting extra/os/i686/evolution-data-server-3.12.4-2-i686.pkg.tar.xz
+deleting extra/os/i686/evolution-3.12.4-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/evolution-3.12.4-1-i686.pkg.tar.xz
+deleting extra/os/i686/epiphany-3.12.1-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/epiphany-3.12.1-1-i686.pkg.tar.xz
+deleting extra/os/x86_64/wildmidi-0.3.6-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/wildmidi-0.3.6-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/opencv-samples-2.4.9-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/opencv-samples-2.4.9-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/opencv-2.4.9-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/opencv-2.4.9-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/libpeas-1.10.0-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/libpeas-1.10.0-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/goffice-0.10.16-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/goffice-0.10.16-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/gnumeric-1.12.16-2-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/gnumeric-1.12.16-2-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/evolution-data-server-3.12.4-2-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/evolution-data-server-3.12.4-2-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/evolution-3.12.4-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/evolution-3.12.4-1-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/epiphany-3.12.1-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/epiphany-3.12.1-1-x86_64.pkg.tar.xz
+deleting pool/community/wireshark-gtk-1.10.8-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/wireshark-gtk-1.10.8-2-x86_64.pkg.tar.xz
+deleting pool/community/wireshark-gtk-1.10.8-2-i686.pkg.tar.xz.sig
+deleting pool/community/wireshark-gtk-1.10.8-2-i686.pkg.tar.xz
+deleting pool/community/wireshark-cli-1.10.8-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/wireshark-cli-1.10.8-2-x86_64.pkg.tar.xz
+deleting pool/community/wireshark-cli-1.10.8-2-i686.pkg.tar.xz.sig
+deleting pool/community/wireshark-cli-1.10.8-2-i686.pkg.tar.xz
+deleting pool/community/python2-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting pool/community/python2-py-1.4.22-1-any.pkg.tar.xz
+deleting pool/community/python-py-1.4.22-1-any.pkg.tar.xz.sig
+deleting pool/community/python-py-1.4.22-1-any.pkg.tar.xz
+deleting pool/community/pymol-1.7.1.3-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/pymol-1.7.1.3-1-x86_64.pkg.tar.xz
+deleting pool/community/pymol-1.7.1.3-1-i686.pkg.tar.xz.sig
+deleting pool/community/pymol-1.7.1.3-1-i686.pkg.tar.xz
+deleting pool/community/perl-extutils-config-0.007-2-any.pkg.tar.xz.sig
+deleting pool/community/perl-extutils-config-0.007-2-any.pkg.tar.xz
+deleting pool/packages/wildmidi-0.3.6-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/wildmidi-0.3.6-1-x86_64.pkg.tar.xz
+deleting pool/packages/wildmidi-0.3.6-1-i686.pkg.tar.xz.sig
+deleting pool/packages/wildmidi-0.3.6-1-i686.pkg.tar.xz
+deleting pool/packages/opencv-samples-2.4.9-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/opencv-samples-2.4.9-1-x86_64.pkg.tar.xz
+deleting pool/packages/opencv-samples-2.4.9-1-i686.pkg.tar.xz.sig
+deleting pool/packages/opencv-samples-2.4.9-1-i686.pkg.tar.xz
+deleting pool/packages/opencv-2.4.9-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/opencv-2.4.9-1-x86_64.pkg.tar.xz
+deleting pool/packages/opencv-2.4.9-1-i686.pkg.tar.xz.sig
+deleting pool/packages/opencv-2.4.9-1-i686.pkg.tar.xz
+deleting pool/packages/linux-headers-3.16-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/linux-headers-3.16-1-x86_64.pkg.tar.xz
+deleting pool/packages/linux-headers-3.16-1-i686.pkg.tar.xz.sig
+deleting pool/packages/linux-headers-3.16-1-i686.pkg.tar.xz
+deleting pool/packages/linux-docs-3.16-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/linux-docs-3.16-1-x86_64.pkg.tar.xz
+deleting pool/packages/linux-docs-3.16-1-i686.pkg.tar.xz.sig
+deleting pool/packages/linux-docs-3.16-1-i686.pkg.tar.xz
+deleting pool/packages/linux-3.16-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/linux-3.16-1-x86_64.pkg.tar.xz
+deleting pool/packages/linux-3.16-1-i686.pkg.tar.xz.sig
+deleting pool/packages/linux-3.16-1-i686.pkg.tar.xz
+deleting pool/packages/libpeas-1.10.0-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/libpeas-1.10.0-1-x86_64.pkg.tar.xz
+deleting pool/packages/libpeas-1.10.0-1-i686.pkg.tar.xz.sig
+deleting pool/packages/libpeas-1.10.0-1-i686.pkg.tar.xz
+deleting pool/packages/goffice-0.10.16-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/goffice-0.10.16-1-x86_64.pkg.tar.xz
+deleting pool/packages/goffice-0.10.16-1-i686.pkg.tar.xz.sig
+deleting pool/packages/goffice-0.10.16-1-i686.pkg.tar.xz
+deleting pool/packages/gnumeric-1.12.16-2-x86_64.pkg.tar.xz.sig
+deleting pool/packages/gnumeric-1.12.16-2-x86_64.pkg.tar.xz
+deleting pool/packages/gnumeric-1.12.16-2-i686.pkg.tar.xz.sig
+deleting pool/packages/gnumeric-1.12.16-2-i686.pkg.tar.xz
+deleting pool/packages/evolution-data-server-3.12.4-2-x86_64.pkg.tar.xz.sig
+deleting pool/packages/evolution-data-server-3.12.4-2-x86_64.pkg.tar.xz
+deleting pool/packages/evolution-data-server-3.12.4-2-i686.pkg.tar.xz.sig
+deleting pool/packages/evolution-data-server-3.12.4-2-i686.pkg.tar.xz
+deleting pool/packages/evolution-3.12.4-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/evolution-3.12.4-1-x86_64.pkg.tar.xz
+deleting pool/packages/evolution-3.12.4-1-i686.pkg.tar.xz.sig
+deleting pool/packages/evolution-3.12.4-1-i686.pkg.tar.xz
+deleting pool/packages/epiphany-3.12.1-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/epiphany-3.12.1-1-x86_64.pkg.tar.xz
+deleting pool/packages/epiphany-3.12.1-1-i686.pkg.tar.xz.sig
+deleting pool/packages/epiphany-3.12.1-1-i686.pkg.tar.xz
+deleting testing/os/i686/linux-headers-3.16-1-i686.pkg.tar.xz.sig
+deleting testing/os/i686/linux-headers-3.16-1-i686.pkg.tar.xz
+deleting testing/os/i686/linux-docs-3.16-1-i686.pkg.tar.xz.sig
+deleting testing/os/i686/linux-docs-3.16-1-i686.pkg.tar.xz
+deleting testing/os/i686/linux-3.16-1-i686.pkg.tar.xz.sig
+deleting testing/os/i686/linux-3.16-1-i686.pkg.tar.xz
+deleting testing/os/x86_64/linux-headers-3.16-1-x86_64.pkg.tar.xz.sig
+deleting testing/os/x86_64/linux-headers-3.16-1-x86_64.pkg.tar.xz
+deleting testing/os/x86_64/linux-docs-3.16-1-x86_64.pkg.tar.xz.sig
+deleting testing/os/x86_64/linux-docs-3.16-1-x86_64.pkg.tar.xz
+deleting testing/os/x86_64/linux-3.16-1-x86_64.pkg.tar.xz.sig
+deleting testing/os/x86_64/linux-3.16-1-x86_64.pkg.tar.xz
+
+Number of files: 52522
+Number of files transferred: 90
+Total file size: 47859115309 bytes
+Total transferred file size: 202069607 bytes
+Literal data: 200905209 bytes
+Matched data: 1163560 bytes
+File list size: 4319346
+File list generation time: 0.234 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 368629
+Total bytes received: 205438212
+
+sent 368629 bytes  received 205438212 bytes  15184.77 bytes/sec
+total size is 47859115309  speedup is 232.54

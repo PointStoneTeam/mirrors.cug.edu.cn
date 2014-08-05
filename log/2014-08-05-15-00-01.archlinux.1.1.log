@@ -1,0 +1,349 @@
+2014-08-05 15:00:02
+rsync://mirrors.hustunique.com/archlinux/
+Welcome to HUST Open Source Mirror!
+
+This service is brought to you by
+    Unique Studio in Qiming College, HUST
+
+URL:
+    http://mirrors.hustunique.com/
+    rsync://mirrors.hustunique.com/
+
+Contact:
+    it+mirrors@hustunique.com
+
+
+receiving file list ... done
+./
+lastsync
+lastupdate
+community-staging/
+community-staging/os/
+community-staging/os/i686/
+community-staging/os/x86_64/
+community-testing/
+community-testing/os/
+community-testing/os/i686/
+community-testing/os/x86_64/
+community/
+community/os/
+community/os/i686/
+community/os/i686/community.db.tar.gz
+community/os/i686/community.db.tar.gz.old
+community/os/i686/community.files.tar.gz
+community/os/i686/community.files.tar.gz.old
+community/os/i686/pymol-1.7.2.0-1-i686.pkg.tar.xz -> ../../../pool/community/pymol-1.7.2.0-1-i686.pkg.tar.xz
+community/os/i686/pymol-1.7.2.0-1-i686.pkg.tar.xz.sig -> ../../../pool/community/pymol-1.7.2.0-1-i686.pkg.tar.xz.sig
+community/os/x86_64/
+community/os/x86_64/community.db.tar.gz
+community/os/x86_64/community.db.tar.gz.old
+community/os/x86_64/community.files.tar.gz
+community/os/x86_64/community.files.tar.gz.old
+community/os/x86_64/pymol-1.7.2.0-1-x86_64.pkg.tar.xz -> ../../../pool/community/pymol-1.7.2.0-1-x86_64.pkg.tar.xz
+community/os/x86_64/pymol-1.7.2.0-1-x86_64.pkg.tar.xz.sig -> ../../../pool/community/pymol-1.7.2.0-1-x86_64.pkg.tar.xz.sig
+core/
+core/os/
+core/os/i686/
+core/os/x86_64/
+extra/
+extra/os/
+extra/os/i686/
+extra/os/i686/extra.db.tar.gz
+extra/os/i686/extra.db.tar.gz.old
+extra/os/i686/extra.files.tar.gz
+extra/os/i686/extra.files.tar.gz.old
+extra/os/i686/tdb-1.3.0-2-i686.pkg.tar.xz -> ../../../pool/packages/tdb-1.3.0-2-i686.pkg.tar.xz
+extra/os/i686/tdb-1.3.0-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/tdb-1.3.0-2-i686.pkg.tar.xz.sig
+extra/os/x86_64/
+extra/os/x86_64/extra.db.tar.gz
+extra/os/x86_64/extra.db.tar.gz.old
+extra/os/x86_64/extra.files.tar.gz
+extra/os/x86_64/extra.files.tar.gz.old
+extra/os/x86_64/tdb-1.3.0-2-x86_64.pkg.tar.xz -> ../../../pool/packages/tdb-1.3.0-2-x86_64.pkg.tar.xz
+extra/os/x86_64/tdb-1.3.0-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/tdb-1.3.0-2-x86_64.pkg.tar.xz.sig
+gnome-unstable/
+gnome-unstable/os/
+gnome-unstable/os/i686/
+gnome-unstable/os/x86_64/
+iso/
+iso/2014.06.01/
+iso/2014.06.01/arch/
+iso/2014.06.01/arch/boot/
+iso/2014.06.01/arch/boot/i686/
+iso/2014.06.01/arch/boot/x86_64/
+iso/2014.06.01/arch/i686/
+iso/2014.06.01/arch/x86_64/
+iso/2014.07.03/
+iso/2014.07.03/arch/
+iso/2014.07.03/arch/boot/
+iso/2014.07.03/arch/boot/i686/
+iso/2014.07.03/arch/boot/x86_64/
+iso/2014.07.03/arch/i686/
+iso/2014.07.03/arch/x86_64/
+iso/2014.08.01/
+iso/2014.08.01/arch/
+iso/2014.08.01/arch/boot/
+iso/2014.08.01/arch/boot/i686/
+iso/2014.08.01/arch/boot/x86_64/
+iso/2014.08.01/arch/i686/
+iso/2014.08.01/arch/x86_64/
+iso/archboot/
+iso/archboot/2014.06/
+iso/archboot/2014.06/boot/
+iso/archboot/2014.08/
+iso/archboot/2014.08/boot/
+iso/archboot/history/
+kde-unstable/
+kde-unstable/os/
+kde-unstable/os/i686/
+kde-unstable/os/x86_64/
+multilib-staging/
+multilib-staging/os/
+multilib-staging/os/i686/
+multilib-staging/os/x86_64/
+multilib-testing/
+multilib-testing/os/
+multilib-testing/os/i686/
+multilib-testing/os/x86_64/
+multilib/
+multilib/os/
+multilib/os/i686/
+multilib/os/x86_64/
+pool/
+pool/community/
+pool/community/pymol-1.7.2.0-1-i686.pkg.tar.xz
+pool/community/pymol-1.7.2.0-1-i686.pkg.tar.xz.sig
+pool/community/pymol-1.7.2.0-1-x86_64.pkg.tar.xz
+pool/community/pymol-1.7.2.0-1-x86_64.pkg.tar.xz.sig
+pool/packages/
+pool/packages/linux-3.16-2-i686.pkg.tar.xz
+pool/packages/linux-3.16-2-i686.pkg.tar.xz.sig
+pool/packages/linux-3.16-2-x86_64.pkg.tar.xz
+pool/packages/linux-3.16-2-x86_64.pkg.tar.xz.sig
+pool/packages/linux-docs-3.16-2-i686.pkg.tar.xz
+pool/packages/linux-docs-3.16-2-i686.pkg.tar.xz.sig
+pool/packages/linux-docs-3.16-2-x86_64.pkg.tar.xz
+pool/packages/linux-docs-3.16-2-x86_64.pkg.tar.xz.sig
+pool/packages/linux-headers-3.16-2-i686.pkg.tar.xz
+pool/packages/linux-headers-3.16-2-i686.pkg.tar.xz.sig
+pool/packages/linux-headers-3.16-2-x86_64.pkg.tar.xz
+pool/packages/linux-headers-3.16-2-x86_64.pkg.tar.xz.sig
+pool/packages/tdb-1.3.0-2-i686.pkg.tar.xz
+pool/packages/tdb-1.3.0-2-i686.pkg.tar.xz.sig
+pool/packages/tdb-1.3.0-2-x86_64.pkg.tar.xz
+pool/packages/tdb-1.3.0-2-x86_64.pkg.tar.xz.sig
+project/
+project/trace/
+project/trace/mirror.nl.leaseweb.net
+project/trace/mirror.us.leaseweb.net
+staging/
+staging/os/
+staging/os/i686/
+staging/os/x86_64/
+testing/
+testing/os/
+testing/os/i686/
+testing/os/i686/linux-3.16-2-i686.pkg.tar.xz -> ../../../pool/packages/linux-3.16-2-i686.pkg.tar.xz
+testing/os/i686/linux-3.16-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/linux-3.16-2-i686.pkg.tar.xz.sig
+testing/os/i686/linux-docs-3.16-2-i686.pkg.tar.xz -> ../../../pool/packages/linux-docs-3.16-2-i686.pkg.tar.xz
+testing/os/i686/linux-docs-3.16-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/linux-docs-3.16-2-i686.pkg.tar.xz.sig
+testing/os/i686/linux-headers-3.16-2-i686.pkg.tar.xz -> ../../../pool/packages/linux-headers-3.16-2-i686.pkg.tar.xz
+testing/os/i686/linux-headers-3.16-2-i686.pkg.tar.xz.sig -> ../../../pool/packages/linux-headers-3.16-2-i686.pkg.tar.xz.sig
+testing/os/i686/testing.db.tar.gz
+testing/os/i686/testing.db.tar.gz.old
+testing/os/i686/testing.files.tar.gz
+testing/os/i686/testing.files.tar.gz.old
+testing/os/x86_64/
+testing/os/x86_64/linux-3.16-2-x86_64.pkg.tar.xz -> ../../../pool/packages/linux-3.16-2-x86_64.pkg.tar.xz
+testing/os/x86_64/linux-3.16-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/linux-3.16-2-x86_64.pkg.tar.xz.sig
+testing/os/x86_64/linux-docs-3.16-2-x86_64.pkg.tar.xz -> ../../../pool/packages/linux-docs-3.16-2-x86_64.pkg.tar.xz
+testing/os/x86_64/linux-docs-3.16-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/linux-docs-3.16-2-x86_64.pkg.tar.xz.sig
+testing/os/x86_64/linux-headers-3.16-2-x86_64.pkg.tar.xz -> ../../../pool/packages/linux-headers-3.16-2-x86_64.pkg.tar.xz
+testing/os/x86_64/linux-headers-3.16-2-x86_64.pkg.tar.xz.sig -> ../../../pool/packages/linux-headers-3.16-2-x86_64.pkg.tar.xz.sig
+testing/os/x86_64/testing.db.tar.gz
+testing/os/x86_64/testing.db.tar.gz.old
+testing/os/x86_64/testing.files.tar.gz
+testing/os/x86_64/testing.files.tar.gz.old
+deleting community/os/i686/x86_energy_perf_policy-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/x86_energy_perf_policy-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-sdk-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-sdk-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-host-dkms-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-host-dkms-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-guest-utils-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-guest-utils-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-guest-dkms-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-guest-dkms-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-ext-vnc-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-ext-vnc-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/virtualbox-4.3.14-2-i686.pkg.tar.xz.sig
+deleting community/os/i686/virtualbox-4.3.14-2-i686.pkg.tar.xz
+deleting community/os/i686/usbip-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/usbip-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/tmon-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/tmon-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/playpen-1:5-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/playpen-1:5-1-i686.pkg.tar.xz
+deleting community/os/i686/perf-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/perf-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/linux-tools-meta-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/linux-tools-meta-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/linux-grsec-headers-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/linux-grsec-headers-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting community/os/i686/linux-grsec-docs-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/linux-grsec-docs-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting community/os/i686/linux-grsec-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/linux-grsec-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting community/os/i686/libtraceevent-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/libtraceevent-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/cpupower-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/cpupower-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/cgroup_event_listener-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/cgroup_event_listener-3.15-1-i686.pkg.tar.xz
+deleting community/os/i686/acpidump-3.15-1-i686.pkg.tar.xz.sig
+deleting community/os/i686/acpidump-3.15-1-i686.pkg.tar.xz
+deleting community/os/x86_64/x86_energy_perf_policy-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/x86_energy_perf_policy-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-sdk-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-sdk-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-host-dkms-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-host-dkms-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-guest-utils-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-guest-utils-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-guest-dkms-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-guest-dkms-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-ext-vnc-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-ext-vnc-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/virtualbox-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/virtualbox-4.3.14-2-x86_64.pkg.tar.xz
+deleting community/os/x86_64/usbip-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/usbip-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/tmon-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/tmon-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/playpen-1:5-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/playpen-1:5-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/perf-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/perf-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/linux-tools-meta-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/linux-tools-meta-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/linux-grsec-headers-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/linux-grsec-headers-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/linux-grsec-docs-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/linux-grsec-docs-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/linux-grsec-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/linux-grsec-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/libtraceevent-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/libtraceevent-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/cpupower-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/cpupower-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/cgroup_event_listener-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/cgroup_event_listener-3.15-1-x86_64.pkg.tar.xz
+deleting community/os/x86_64/acpidump-3.15-1-x86_64.pkg.tar.xz.sig
+deleting community/os/x86_64/acpidump-3.15-1-x86_64.pkg.tar.xz
+deleting extra/os/i686/xf86-input-wacom-0.25.0-2-i686.pkg.tar.xz.sig
+deleting extra/os/i686/xf86-input-wacom-0.25.0-2-i686.pkg.tar.xz
+deleting extra/os/i686/tdb-1.3.0-1-i686.pkg.tar.xz.sig
+deleting extra/os/i686/tdb-1.3.0-1-i686.pkg.tar.xz
+deleting extra/os/x86_64/xf86-input-wacom-0.25.0-2-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/xf86-input-wacom-0.25.0-2-x86_64.pkg.tar.xz
+deleting extra/os/x86_64/tdb-1.3.0-1-x86_64.pkg.tar.xz.sig
+deleting extra/os/x86_64/tdb-1.3.0-1-x86_64.pkg.tar.xz
+deleting pool/community/x86_energy_perf_policy-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/x86_energy_perf_policy-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/x86_energy_perf_policy-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/x86_energy_perf_policy-3.15-1-i686.pkg.tar.xz
+deleting pool/community/virtualbox-sdk-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-sdk-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-sdk-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-sdk-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/virtualbox-host-dkms-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-host-dkms-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-host-dkms-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-host-dkms-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/virtualbox-guest-utils-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-guest-utils-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-guest-utils-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-guest-utils-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/virtualbox-guest-dkms-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-guest-dkms-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-guest-dkms-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-guest-dkms-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/virtualbox-ext-vnc-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-ext-vnc-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-ext-vnc-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-ext-vnc-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/virtualbox-4.3.14-2-x86_64.pkg.tar.xz.sig
+deleting pool/community/virtualbox-4.3.14-2-x86_64.pkg.tar.xz
+deleting pool/community/virtualbox-4.3.14-2-i686.pkg.tar.xz.sig
+deleting pool/community/virtualbox-4.3.14-2-i686.pkg.tar.xz
+deleting pool/community/usbip-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/usbip-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/usbip-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/usbip-3.15-1-i686.pkg.tar.xz
+deleting pool/community/tmon-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/tmon-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/tmon-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/tmon-3.15-1-i686.pkg.tar.xz
+deleting pool/community/playpen-1:5-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/playpen-1:5-1-x86_64.pkg.tar.xz
+deleting pool/community/playpen-1:5-1-i686.pkg.tar.xz.sig
+deleting pool/community/playpen-1:5-1-i686.pkg.tar.xz
+deleting pool/community/perf-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/perf-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/perf-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/perf-3.15-1-i686.pkg.tar.xz
+deleting pool/community/linux-tools-meta-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/linux-tools-meta-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/linux-tools-meta-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/linux-tools-meta-3.15-1-i686.pkg.tar.xz
+deleting pool/community/linux-grsec-headers-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-headers-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting pool/community/linux-grsec-headers-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-headers-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting pool/community/linux-grsec-docs-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-docs-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting pool/community/linux-grsec-docs-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-docs-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting pool/community/linux-grsec-3.15.8.201408040708-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-3.15.8.201408040708-1-x86_64.pkg.tar.xz
+deleting pool/community/linux-grsec-3.15.8.201408040708-1-i686.pkg.tar.xz.sig
+deleting pool/community/linux-grsec-3.15.8.201408040708-1-i686.pkg.tar.xz
+deleting pool/community/libtraceevent-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/libtraceevent-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/libtraceevent-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/libtraceevent-3.15-1-i686.pkg.tar.xz
+deleting pool/community/cpupower-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/cpupower-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/cpupower-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/cpupower-3.15-1-i686.pkg.tar.xz
+deleting pool/community/cgroup_event_listener-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/cgroup_event_listener-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/cgroup_event_listener-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/cgroup_event_listener-3.15-1-i686.pkg.tar.xz
+deleting pool/community/acpidump-3.15-1-x86_64.pkg.tar.xz.sig
+deleting pool/community/acpidump-3.15-1-x86_64.pkg.tar.xz
+deleting pool/community/acpidump-3.15-1-i686.pkg.tar.xz.sig
+deleting pool/community/acpidump-3.15-1-i686.pkg.tar.xz
+deleting pool/packages/xf86-input-wacom-0.25.0-2-x86_64.pkg.tar.xz.sig
+deleting pool/packages/xf86-input-wacom-0.25.0-2-x86_64.pkg.tar.xz
+deleting pool/packages/xf86-input-wacom-0.25.0-2-i686.pkg.tar.xz.sig
+deleting pool/packages/xf86-input-wacom-0.25.0-2-i686.pkg.tar.xz
+deleting pool/packages/tdb-1.3.0-1-x86_64.pkg.tar.xz.sig
+deleting pool/packages/tdb-1.3.0-1-x86_64.pkg.tar.xz
+deleting pool/packages/tdb-1.3.0-1-i686.pkg.tar.xz.sig
+deleting pool/packages/tdb-1.3.0-1-i686.pkg.tar.xz
+
+Number of files: 52530
+Number of files transferred: 48
+Total file size: 47996337206 bytes
+Total transferred file size: 230198778 bytes
+Literal data: 219330915 bytes
+Matched data: 10869671 bytes
+File list size: 4319742
+File list generation time: 0.227 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 374803
+Total bytes received: 223887078
+
+sent 374803 bytes  received 223887078 bytes  13891.78 bytes/sec
+total size is 47996337206  speedup is 214.02

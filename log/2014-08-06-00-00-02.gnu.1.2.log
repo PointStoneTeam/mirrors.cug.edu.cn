@@ -1,0 +1,1024 @@
+2014-08-06 00:11:04
+rsync://mirror.team-cymru.org/gnu/
+receiving file list ... done
+./
+gnu-keyring.gpg
+mirror-updated-timestamp.txt
+3dldf/
+GNUinfo/
+GNUinfo/Audio/
+GNUinfo/Audio/francais/
+GNUsBulletins/
+GNUsBulletins/9803/
+Licenses/
+MailingListArchives/
+MicrosPorts/
+a2ps/
+acct/
+acm/
+adns/
+alive/
+anubis/
+apl/
+archimedes/
+aris/
+aspell/
+aspell/dict/
+aspell/dict/af/
+aspell/dict/am/
+aspell/dict/ar/
+aspell/dict/ast/
+aspell/dict/az/
+aspell/dict/be/
+aspell/dict/bg/
+aspell/dict/bn/
+aspell/dict/br/
+aspell/dict/ca/
+aspell/dict/cs/
+aspell/dict/csb/
+aspell/dict/cy/
+aspell/dict/da/
+aspell/dict/de-alt/
+aspell/dict/de/
+aspell/dict/el/
+aspell/dict/en/
+aspell/dict/eo/
+aspell/dict/es/
+aspell/dict/et/
+aspell/dict/fa/
+aspell/dict/fi/
+aspell/dict/fo/
+aspell/dict/fr/
+aspell/dict/fy/
+aspell/dict/ga/
+aspell/dict/gd/
+aspell/dict/gl/
+aspell/dict/grc/
+aspell/dict/gu/
+aspell/dict/gv/
+aspell/dict/he/
+aspell/dict/hi/
+aspell/dict/hil/
+aspell/dict/hr/
+aspell/dict/hsb/
+aspell/dict/hu/
+aspell/dict/hus/
+aspell/dict/hy/
+aspell/dict/ia/
+aspell/dict/id/
+aspell/dict/is/
+aspell/dict/it/
+aspell/dict/kn/
+aspell/dict/ku/
+aspell/dict/ky/
+aspell/dict/la/
+aspell/dict/lt/
+aspell/dict/lv/
+aspell/dict/mg/
+aspell/dict/mi/
+aspell/dict/mk/
+aspell/dict/ml/
+aspell/dict/mn/
+aspell/dict/mr/
+aspell/dict/ms/
+aspell/dict/mt/
+aspell/dict/nb/
+aspell/dict/nds/
+aspell/dict/nl/
+aspell/dict/nn/
+aspell/dict/ny/
+aspell/dict/or/
+aspell/dict/pa/
+aspell/dict/pl/
+aspell/dict/pt/
+aspell/dict/pt_BR/
+aspell/dict/pt_PT/
+aspell/dict/qq/
+aspell/dict/qu/
+aspell/dict/ro/
+aspell/dict/ru/
+aspell/dict/rw/
+aspell/dict/sc/
+aspell/dict/sk/
+aspell/dict/sl/
+aspell/dict/sr/
+aspell/dict/sv/
+aspell/dict/sw/
+aspell/dict/ta/
+aspell/dict/te/
+aspell/dict/tet/
+aspell/dict/tk/
+aspell/dict/tl/
+aspell/dict/tn/
+aspell/dict/tr/
+aspell/dict/uk/
+aspell/dict/uz/
+aspell/dict/vi/
+aspell/dict/wa/
+aspell/dict/yi/
+aspell/dict/zu/
+aspell/w32/
+auctex/
+auctex/11.51-extra/
+auctex/11.52-extra/
+auctex/11.53-extra/
+ignoring unsafe symlink "/mirrorswlzx/gnu/autoconf/autoconf-2.53-2.54.xdelta.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/autoconf/autoconf-2.54.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+auctex/11.54-extra/
+auctex/11.55-extra/
+auctex/11.81-extra/
+auctex/11.82-extra/
+auctex/11.83-extra/
+auctex/11.84-extra/
+auctex/11.85-extra/
+auctex/11.86-extra/
+auctex/11.87-extra/
+autoconf-archive/
+autoconf/
+autogen/
+autogen/5.11.7/
+autogen/5.11.8/
+autogen/rel5.10.1/
+autogen/rel5.10.2/
+autogen/rel5.11.1/
+autogen/rel5.11.2/
+autogen/rel5.11.3/
+autogen/rel5.11.4/
+autogen/rel5.11.5/
+autogen/rel5.11.6/
+autogen/rel5.11.9/
+autogen/rel5.11/
+autogen/rel5.12/
+autogen/rel5.13/
+autogen/rel5.14/
+autogen/rel5.15/
+autogen/rel5.16.1/
+autogen/rel5.16.2/
+autogen/rel5.16/
+autogen/rel5.17.1/
+autogen/rel5.17.2/
+autogen/rel5.17.3/
+autogen/rel5.17.4/
+autogen/rel5.17/
+autogen/rel5.18.1/
+autogen/rel5.18.2/
+autogen/rel5.18.3/
+autogen/rel5.18/
+autogen/rel5.6.2/
+autogen/rel5.6.3/
+autogen/rel5.6.4/
+autogen/rel5.6.5/
+autogen/rel5.6/
+autogen/rel5.7.1/
+autogen/rel5.7.2/
+autogen/rel5.7.3/
+autogen/rel5.7/
+autogen/rel5.8.1/
+autogen/rel5.8.3/
+autogen/rel5.8.4/
+autogen/rel5.8.5/
+autogen/rel5.8.6/
+autogen/rel5.8.7/
+autogen/rel5.8.8/
+autogen/rel5.8.9/
+autogen/rel5.8/
+autogen/rel5.9.1/
+autogen/rel5.9.2/
+autogen/rel5.9.3/
+autogen/rel5.9.4/
+autogen/rel5.9.5/
+autogen/rel5.9.6/
+autogen/rel5.9.7/
+autogen/rel5.9.8/
+autogen/rel5.9/
+automake/
+avl/
+ballandpaddle/
+barcode/
+bash/
+bash/bash-2.05b-patches/
+bash/bash-3.0-patches/
+bash/bash-3.1-patches/
+bash/bash-3.2-patches/
+bash/bash-4.0-patches/
+bash/bash-4.1-patches/
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.0.10.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.2.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.2.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.2.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.2.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/bayonne/bayonne-1.2.6.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+bash/bash-4.2-patches/
+bash/bash-4.3-patches/
+bayonne/
+bayonne/voices/
+bc/
+binutils/
+bison/
+bool/
+bpel2owfn/
+bpel2owfn/1.0/
+bpel2owfn/1.1/
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccaudio/ccaudio-1.0.6.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccrtp/ccrtp-1.0.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccrtp/ccrtp-1.0.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccrtp/ccrtp-1.0pre0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccrtp/ccrtp-1.0pre1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccrtp/ccrtp-1.0pre2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccaudio-1.0.6.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.2.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.3.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.4.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.4.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.4.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.4.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.4.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/ccscript/ccscript-2.5.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+bpel2owfn/1.2/
+bpel2owfn/2.0.0/
+bpel2owfn/2.0.1/
+bpel2owfn/2.0.2/
+bpel2owfn/2.0.3/
+bpel2owfn/2.0.4/
+c-graph/
+ccaudio/
+ccd2cue/
+ccrtp/
+ccscript/
+cfengine/
+ignoring unsafe symlink "/mirrorswlzx/gnu/classpathx/jaxp-prob-demo.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+cflow/
+cgicc/
+chess/
+cim/
+classpath/
+classpathx/
+classpathx/servletapi/
+clisp/
+clisp/contrib/
+clisp/mailing-list/
+clisp/mailing-list/1993-1997-uni-karlsruhe/
+clisp/mailing-list/1998-1999-cons/
+clisp/mailing-list/2000-2007-sourceforge/
+clisp/packages/
+clisp/release/
+clisp/release/2.24.1/
+clisp/release/2.24/
+clisp/release/2.25.1/
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.10.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.11.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.12.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.2.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.6.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.7.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.8.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/commoncpp/commoncpp2-1.0.9.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+clisp/release/2.25/
+clisp/release/2.26/
+clisp/release/2.27/
+clisp/release/2.28/
+clisp/release/2.29/
+clisp/release/2.30/
+clisp/release/2.31/
+clisp/release/2.32/
+clisp/release/2.33.1/
+clisp/release/2.33.2/
+clisp/release/2.33/
+clisp/release/2.34/
+clisp/release/2.35/
+clisp/release/2.36/
+clisp/release/2.37/
+clisp/release/2.38/
+clisp/release/2.39/
+clisp/release/2.40/
+clisp/release/2.41/
+clisp/release/2.42/
+clisp/release/2.43.1/
+clisp/release/2.43/
+clisp/release/2.44.1/
+clisp/release/2.44/
+clisp/release/2.45/
+clisp/release/2.46/
+clisp/release/2.47/
+clisp/release/2.48/
+clisp/release/2.49/
+combine/
+commoncpp/
+complexity/
+config/
+coreutils/
+cpio/
+cppi/
+cssc/
+cursynth/
+dap/
+datamash/
+ddd/
+ddrescue/
+dejagnu/
+denemo/
+dico/
+ignoring unsafe symlink "/mirrorswlzx/gnu/electric/electric-6.07.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+diction/
+diffutils/
+dionysus/
+dismal/
+dominion/
+easejs/
+ed/
+edma/
+electric/
+emacs/
+emacs/windows/
+emms/
+enscript/
+fdisk/
+ferret/
+findutils/
+fisicalab/
+fisicalab/binaries/
+fisicalab/windows/
+flex/
+fontutils/
+freedink/
+freedink/previous_attempt/
+freefont/
+freeipmi/
+gama/
+garpd/
+garpd/0.2.0/
+gawk/
+gcal/
+gcc/
+gcc/gcc-2.95.1/
+gcc/gcc-2.95.2/
+gcc/gcc-2.95.3/
+gcc/gcc-2.95/
+gcc/gcc-3.0.1/
+gcc/gcc-3.0.2/
+gcc/gcc-3.0.3/
+gcc/gcc-3.0.4/
+gcc/gcc-3.0/
+gcc/gcc-3.1.1/
+gcc/gcc-3.1/
+gcc/gcc-3.2.1/
+gcc/gcc-3.2.2/
+gcc/gcc-3.2.3/
+gcc/gcc-3.2/
+gcc/gcc-3.3.1/
+gcc/gcc-3.3.1/diffs/
+gcc/gcc-3.3.2/
+gcc/gcc-3.3.2/diffs/
+gcc/gcc-3.3.3/
+gcc/gcc-3.3.3/diffs/
+gcc/gcc-3.3.4/
+gcc/gcc-3.3.5/
+gcc/gcc-3.3.5/diffs/
+gcc/gcc-3.3.6/
+gcc/gcc-3.3.6/diffs/
+gcc/gcc-3.3/
+gcc/gcc-3.4.0/
+gcc/gcc-3.4.1/
+gcc/gcc-3.4.2/
+gcc/gcc-3.4.3/
+gcc/gcc-3.4.4/
+gcc/gcc-3.4.5/
+gcc/gcc-3.4.5/diffs/
+gcc/gcc-3.4.6/
+gcc/gcc-3.4.6/diffs/
+gcc/gcc-4.0.0/
+gcc/gcc-4.0.1/
+gcc/gcc-4.0.2/
+gcc/gcc-4.0.3/
+gcc/gcc-4.0.4/
+gcc/gcc-4.0.4/diffs/
+gcc/gcc-4.1.0/
+gcc/gcc-4.1.1/
+gcc/gcc-4.1.2/
+gcc/gcc-4.2.0/
+gcc/gcc-4.2.1/
+gcc/gcc-4.2.2/
+gcc/gcc-4.2.3/
+gcc/gcc-4.2.4/
+gcc/gcc-4.3.0/
+gcc/gcc-4.3.1/
+gcc/gcc-4.3.2/
+gcc/gcc-4.3.3/
+gcc/gcc-4.3.4/
+gcc/gcc-4.3.5/
+gcc/gcc-4.3.6/
+gcc/gcc-4.4.0/
+gcc/gcc-4.4.1/
+gcc/gcc-4.4.2/
+gcc/gcc-4.4.3/
+gcc/gcc-4.4.4/
+gcc/gcc-4.4.5/
+gcc/gcc-4.4.6/
+gcc/gcc-4.4.7/
+gcc/gcc-4.5.0/
+gcc/gcc-4.5.1/
+gcc/gcc-4.5.2/
+gcc/gcc-4.5.3/
+gcc/gcc-4.5.4/
+gcc/gcc-4.6.0/
+gcc/gcc-4.6.1/
+gcc/gcc-4.6.2/
+gcc/gcc-4.6.3/
+gcc/gcc-4.6.4/
+gcc/gcc-4.7.0/
+gcc/gcc-4.7.1/
+gcc/gcc-4.7.2/
+gcc/gcc-4.7.3/
+gcc/gcc-4.7.4/
+gcc/gcc-4.8.0/
+gcc/gcc-4.8.1/
+gcc/gcc-4.8.2/
+gcc/gcc-4.8.3/
+gcc/gcc-4.9.0/
+gcc/gcc-4.9.1/
+ignoring unsafe symlink "/mirrorswlzx/gnu/gcl/cvs/gcl_2.5.2-1.solaris.tgz.back-RSN.README" -> "../../../MISSING-FILES"
+gcide/
+gcl/
+gcl/binaries/
+gcl/binaries/stable/
+gcl/cvs/
+gcl/old/
+gcompris/
+gdb/
+gdbm/
+gengen/
+gengetopt/
+gengetopt/old/
+gettext/
+gforth/
+ggradebook/
+ghostscript/
+gift/
+gleem/
+glibc/
+global/
+glpk/
+gmp/
+gnash/
+gnash/0.7.1/
+gnash/0.7.2/
+gnash/0.8.0/
+gnash/0.8.1/
+gnash/0.8.10/
+gnash/0.8.2/
+gnash/0.8.3/
+gnash/0.8.4/
+gnash/0.8.5/
+gnash/0.8.6/
+gnash/0.8.7/
+ignoring unsafe symlink "/mirrorswlzx/gnu/gnucap/gnucap-0.33.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+gnash/0.8.8/
+gnash/0.8.9/
+gnats/
+gnatsweb/
+gnu-c-manual/
+gnu-crypto/
+gnu-crypto/binaries/
+gnu-crypto/releases/
+gnu-crypto/test-vectors/
+gnu-pw-mgr/
+gnu-pw-mgr/gpw-1.1/
+gnubatch/
+gnubik/
+gnucap/
+gnucobol/
+gnudos/
+gnue/
+gnue/deb/
+gnue/osx/
+gnue/tools/
+gnue/windows/
+gnugo/
+gnuit/
+gnuit/old/
+ignoring unsafe symlink "/mirrorswlzx/gnu/gnukart/SpeedX-0.1.4d.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+gnujump/
+gnukart/
+gnumach/
+gnun/
+gnunet/
+gnupod/
+gnuprologjava/
+gnuprologjava/debian/
+gnuprologjava/debian/0.2.5-2/
+gnuprologjava/debian/0.2.6-1/
+gnuradio/
+gnuradio/old/
+gnurobots/
+gnuschool/
+gnushogi/
+gnusound/
+gnuspool/
+gnustep/
+gnutls/
+gnutls/w32/
+gnutrition/
+gnuzilla/
+gnuzilla/10.0/
+gnuzilla/12.0/
+gnuzilla/13.0/
+gnuzilla/14.0/
+gnuzilla/17.0/
+gnuzilla/2.0.0.11-g1/
+gnuzilla/2.0.0.12-g1/
+gnuzilla/24/
+gnuzilla/24/langpacks/
+gnuzilla/3-g1/
+gnuzilla/3.0.1-g1/
+gnuzilla/3.0.10-g1/
+gnuzilla/3.0.11-g1/
+gnuzilla/3.0.2-g1/
+gnuzilla/3.0.3-g1/
+gnuzilla/3.0.4-g1/
+gnuzilla/3.0.5-g1/
+gnuzilla/3.0.6-g1/
+gnuzilla/3.0.7-g1/
+gnuzilla/3.0.8-g1/
+gnuzilla/3.0.9-g1/
+gnuzilla/3.5.1/
+gnuzilla/3.5.2/
+gnuzilla/3.5.3/
+gnuzilla/3.5.4/
+gnuzilla/3.5.5/
+gnuzilla/3.5.6/
+gnuzilla/3.5.7/
+gnuzilla/3.5/
+gnuzilla/3.6.10/
+gnuzilla/3.6.11/
+gnuzilla/3.6.12/
+gnuzilla/3.6.13/
+gnuzilla/3.6.14/
+gnuzilla/3.6.15/
+gnuzilla/3.6.16/
+gnuzilla/3.6.2/
+gnuzilla/3.6.3/
+gnuzilla/3.6.4/
+gnuzilla/3.6.7/
+gnuzilla/3.6.8/
+gnuzilla/3.6.9/
+gnuzilla/3.6/
+gnuzilla/4.0.1/
+gnuzilla/4.0/
+gnuzilla/5.0.1/
+gnuzilla/5.0/
+gnuzilla/6.0.1/
+gnuzilla/6.0.2/
+gnuzilla/6.0/
+gnuzilla/7.0.1/
+gnuzilla/7.0/
+gnuzilla/9.0.1/
+gnuzilla/lang/
+gnuzilla/lang/12.0/
+gnuzilla/lang/14.0/
+gnuzilla/lang/17.0/
+goptical/
+gperf/
+gprolog/
+greg/
+grep/
+groff/
+groff/old/
+grub/
+gsasl/
+gsegrafix/
+gsl/
+gsrc/
+gss/
+gtypist/
+gtypist/w32_binaries/
+guile-gnome/
+ignoring unsafe symlink "/mirrorswlzx/gnu/halifax/tools/xpm2wico-0.2.4.1.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/halifax/tools/xpm2wico-0.2.4.2.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/halifax/tools/xpm2wico-0.2.4.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+guile-gnome/guile-clutter/
+guile-gnome/guile-gnome-gstreamer/
+guile-gnome/guile-gnome-gtksourceview/
+guile-gnome/guile-gnome-platform/
+guile-gtk/
+guile-ncurses/
+guile-opengl/
+guile-rpc/
+guile-sdl/
+guile/
+gv/
+gvpe/
+gxmessage/
+gzip/
+halifax/
+halifax/tools/
+health/
+hello/
+help2man/
+hp2xx/
+httptunnel/
+hurd/
+hurd/old/
+hyperbole/
+idutils/
+ignuit/
+indent/
+inetutils/
+inetutils/old/
+ignoring unsafe symlink "/mirrorswlzx/gnu/jacal/jacal1b1.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/jacal/jacal1b2.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/jacal/scm5d6.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/jwhois/jwhois-3.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/jwhois/jwhois-3.2.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/kawa/kawa-1.6.99-src.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/kawa/kawa-1.6.99.jar.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/kawa/kawa-1.6.99.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/kawa/kawa-doc-1.6.98.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/less/less-374.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/less/less-378.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+intlfonts/
+intlfonts/intlfonts-1.2.1-split/
+jacal/
+jel/
+jwhois/
+kawa/
+less/
+libcdio/
+libextractor/
+libffcall/
+libiconv/
+libidn/
+libmatheval/
+libmicrohttpd/
+librejs/
+librejs/librejs-5.1.1.tar.gz/
+librejs/librejs-5.1.1.xpi/
+librejs/librejs-5.1.tar.gz/
+librejs/librejs-5.1.xpi/
+libsigsegv/
+libtasn1/
+libtool/
+ignoring unsafe symlink "/mirrorswlzx/gnu/lightning/lightning-1.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/lightning/lightning-1.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+libunistring/
+libxmi/
+lightning/
+lilypond/
+liquidwar6/
+lsh/
+m4/
+macchanger/
+mailman/
+mailutils/
+make/
+marst/
+maverik/
+mc/
+mc/binaries/
+mc/binaries/AIX/
+mc/binaries/Caldera-2.4/
+mc/binaries/Caldera-2.4/RPMS/
+mc/binaries/HP-UX/
+mc/binaries/RedHat/
+mc/binaries/RedHat/7.x/
+mc/binaries/RedHat/SRPMS/
+mc/binaries/SunOS/
+mc/old/
+mc/old/diffs/
+mc/po/
+mc/rxvt/
+mc/snapshots/
+ignoring unsafe symlink "/mirrorswlzx/gnu/metahtml/metahtml-6.10.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/metahtml/metahtml-6.11.01.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+mcron/
+mcsim/
+mdk/
+mdk/v0/
+mdk/v1.0.1/
+mdk/v1.0/
+mdk/v1.1/
+mdk/v1.2.1/
+mdk/v1.2.2/
+mdk/v1.2.3/
+mdk/v1.2.4/
+mdk/v1.2.5/
+mdk/v1.2.6/
+mdk/v1.2.7/
+mdk/v1.2.8/
+mdk/v1.2/
+metahtml/
+mifluz/
+mig/
+miscfiles/
+mit-scheme/
+mit-scheme/snapshot.pkg/
+mit-scheme/snapshot.pkg/20050320/
+mit-scheme/snapshot.pkg/20050724/
+mit-scheme/snapshot.pkg/20050912/
+mit-scheme/snapshot.pkg/20060201/
+mit-scheme/snapshot.pkg/20060414/
+mit-scheme/snapshot.pkg/20060906/
+mit-scheme/snapshot.pkg/20070205/
+mit-scheme/snapshot.pkg/20070623/
+mit-scheme/snapshot.pkg/20070909/
+mit-scheme/snapshot.pkg/20080130/
+mit-scheme/snapshot.pkg/20090107/
+mit-scheme/stable.pkg/
+mit-scheme/stable.pkg/7.7.1/
+mit-scheme/stable.pkg/9.0.1/
+mit-scheme/stable.pkg/9.0/
+mit-scheme/stable.pkg/9.1.1/
+mit-scheme/stable.pkg/9.1/
+mit-scheme/stable.pkg/9.2/
+mit-scheme/testing.pkg/
+mit-scheme/testing.pkg/7.7.90/
+mit-scheme/utilities.pkg/
+moe/
+motti/
+mpc/
+mpfr/
+mpria/
+mtools/
+myserver/
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/abuse/frabs210_unix.src.tar.bz2.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/capa/CAPA-5.1.2b-source.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+myserver/0.10/
+myserver/0.11/
+myserver/0.9.1/
+myserver/0.9.1/w32/
+myserver/0.9.2/
+myserver/0.9/
+myserver/0.9/windows/
+nano/
+ncurses/
+nettle/
+non-gnu/
+non-gnu/abuse/
+non-gnu/capa/
+non-gnu/chinese-fonts-truetype/
+non-gnu/cvs/
+non-gnu/cvs/binary/
+non-gnu/cvs/binary/feature/
+non-gnu/cvs/binary/feature/hppa-hpux/
+non-gnu/cvs/binary/feature/mips-irix/
+non-gnu/cvs/binary/feature/powerpc-aix/
+non-gnu/cvs/binary/feature/sparc-sunos/
+non-gnu/cvs/binary/feature/x86-bsdos/
+non-gnu/cvs/binary/feature/x86-linux/
+non-gnu/cvs/binary/feature/x86-linux/RPMS/
+non-gnu/cvs/binary/feature/x86-linux/RPMS/i386/
+non-gnu/cvs/binary/feature/x86-sunos/
+non-gnu/cvs/binary/feature/x86-woe/
+non-gnu/cvs/binary/stable/
+non-gnu/cvs/binary/stable/hppa-hpux/
+non-gnu/cvs/binary/stable/mips-irix/
+non-gnu/cvs/binary/stable/powerpc-aix/
+non-gnu/cvs/binary/stable/sparc-sunos/
+non-gnu/cvs/binary/stable/x86-bsdos/
+non-gnu/cvs/binary/stable/x86-linux/
+non-gnu/cvs/binary/stable/x86-linux/RPMS/
+non-gnu/cvs/binary/stable/x86-linux/RPMS/i386/
+non-gnu/cvs/binary/stable/x86-sunos/
+non-gnu/cvs/binary/stable/x86-woe/
+non-gnu/cvs/source/
+non-gnu/cvs/source/feature/
+non-gnu/cvs/source/feature/1.12.10/
+non-gnu/cvs/source/feature/1.12.11/
+non-gnu/cvs/source/feature/1.12.12/
+non-gnu/cvs/source/feature/1.12.13/
+non-gnu/cvs/source/feature/1.12.9/
+non-gnu/cvs/source/feature/archive/
+non-gnu/cvs/source/feature/archive/SRPMS/
+non-gnu/cvs/source/stable/
+non-gnu/cvs/source/stable/1.11.17/
+non-gnu/cvs/source/stable/1.11.18/
+non-gnu/cvs/source/stable/1.11.19/
+non-gnu/cvs/source/stable/1.11.20/
+non-gnu/cvs/source/stable/1.11.21/
+non-gnu/cvs/source/stable/1.11.22/
+non-gnu/cvs/source/stable/1.11.23/
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/ispell/ispell-3.2.06.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/jargon/jarg431.txt.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/jargon/jargon-4.3.1.html.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/maxima/maxima-5.4.tgz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/maxima/maxima-5.6.tgz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/nethack/nethack-3.4.0.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/slib-psd/slib-psd1-3.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/smail/smail-3.2.0.114.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/non-gnu/ucblogo/ucblogo-5.1.tar.gz.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/deb/libosip1_0.9.4-1_i386.deb.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.3-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.4-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.5-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.6-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.7-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.8-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.8.9-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.0-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.2-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.3-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.4-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-0.9.7-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.0-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.2-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.3-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.4-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip-devel-0.9.7-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip2-2.0.0-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip2-2.0.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip2-devel-2.0.0-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip2-devel-2.0.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/osip/rpm/libosip2-static-2.0.1-1.i386.rpm.back-RSN.README" -> "../../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/paperclips/paperclips_rc1_1_23.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+non-gnu/cvs/source/stable/archive/
+non-gnu/cvs/source/stable/archive/SRPMS/
+non-gnu/doschk/
+non-gnu/flex/
+non-gnu/ispell/
+non-gnu/jargon/
+non-gnu/maxima/
+non-gnu/nethack/
+non-gnu/pcl/
+non-gnu/slib-psd/
+non-gnu/smail/
+non-gnu/tile-forth/
+non-gnu/ucblogo/
+ocrad/
+octave/
+oleo/
+orgadoc/
+osip/
+osip/deb/
+osip/rpm/
+paperclips/
+parallel/
+parted/
+parted/static/
+patch/
+pem/
+pexec/
+phantom/
+phantom/home/
+phantom/security/
+pies/
+plotutils/
+proxyknife/
+pspp/
+psychosynth/
+pth/
+pyconfigure/
+radius/
+rcs/
+readline/
+readline/readline-4.3-patches/
+readline/readline-5.1-patches/
+readline/readline-5.2-patches/
+readline/readline-6.0-patches/
+readline/readline-6.1-patches/
+readline/readline-6.2-patches/
+readline/readline-6.3-patches/
+recutils/
+reftex/
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.3.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.4-4.0.5.diff.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.5.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/sed/sed-4.0.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+remotecontrol/
+rottlog/
+rpge/
+rush/
+sather/
+sather/Debian/
+sather/Doc/
+sather/Doc/AddDoc/
+sather/Doc/Image/
+sather/RPM/
+sauce/
+savannah/
+scm/
+screen/
+sed/
+serveez/
+sharutils/
+sharutils/REL-4.3.79/
+sharutils/REL-4.3.80/
+sharutils/REL-4.3.81/
+sharutils/REL-4.4/
+sharutils/REL-4.5.1/
+sharutils/REL-4.6.1/
+sharutils/REL-4.6.2/
+sharutils/REL-4.6.3/
+sharutils/REL-4.6/
+sharutils/REL-4.7/
+shishi/
+shmm/
+shmm/1.0/
+shtool/
+sipwitch/
+slib/
+ignoring unsafe symlink "/mirrorswlzx/gnu/slib/slib2d2.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/slib/slib2d3.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/slib/slib2d4.zip.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/smalltalk/smalltalk-2.0.10-2.0.11.diff.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/smalltalk/smalltalk-2.0.10.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/smalltalk/smalltalk-2.1.1.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/smalltalk/smalltalk-2.1.3-2.1.4.diff.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/smalltalk/smalltalk-2.1.4.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+ignoring unsafe symlink "/mirrorswlzx/gnu/solfege/solfege-1.4.10.tar.gz.back-RSN.README" -> "../../MISSING-FILES"
+smalltalk/
+solfege/
+sovix/
+spacechart/
+spell/
+sqltutor/
+src-highlite/
+stow/
+superopt/
+swbis/
+tar/
+termcap/
+termutils/
+teseq/
+teximpatient/
+teximpatient/artwork/
+texinfo/
+thales/
+time/
+tramp/
+trueprint/
+unifont/
+unifont/unifont-6.3.20131020/
+unifont/unifont-6.3.20131215/
+unifont/unifont-6.3.20131217/
+unifont/unifont-6.3.20131221/
+unifont/unifont-6.3.20140202/
+unifont/unifont-6.3.20140204/
+unifont/unifont-6.3.20140214/
+unifont/unifont-6.3.20140214/debian/
+unifont/unifont-7.0.01/
+unifont/unifont-7.0.02/
+unifont/unifont-7.0.03/
+unifont/unifont-7.0.03/debian/
+units/
+units/windows/
+unrtf/
+unrtf/0.19.7/
+userv/
+uucp/
+vc-dwim/
+vcdimager/
+vera/
+wb/
+wdiff/
+websocket4j/
+wget/
+which/
+windows/
+xaos/
+xboard/
+xhippo/
+xlogmaster/
+xnee/
+xnee/unstable/
+xorriso/
+zile/
+
+Number of files: 20541
+Number of files transferred: 2
+Total file size: 42158583041 bytes
+Total transferred file size: 1056238 bytes
+Literal data: 0 bytes
+Matched data: 1056238 bytes
+File list size: 518941
+File list generation time: 2.275 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 67486
+Total bytes received: 584396
+
+sent 67486 bytes  received 584396 bytes  166.62 bytes/sec
+total size is 42158583041  speedup is 64672.11

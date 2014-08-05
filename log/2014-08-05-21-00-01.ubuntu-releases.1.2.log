@@ -1,0 +1,59 @@
+2014-08-05 21:02:50
+rsync://rsync.releases.ubuntu.com/releases/
+Welcome to the Ubuntu Master Releases mirror rsync server.
+
+This server is located in London, United Kingdom.
+
+If you are not an Ubuntu official country mirror, please consider 
+using a Ubuntu releases mirror closer to your physical location.
+
+This server has limited resources.  A list of Ubuntu archive mirrors 
+which support rsync can be found here:
+
+https://launchpad.net/ubuntu/+cdmirrors
+
+If you host a Ubuntu mirror, public or private, please register your
+mirror in Launchpad if you have not already done so.  
+
+Registrations can be made here:
+
+https://launchpad.net/ubuntu/+newmirror
+
+If you require assistance with your public mirror, please contact the
+Ubuntu mirror team at the following address:
+
+mirrors@ubuntu.com
+
+--
+
+receiving file list ... done
+./
+.pool/
+.trace/
+.trace/pyracantha.canonical.com
+cdicons/
+include/
+include/kubuntu-img/
+include/kubuntu-img/img/
+lucid/
+precise/
+quantal/
+raring/
+saucy/
+trusty/
+deleting .trace/releases-zavijava
+
+Number of files: 578
+Number of files transferred: 1
+Total file size: 32731573125 bytes
+Total transferred file size: 29 bytes
+Literal data: 29 bytes
+Matched data: 0 bytes
+File list size: 25799
+File list generation time: 0.004 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 1794
+Total bytes received: 28370
+
+sent 1794 bytes  received 28370 bytes  205.90 bytes/sec
+total size is 32731573125  speedup is 1085120.45

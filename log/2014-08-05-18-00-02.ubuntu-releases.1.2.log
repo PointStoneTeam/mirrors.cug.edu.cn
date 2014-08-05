@@ -1,0 +1,33 @@
+2014-08-05 18:03:17
+rsync://rsync.releases.ubuntu.com/releases/
+This is an Ubuntu mirror - treat it kindly
+
+receiving file list ... done
+./
+.pool/
+.trace/
+cdicons/
+include/
+include/kubuntu-img/
+include/kubuntu-img/img/
+lucid/
+precise/
+quantal/
+raring/
+saucy/
+trusty/
+
+Number of files: 578
+Number of files transferred: 0
+Total file size: 32731573125 bytes
+Total transferred file size: 0 bytes
+Literal data: 0 bytes
+Matched data: 0 bytes
+File list size: 26061
+File list generation time: 0.354 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 1778
+Total bytes received: 27873
+
+sent 1778 bytes  received 27873 bytes  215.64 bytes/sec
+total size is 32731573125  speedup is 1103894.41

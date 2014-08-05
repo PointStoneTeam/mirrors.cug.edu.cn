@@ -1,0 +1,126 @@
+2014-08-05 17:09:02
+rsync://rsync.cn.gentoo.org/gentoo/
+
+#############################################################
+#                                                           #
+#  Hi,                                                      #
+#                                                           #
+#    This is the Opensource Mirror Hosted and Maintained    #
+#                                                           #
+#  by Information and Network Center of Xiamen University.  #
+#                                                           #
+#  Wish this mirror can help you enjoy free life easily :)  #                
+#                                                           # 
+#    The --checksum (-c) option is disabled to save the     #
+#                                                           #
+#  cpu usage. Thus, please remove the -c before syncing ^_^ #                
+#                                                           #
+#############################################################
+
+
+receiving file list ... done
+./
+distfiles/
+distfiles/PlayOnLinux_4.2.4.tar.gz
+distfiles/db-6.1.19.tar.gz
+distfiles/dos2unix-6.0.6.tar.gz
+distfiles/gnuchess-6.1.2.tar.gz
+distfiles/ignuit-2.20.0.tar.gz
+distfiles/libmodplug-0.8.8.5.tar.gz
+distfiles/rake-compiler-0.9.3.tar.gz
+distfiles/stressapptest-1.0.7_p1.tar.xz
+distfiles/timestamp.dev-local
+distfiles/timestamp.mirmon
+distfiles/tuxonice-for-linux-3.10.50-2014-07-31.patch.bz2
+distfiles/tuxonice-for-linux-3.14.14-2014-07-31.patch.bz2
+distfiles/tuxonice-for-linux-3.15.7-2014-07-31.patch.bz2
+distfiles/tuxonice-for-linux-3.4.100-2014-07-31.patch.bz2
+distfiles/tuxonice-for-linux-head-3.16.0-rc7-2014-07-31.patch.bz2
+distfiles/txtorcon-0.10.1.tar.gz
+experimental/
+experimental/.timestamp-experimental.x
+experimental/timestamp.chk
+experimental/timestamp.mirmon
+experimental/timestamp.x
+experimental/.overlays/
+experimental/alpha/
+experimental/alpha/historical/
+experimental/alpha/livecd/
+experimental/amd64/
+experimental/amd64/musl/
+experimental/amd64/qemu-selinux/
+experimental/amd64/qemu/
+experimental/amd64/uclibc/
+experimental/amd64/x32/
+experimental/arm/
+experimental/arm/embedded/
+experimental/arm/embedded/stages/
+experimental/arm/hardened/
+experimental/arm/musl/
+experimental/arm/netboot/
+experimental/arm/netboot/armv4tl-softfloat-linux-gnueabi/
+experimental/arm/stages/
+experimental/arm/stages/armv4l/
+experimental/arm/uclibc/
+experimental/arm64/
+experimental/arm64/old/
+experimental/bsd/
+experimental/bsd/freebsd/
+experimental/bsd/freebsd/installcd/
+experimental/bsd/freebsd/stages/
+experimental/bsd/freebsd/stages/amd64-fbsd-9.1/
+experimental/bsd/freebsd/stages/amd64-fbsd-9.1/clang/
+experimental/bsd/freebsd/stages/x86-fbsd-7.1/
+experimental/bsd/freebsd/stages/x86-fbsd-7.2/
+experimental/hppa/
+experimental/hppa/livecd/
+experimental/hppa/netboot/
+experimental/ia64/
+experimental/ia64/livecd/
+experimental/m68k/
+experimental/mips/
+experimental/mips/contrib/
+experimental/mips/desktop-loongson2f/
+experimental/mips/historical/
+experimental/mips/historical/netboot/
+experimental/mips/historical/netboot/cobalt/
+experimental/mips/historical/netboot/cobalt/old/
+experimental/mips/historical/netboot/configs/
+experimental/mips/historical/netboot/configs/old/
+experimental/mips/historical/netboot/initrd/
+experimental/mips/historical/netboot/initrd/old/
+experimental/mips/historical/netboot/ip22/
+experimental/mips/historical/netboot/ip22/initrd/
+experimental/mips/historical/netboot/ip22/initrd/old/
+experimental/mips/historical/netboot/ip22/old-debian/
+experimental/mips/historical/netboot/ip22/old/
+experimental/mips/historical/netboot/ip27/
+experimental/mips/historical/netboot/ip27/initrd/
+experimental/mips/historical/netboot/ip27/initrd/old/
+experimental/mips/historical/netboot/ip28/
+experimental/mips/historical/netboot/ip28/old/
+experimental/mips/historical/netboot/ip28/tools/
+experimental/mips/historical/netboot/ip30/
+experimental/mips/historical/netboot/ip30/initrd/
+experimental/mips/historical/netboot/ip30/initrd/old/
+experimental/mips/historical/netboot/ip30/old/
+experimental/mips/historical/netboot/ip32/
+experimental/mips/historical/netboot/ip32/initrd/
+experimental/mips/historical/netboot/ip32/initrd/old/
+experimental/mips/historical/netboot/ip32/old/
+experimental/mips/historical/netboot/new/
+experimental/mips/livecd/
+experimental/mips/livecd/loongson-2007.1/
+experimental/mips/livecd/x-rc6/
+experimental/mips/livecd/x-rc6/x-rc6/
+experimental/mips/musl/
+experimental/mips/stages/
+experimental/mips/uclibc/
+experimental/mips/uclibc/stage3-mipsel3-uclibc-hardened-20140729.tar.bz2
+experimental/mips/uclibc/stage3-mipsel3-uclibc-hardened-20140729.tar.bz2.CONTENTS
+experimental/mips/uclibc/stage3-mipsel3-uclibc-hardened-20140729.tar.bz2.DIGESTS
+experimental/mips/uclibc/stage3-mipsel3-uclibc-vanilla-20140729.tar.bz2
+rsync: read error: Connection reset by peer (104)
+rsync error: error in rsync protocol data stream (code 12) at io.c(759) [receiver=3.0.6]
+rsync: connection unexpectedly closed (1884216 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]

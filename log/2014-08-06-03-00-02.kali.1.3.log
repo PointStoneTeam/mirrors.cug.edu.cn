@@ -1,0 +1,54 @@
+2014-08-06 03:27:53
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... done
+pool/main/m/metasploit-framework/
+pool/main/m/metasploit-framework/metasploit-framework_4.9.3-2014072301-1kali1_i386.deb
+pool/main/m/metasploit-framework/metasploit-framework_4.9.3-2014072301-1kali1_source.changes
+pool/main/r/ruby-libv8/
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6.debian.tar.xz
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6.dsc
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_amd64.changes
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_amd64.deb
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_armel.changes
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_armel.deb
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_armhf.changes
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_armhf.deb
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_i386.changes
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_i386.deb
+pool/main/r/ruby-libv8/ruby-libv8_3.16.14.3-0kali6_source.changes
+pool/main/r/ruby-therubyracer/
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4.debian.tar.xz
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4.dsc
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4_amd64.changes
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4_amd64.deb
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4_armel.changes
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4_armel.deb
+pool/main/r/ruby-therubyracer/ruby-therubyracer_0.12.1-0kali4_source.changes
+pool/main/s/set/
+pool/main/s/set/set_6.0-0kali4.debian.tar.xz
+pool/main/s/set/set_6.0-0kali4.dsc
+pool/main/s/set/set_6.0-0kali4_all.changes
+pool/main/s/set/set_6.0-0kali4_all.deb
+pool/main/s/set/set_6.0-0kali4_source.changes
+pool/non-free/m/metasploit/
+rsync: send_files failed to open "/pool/non-free/m/metasploit/.metasploit_4.9.3-2014072301-1kali1_amd64.deb.ISLU7w" (in kali): Permission denied (13)
+pool/non-free/m/metasploit/metasploit_4.9.3-2014072301-1kali1.debian.tar.xz
+pool/non-free/m/metasploit/metasploit_4.9.3-2014072301-1kali1.dsc
+pool/non-free/m/metasploit/metasploit_4.9.3-2014072301-1kali1_amd64.changes
+
+Number of files: 339489
+Number of files transferred: 28
+Total file size: 365103565976 bytes
+Total transferred file size: 103965589 bytes
+Literal data: 103965589 bytes
+Matched data: 0 bytes
+File list size: 8473708
+File list generation time: 527.092 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 622
+Total bytes received: 112453401
+
+sent 622 bytes  received 112453401 bytes  180939.70 bytes/sec
+total size is 365103565976  speedup is 3246.69
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1505) [generator=3.0.6]

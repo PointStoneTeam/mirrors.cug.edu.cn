@@ -1,0 +1,25 @@
+2014-08-05 15:42:20
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... rsync: opendir "/pool/main/c/clipper" (in kali) failed: Permission denied (13)
+done
+pool/main/c/ceph/
+rsync: send_files failed to open "/pool/main/c/ceph/.ceph-common-dbg_0.80.5-1_armhf.deb.Rvr8Dh" (in kali): Permission denied (13)
+pool/main/c/ceph/ceph-common-dbg_0.80.5-1_amd64.deb
+pool/main/c/ceph/ceph-common-dbg_0.80.5-1_armel.deb
+
+Number of files: 338052
+Number of files transferred: 2
+Total file size: 360116161268 bytes
+Total transferred file size: 136738288 bytes
+Literal data: 136738288 bytes
+Matched data: 0 bytes
+File list size: 8430595
+File list generation time: 239.681 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 102
+Total bytes received: 145185930
+
+sent 102 bytes  received 145185930 bytes  371795.22 bytes/sec
+total size is 360116161268  speedup is 2480.38
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1505) [generator=3.0.6]

@@ -1,0 +1,25 @@
+2014-08-05 18:20:23
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... rsync: opendir "/pool/main/c/clipper" (in kali) failed: Permission denied (13)
+done
+IO error encountered -- skipping file deletion
+pool/main/c/ceph/
+rsync: send_files failed to open "/pool/main/c/ceph/.ceph-test-dbg_0.80.5-1_i386.deb.Ecmcd1" (in kali): Permission denied (13)
+pool/main/c/ceph/ceph-test-dbg_0.80.5-1_armhf.deb
+
+Number of files: 338084
+Number of files transferred: 1
+Total file size: 361866769190 bytes
+Total transferred file size: 310747476 bytes
+Literal data: 310747476 bytes
+Matched data: 0 bytes
+File list size: 8431546
+File list generation time: 578.866 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 83
+Total bytes received: 319217267
+
+sent 83 bytes  received 319217267 bytes  383444.26 bytes/sec
+total size is 361866769190  speedup is 1133.61
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1505) [generator=3.0.6]

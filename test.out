@@ -1,0 +1,544 @@
++++ dirname shell/stat.sh
+++ cd shell
+++ pwd
++ source /home/sync/shell/../sync.conf
+++ SYNC_ROOT=/home/sync/
+++ MAIN_LOG=/home/sync/sync.log
+++ LOG_DIR=/home/sync/log/
+++ VAR_DIR=/home/sync/var/
+++ TMP_DIR=/home/sync/tmp/
+++ MAX_LOG_FILE=2000
+++ EACH_SOURCE_MAX_RETRY=3
+++ EACH_SOURCE_TIMEOUT=30
+++ PARALLEL_POOL=30
+++ SKIP_ERRORS=("error in socket IO (code 10)")
+++ GO_LOG_DIR=/mirrors/logs/
+++ GO_HTML_DIR=/var/www/html/server/goaccess/
++ STAT_LOCK=/home/sync/var/stating.lock
++ '[' -e /home/sync/var/stating.lock ']'
++ echo 17121
++ chmod 600 /home/sync/var/stating.lock
++ trap 'rm -f /home/sync/var/stating.lock; exit 0' 0 1 2 3 9 15
++ STAT_FILE=/home/sync/var/stat
++ LAST_STAT=/home/sync/tmp/stat.2069.last.tmp
++ STAT_BUFFER=/home/sync/tmp/stat.10061.tmp
++ '[' '!' -f /home/sync/var/stat ']'
++ cp /home/sync/var/stat /home/sync/tmp/stat.2069.last.tmp
++ NAME_LIST=/home/sync/tmp/name.tmp
++ awk -F '(' '{print $1}'
++ grep '(){'
++ grep -v '^#\|^$' /home/sync/sync.conf
+++ cat /home/sync/tmp/name.tmp
+++ wc -l
++ NUM=28
++ COUNT=1
++ '[' 1 -le 28 ']'
+++ sed -n 1p /home/sync/tmp/name.tmp
++ NAME='    apache'
++ alias=
++ apache
++ destination=/mirrorswlzx/apache/
++ source=(rsync://rsync.apache.org/apache-dist/ rsync://mirrors.hust.edu.cn/apache/)
++ '[' '' == '' ']'
++ ALIAS='    apache'
+++ ls -l /home/sync/log/
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.    apache\.'
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 1 + 1
++ COUNT=2
++ continue
++ '[' 2 -le 28 ']'
+++ sed -n 2p /home/sync/tmp/name.tmp
++ NAME='    archlinux'
++ alias=
++ archlinux
++ destination=/mirrorswlzx/archlinux/
++ source=(rsync://mirror.us.leaseweb.net/archlinux/ rsync://mirrors.hust.edu.cn/archlinux/ rsync://mirrors.hustunique.com/archlinux/)
++ '[' '' == '' ']'
++ ALIAS='    archlinux'
+++ ls -l /home/sync/log/
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.    archlinux\.'
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 2 + 1
++ COUNT=3
++ continue
++ '[' 3 -le 28 ']'
+++ sed -n 3p /home/sync/tmp/name.tmp
++ NAME='    centos'
++ alias=
++ centos
++ destination=/mirrorswlzx/centos/
++ source=(rsync://us-msync.centos.org/CentOS/ rsync://eu-msync.centos.org/CentOS/)
++ '[' '' == '' ']'
++ ALIAS='    centos'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    centos\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 3 + 1
++ COUNT=4
++ continue
++ '[' 4 -le 28 ']'
+++ sed -n 4p /home/sync/tmp/name.tmp
++ NAME='    cygwin'
++ alias=
++ cygwin
++ destination=/mirrorswlzx/cygwin/
++ source=(rsync://sourceware.org/cygwin-ftp/ rsync://mirrors.hustunique.com/cygwin/)
++ '[' '' == '' ']'
++ ALIAS='    cygwin'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    cygwin\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 4 + 1
++ COUNT=5
++ continue
++ '[' 5 -le 28 ']'
+++ sed -n 5p /home/sync/tmp/name.tmp
++ NAME='    debian'
++ alias=
++ debian
++ destination=/mirrorsxgxy/debian/
++ source=(rsync://ftp.cn.debian.org/debian/ rsync://mirrors.hust.edu.cn/debian/)
++ '[' '' == '' ']'
++ ALIAS='    debian'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    debian\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 5 + 1
++ COUNT=6
++ continue
++ '[' 6 -le 28 ']'
+++ sed -n 6p /home/sync/tmp/name.tmp
++ NAME='    debian-cd'
++ alias=
++ debian-cd
++ destination=/mirrorsxgxy/debian-cd/
++ source=(rsync://ftp.jaist.ac.jp/debian-cd/ rsync://cdimage.debian.org/private/debian-cd/ rsync://mirrors.hust.edu.cn/debian-cd/)
++ '[' '' == '' ']'
++ ALIAS='    debian-cd'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    debian-cd\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 6 + 1
++ COUNT=7
++ continue
++ '[' 7 -le 28 ']'
+++ sed -n 7p /home/sync/tmp/name.tmp
++ NAME='    debian-security'
++ alias=
++ debian-security
++ destination=/mirrorsxgxy/debian-security/
++ source=(rsync://security.debian.org/debian-security/ rsync://mirrors.hust.edu.cn/debian-security/)
++ '[' '' == '' ']'
++ ALIAS='    debian-security'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    debian-security\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 7 + 1
++ COUNT=8
++ continue
++ '[' 8 -le 28 ']'
+++ sed -n 8p /home/sync/tmp/name.tmp
++ NAME='    deepin'
++ alias=
++ deepin
++ destination=/mirrorswlzx/deepin/
++ source=(rsync://packages.linuxdeepin.com/packages/ rsync://mirrors.hust.edu.cn/deepin/)
++ '[' '' == '' ']'
++ ALIAS='    deepin'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    deepin\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 8 + 1
++ COUNT=9
++ continue
++ '[' 9 -le 28 ']'
+++ sed -n 9p /home/sync/tmp/name.tmp
++ NAME='    deepin-cd'
++ alias=
++ deepin-cd
++ destination=/mirrorswlzx/deepin-cd/
++ source=(rsync://packages.linuxdeepin.com/cdimage/ rsync://mirrors.hust.edu.cn/deepin-releases/)
++ '[' '' == '' ']'
++ ALIAS='    deepin-cd'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    deepin-cd\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 9 + 1
++ COUNT=10
++ continue
++ '[' 10 -le 28 ']'
+++ sed -n 10p /home/sync/tmp/name.tmp
++ NAME='    eclipse'
++ alias=
++ eclipse
++ destination=/mirrorsxgxy/eclipse/
++ source=(rsync://rsync.osuosl.org/eclipse/ rsync://mirrors.hust.edu.cn/eclipse/ rsync://mirrors.hustunique.com/eclipse/)
++ '[' '' == '' ']'
++ ALIAS='    eclipse'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    eclipse\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 10 + 1
++ COUNT=11
++ continue
++ '[' 11 -le 28 ']'
+++ sed -n 11p /home/sync/tmp/name.tmp
++ NAME='    epel'
++ alias=
++ epel
++ destination=/mirrorswlzx/epel/
++ source=(rsync://dl.fedoraproject.org/fedora-epel/ rsync://mirrors.hust.edu.cn/epel/)
++ '[' '' == '' ']'
++ ALIAS='    epel'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    epel\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 11 + 1
++ COUNT=12
++ continue
++ '[' 12 -le 28 ']'
+++ sed -n 12p /home/sync/tmp/name.tmp
++ NAME='    fedora'
++ alias=
++ fedora
++ destination=/mirrorsxgxy/fedora/
++ source=(rsync://dl.fedoraproject.org/fedora-enchilada/linux/ rsync://ftp.heanet.ie/fedora-enchilada/linux/ rsync://mirrors.hust.edu.cn/fedora/)
++ '[' '' == '' ']'
++ ALIAS='    fedora'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    fedora\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 12 + 1
++ COUNT=13
++ continue
++ '[' 13 -le 28 ']'
+++ sed -n 13p /home/sync/tmp/name.tmp
++ NAME='    gentoo'
++ alias=
++ gentoo
++ destination=/mirrorswlzx/gentoo/
++ source=(rsync://rsync.cn.gentoo.org/gentoo/ rsync://mirrors.hust.edu.cn/gentoo/ rsync://mirrors.hustunique.com/gentoo/ rsync://mirrors.ustc.edu.cn/gentoo/)
++ '[' '' == '' ']'
++ ALIAS='    gentoo'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    gentoo\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 13 + 1
++ COUNT=14
++ continue
++ '[' 14 -le 28 ']'
+++ sed -n 14p /home/sync/tmp/name.tmp
++ NAME='    gentoo-portage'
++ alias=
++ gentoo-portage
++ destination=/mirrorswlzx/gentoo-portage/
++ source=(rsync://ftp.ussg.iu.edu/gentoo-portage/ rsync://rsync.us.gentoo.org/gentoo-portage/ rsync://mirrors.hustunique.com/gentoo-portage/ rsync://mirrors.ustc.edu.cn/gentoo-portage/)
++ '[' '' == '' ']'
++ ALIAS='    gentoo-portage'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    gentoo-portage\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 14 + 1
++ COUNT=15
++ continue
++ '[' 15 -le 28 ']'
+++ sed -n 15p /home/sync/tmp/name.tmp
++ NAME='    gnu'
++ alias=
++ gnu
++ destination=/mirrorswlzx/gnu/
++ source=(rsync://mirror.team-cymru.org/gnu/ rsync://mirrors.hust.edu.cn/gnu/)
++ '[' '' == '' ']'
++ ALIAS='    gnu'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    gnu\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 15 + 1
++ COUNT=16
++ continue
++ '[' 16 -le 28 ']'
+++ sed -n 16p /home/sync/tmp/name.tmp
++ NAME='    kali'
++ alias=
++ kali
++ destination=/mirrorsxgxy/kali/
++ source=(rsync://kali.mirror.garr.it/kali/ rsync://archive-4.kali.org/kali/ rsync://mirrors.hust.edu.cn/kali/ rsync://mirrors.hustunique.com/kali/ rsync://mirrors.ustc.edu.cn/kali/)
++ '[' '' == '' ']'
++ ALIAS='    kali'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    kali\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 16 + 1
++ COUNT=17
++ continue
++ '[' 17 -le 28 ']'
+++ sed -n 17p /home/sync/tmp/name.tmp
++ NAME='    kali-images'
++ alias=
++ kali-images
++ destination=/mirrorsxgxy/kali-images/
++ source=(rsync://kali.mirror.garr.it/kali-images/ rsync://archive-4.kali.org/kali-images/ rsync://mirrors.hust.edu.cn/kali-images/)
++ '[' '' == '' ']'
++ ALIAS='    kali-images'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    kali-images\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 17 + 1
++ COUNT=18
++ continue
++ '[' 18 -le 28 ']'
+++ sed -n 18p /home/sync/tmp/name.tmp
++ NAME='    kali-security'
++ alias=
++ kali-security
++ destination=/mirrorsxgxy/kali-security/
++ source=(rsync://kali.mirror.garr.it/kali-security/ rsync://archive-4.kali.org/kali-security/ rsync://mirrors.hust.edu.cn/kali-security/)
++ '[' '' == '' ']'
++ ALIAS='    kali-security'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    kali-security\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 18 + 1
++ COUNT=19
++ continue
++ '[' 19 -le 28 ']'
+++ sed -n 19p /home/sync/tmp/name.tmp
++ NAME='    linuxmint'
++ alias=
++ linuxmint
++ destination=/mirrorsxgxy/linuxmint/
++ source=(rsync://packages.linuxmint.com/packages/ rsync://mirrors.hust.edu.cn/linuxmint/)
++ '[' '' == '' ']'
++ ALIAS='    linuxmint'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    linuxmint\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 19 + 1
++ COUNT=20
++ continue
++ '[' 20 -le 28 ']'
+++ sed -n 20p /home/sync/tmp/name.tmp
++ NAME='    linuxmint-cd'
++ alias=
++ linuxmint-cd
++ destination=/mirrorsxgxy/linuxmint-cd/
++ source=(rsync://ftp.heanet.ie/pub/linuxmint.com/ rsync://mirrors.hust.edu.cn/linuxmint-cd/ rsync://mirrors.hustunique.com/linuxmint-cd/)
++ '[' '' == '' ']'
++ ALIAS='    linuxmint-cd'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    linuxmint-cd\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 20 + 1
++ COUNT=21
++ continue
++ '[' 21 -le 28 ']'
+++ sed -n 21p /home/sync/tmp/name.tmp
++ NAME='    opensuse'
++ alias=
++ opensuse
++ destination=/mirrorswlzx/opensuse/
++ source=(rsync://stage.opensuse.org/opensuse-full-with-factory/opensuse/ rsync://mirrors.hust.edu.cn/opensuse/ rsync://mirrors.hustunique.com/opensuse/ rsync://mirrors.ustc.edu.cn/opensuse/)
++ '[' '' == '' ']'
++ ALIAS='    opensuse'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    opensuse\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 21 + 1
++ COUNT=22
++ continue
++ '[' 22 -le 28 ']'
+++ sed -n 22p /home/sync/tmp/name.tmp
++ NAME='    packman'
++ alias=
++ packman
++ destination=/mirrorswlzx/packman/
++ source=(rsync://mirrors.hust.edu.cn/packman/)
++ '[' '' == '' ']'
++ ALIAS='    packman'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    packman\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 22 + 1
++ COUNT=23
++ continue
++ '[' 23 -le 28 ']'
+++ sed -n 23p /home/sync/tmp/name.tmp
++ NAME='    raspbian'
++ alias=
++ raspbian
++ destination=/mirrorswlzx/raspbian/
++ source=(rsync://archive.raspbian.org/archive/ rsync://mirrors.hust.edu.cn/raspbian/)
++ '[' '' == '' ']'
++ ALIAS='    raspbian'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    raspbian\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 23 + 1
++ COUNT=24
++ continue
++ '[' 24 -le 28 ']'
+++ sed -n 24p /home/sync/tmp/name.tmp
++ NAME='    remi'
++ alias=
++ remi
++ destination=/mirrorswlzx/remi/
++ source=(rsync://remi.famillecollet.com/ rsync://mirrors.hustunique.com/remi/)
++ '[' '' == '' ']'
++ ALIAS='    remi'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    remi\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 24 + 1
++ COUNT=25
++ continue
++ '[' 25 -le 28 ']'
+++ sed -n 25p /home/sync/tmp/name.tmp
++ NAME='    repoforge'
++ alias=
++ repoforge
++ destination=/mirrorswlzx/repoforge/
++ source=(rsync://ftp.riken.jp/repoforge/ rsync://mirrors.hustunique.com/repoforge/)
++ '[' '' == '' ']'
++ ALIAS='    repoforge'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    repoforge\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 25 + 1
++ COUNT=26
++ continue
++ '[' 26 -le 28 ']'
+++ sed -n 26p /home/sync/tmp/name.tmp
++ NAME='    rpmfusion'
++ alias=
++ rpmfusion
++ destination=/mirrorswlzx/rpmfusion/
++ source=(rsync://download1.rpmfusion.org/rpmfusion rsync://fr2.rpmfind.net/linux/rpmfusion/ rsync://mirrors.hust.edu.cn/rpmfusion/ rsync://mirrors.hustunique.com/rpmfusion/ rsync://mirrors.ustc.edu.cn/rpmfusion/)
++ '[' '' == '' ']'
++ ALIAS='    rpmfusion'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    rpmfusion\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 26 + 1
++ COUNT=27
++ continue
++ '[' 27 -le 28 ']'
+++ sed -n 27p /home/sync/tmp/name.tmp
++ NAME='    ubuntu'
++ alias=
++ ubuntu
++ destination=/mirrorswlzx/ubuntu/
++ source=(rsync://archive.ubuntu.com/ubuntu)
++ '[' '' == '' ']'
++ ALIAS='    ubuntu'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    ubuntu\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 27 + 1
++ COUNT=28
++ continue
++ '[' 28 -le 28 ']'
+++ sed -n 28p /home/sync/tmp/name.tmp
++ NAME='    ubuntu-releases'
++ alias=
++ ubuntu-releases
++ destination=/mirrorswlzx/ubuntu-releases/
++ source=(rsync://rsync.releases.ubuntu.com/releases/)
++ '[' '' == '' ']'
++ ALIAS='    ubuntu-releases'
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.    ubuntu-releases\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/
++ '[' /home/sync/log/ == /home/sync/log/ ']'
+++ expr 28 + 1
++ COUNT=29
++ continue
++ '[' 29 -le 28 ']'
++ cp /home/sync/tmp/stat.10061.tmp /home/sync/var/stat
++ rm /home/sync/tmp/stat.10061.tmp
++ rm /home/sync/tmp/stat.2069.last.tmp
++ rm -f /home/sync/var/stating.lock
++ exit 0

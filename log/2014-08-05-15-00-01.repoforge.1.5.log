@@ -1,0 +1,5 @@
+2014-08-05 15:13:29
+rsync://ftp.riken.jp/repoforge/
+
+receiving file list ... io timeout after 120 seconds -- exiting
+rsync error: timeout in data send/receive (code 30) at io.c(200) [receiver=3.0.6]

@@ -1,0 +1,104 @@
+2014-08-06 03:00:02
+rsync://kali.mirror.garr.it/kali/
+
+receiving file list ... done
+./
+Archive-Update-in-Progress-mirror3.mirror.garr.it
+dists/kali-dev-only/
+dists/kali-dev-only/main/binary-amd64/
+dists/kali-dev-only/main/binary-armel/
+dists/kali-dev-only/main/binary-armhf/
+dists/kali-dev-only/main/binary-i386/
+dists/kali-dev-only/main/source/
+dists/kali-dev-only/non-free/binary-amd64/
+dists/kali-dev-only/non-free/binary-armel/
+dists/kali-dev-only/non-free/binary-armhf/
+dists/kali-dev-only/non-free/binary-i386/
+dists/kali-dev-only/non-free/source/
+dists/kali-dev/
+dists/kali-dev/Contents-amd64.gz
+dists/kali-dev/Contents-armel.gz
+dists/kali-dev/Contents-armhf.gz
+dists/kali-dev/Contents-i386.gz
+dists/kali-dev/main/
+dists/kali-dev/main/Contents-amd64.gz
+dists/kali-dev/main/Contents-armel.gz
+dists/kali-dev/main/Contents-armhf.gz
+dists/kali-dev/main/Contents-i386.gz
+dists/kali-dev/main/binary-amd64/
+dists/kali-dev/main/binary-armel/
+dists/kali-dev/main/binary-armhf/
+dists/kali-dev/main/binary-i386/
+dists/kali-dev/main/source/
+dists/kali-dev/non-free/
+dists/kali-dev/non-free/Contents-amd64.gz
+dists/kali-dev/non-free/Contents-armel.gz
+dists/kali-dev/non-free/Contents-armhf.gz
+dists/kali-dev/non-free/Contents-i386.gz
+dists/kali-dev/non-free/binary-amd64/
+dists/kali-dev/non-free/binary-armel/
+dists/kali-dev/non-free/binary-armhf/
+dists/kali-dev/non-free/binary-i386/
+dists/kali-dev/non-free/source/
+dists/kali-rolling/
+dists/kali-rolling/Contents-amd64.gz
+dists/kali-rolling/Contents-armel.gz
+dists/kali-rolling/Contents-armhf.gz
+dists/kali-rolling/Contents-i386.gz
+dists/kali-rolling/contrib/
+dists/kali-rolling/contrib/Contents-amd64.gz
+dists/kali-rolling/contrib/Contents-armel.gz
+dists/kali-rolling/contrib/Contents-armhf.gz
+dists/kali-rolling/contrib/Contents-i386.gz
+dists/kali-rolling/contrib/binary-amd64/
+dists/kali-rolling/contrib/binary-armel/
+dists/kali-rolling/contrib/binary-armhf/
+dists/kali-rolling/contrib/binary-i386/
+dists/kali-rolling/contrib/source/
+dists/kali-rolling/main/
+dists/kali-rolling/main/Contents-amd64.gz
+dists/kali-rolling/main/Contents-armel.gz
+dists/kali-rolling/main/Contents-armhf.gz
+dists/kali-rolling/main/Contents-i386.gz
+dists/kali-rolling/main/binary-amd64/
+dists/kali-rolling/main/binary-armel/
+dists/kali-rolling/main/binary-armhf/
+dists/kali-rolling/main/binary-i386/
+dists/kali-rolling/main/debian-installer/binary-amd64/
+dists/kali-rolling/main/debian-installer/binary-armel/
+dists/kali-rolling/main/debian-installer/binary-armhf/
+dists/kali-rolling/main/debian-installer/binary-i386/
+dists/kali-rolling/main/source/
+dists/kali-rolling/non-free/
+dists/kali-rolling/non-free/Contents-amd64.gz
+dists/kali-rolling/non-free/Contents-armel.gz
+dists/kali-rolling/non-free/Contents-armhf.gz
+dists/kali-rolling/non-free/Contents-i386.gz
+dists/kali-rolling/non-free/binary-amd64/
+dists/kali-rolling/non-free/binary-armel/
+dists/kali-rolling/non-free/binary-armhf/
+dists/kali-rolling/non-free/binary-i386/
+dists/kali-rolling/non-free/source/
+pool/main/d/dradis/
+file has vanished: "/pool/main/d/dradis/.dradis_2.9.0-0kali3_i386.deb.0AgEsw" (in kali)
+pool/main/d/dradis/dradis_2.9.0-0kali3.debian.tar.xz
+pool/main/d/dradis/dradis_2.9.0-0kali3.dsc
+pool/main/d/dradis/dradis_2.9.0-0kali3_amd64.changes
+pool/main/d/dradis/dradis_2.9.0-0kali3_amd64.deb
+pool/main/d/dradis/dradis_2.9.0-0kali3_i386.changes
+
+Number of files: 339450
+Number of files transferred: 34
+Total file size: 364718916290 bytes
+Total transferred file size: 466444124 bytes
+Literal data: 431903387 bytes
+Matched data: 34540737 bytes
+File list size: 8472881
+File list generation time: 401.088 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 538442
+Total bytes received: 440460732
+
+sent 538442 bytes  received 440460732 bytes  453469.59 bytes/sec
+total size is 364718916290  speedup is 827.03
+rsync warning: some files vanished before they could be transferred (code 24) at main.c(1505) [generator=3.0.6]

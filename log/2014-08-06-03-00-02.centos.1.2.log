@@ -1,0 +1,29 @@
+2014-08-06 03:16:08
+rsync://us-msync.centos.org/CentOS/
+
+msync.CentOS.org rsync service (centosv)
+---------------------------------------
+
+This service is intended for the sole use of the CentOS worldwide mirror network
+to synchronize mirrors.
+
+Unless you are running or intending to run a listed public CentOS mirror
+use a mirror listed at http://centos.org/download/mirrors
+
+If you intend to populate a mirror for public use please read the
+notes at http://wiki.centos.org/HowTos/CreatePublicMirrors
+
+If you do use this service then it is implied that you are providing a
+mirror for public use and giving us authority to publicise such mirror.
+
+receiving file list ... done
+./
+TIME
+dir_sizes
+filelist.gz
+timestamp.txt
+rsync error: timeout in data send/receive (code 30) at io.c(200) [sender=3.0.6]
+rsync: connection unexpectedly closed (2384977 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [receiver=3.0.6]
+rsync: connection unexpectedly closed (2382438 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]

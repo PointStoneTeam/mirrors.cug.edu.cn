@@ -1,0 +1,28 @@
+2014-05-17 21:41:18
+rsync://mirrors.hust.edu.cn/kali-security/
+Welcome to HUST Mirror Site!
+This site is sponsored by Network and Computation Center of Huazhong University of Science and Technology and maintained by DianGroup, HUST.
+You can contact us by sending us email via mirror@hust.edu.cn.
+
+
+receiving incremental file list
+created directory /mirrors/kali-security
+./
+README
+dists/
+dists/stable -> kali
+dists/debian/
+dists/debian/InRelease
+dists/debian/Release
+dists/debian/Release.gpg
+dists/debian/contrib/
+dists/debian/contrib/binary-amd64/
+dists/debian/contrib/binary-amd64/Packages
+dists/debian/contrib/binary-amd64/Packages.gz
+dists/debian/contrib/binary-amd64/Release
+dists/debian/contrib/binary-armel/
+dists/debian/contrib/binary-armel/Packages
+dists/debian/contrib/binary-armel/Packages.gz
+dists/debian/contrib/binary-armel/Release
+rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(544) [receiver=3.0.6]
+rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(544) [generator=3.0.6]

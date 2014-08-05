@@ -1,0 +1,82 @@
+2014-08-05 16:00:02
+rsync://packages.linuxdeepin.com/cdimage/
+receiving file list ... done
+ignoring unsafe symlink "/mirrorswlzx/deepin-cd/favicon.ico" -> "../favicon.ico"
+./
+daily-live/
+releases-archive/
+releases-archive/10.06/
+releases-archive/10.12/
+releases-archive/2013/
+releases-archive/2013/desktop-en/
+releases-archive/2013/desktop-zh-hant/
+releases-archive/2013/desktop/
+releases-archive/9.12/
+releases/
+releases/11.06/
+releases/11.12.1/
+releases/11.12.1/en/
+releases/11.12.1/zh-hans/
+releases/11.12.1/zh-hant/
+releases/11.12/
+releases/12.06/
+releases/12.06/beta1/
+releases/12.06/beta1/desktop-en/
+releases/12.06/beta1/desktop-zh-hant/
+releases/12.06/beta1/desktop/
+releases/12.06/beta2/
+releases/12.06/beta2/desktop-en/
+releases/12.06/beta2/desktop-zh-hant/
+releases/12.06/beta2/desktop/
+releases/12.06/final/
+releases/12.06/final/desktop-en/
+releases/12.06/final/desktop-zh-hant/
+releases/12.06/final/desktop/
+releases/12.06/rc/
+releases/12.06/rc/desktop-en/
+releases/12.06/rc/desktop-zh-hant/
+releases/12.06/rc/desktop/
+releases/12.12.1/
+releases/12.12.1/desktop-en/
+releases/12.12.1/desktop-zh-hant/
+releases/12.12.1/desktop/
+releases/12.12/
+releases/12.12/alpha/
+releases/12.12/beta/
+releases/12.12/final/
+releases/12.12/final/desktop-en/
+releases/12.12/final/desktop-zh-hant/
+releases/12.12/final/desktop/
+releases/12.12/rc/
+releases/2013.1/
+releases/2013.1/desktop-en/
+releases/2013.1/desktop-zh-hant/
+releases/2013.1/desktop/
+releases/2014/
+releases/2014/alpha/
+releases/2014/alpha/desktop-en/
+releases/2014/alpha/desktop/
+releases/2014/beta/
+releases/2014/beta/desktop-en/
+releases/2014/beta/desktop-zh-hant/
+releases/2014/beta/desktop/
+releases/2014/final/
+releases/2014/rc/
+releases/2014/rc/desktop-en/
+releases/2014/rc/desktop-zh-hant/
+releases/2014/rc/desktop/
+
+Number of files: 454
+Number of files transferred: 0
+Total file size: 90299897125 bytes
+Total transferred file size: 0 bytes
+Literal data: 0 bytes
+Matched data: 0 bytes
+File list size: 10640
+File list generation time: 0.003 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 1402
+Total bytes received: 12033
+
+sent 1402 bytes  received 12033 bytes  150.11 bytes/sec
+total size is 90299897125  speedup is 6721242.81

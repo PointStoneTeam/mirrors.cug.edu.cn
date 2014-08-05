@@ -1,0 +1,35 @@
+2014-08-05 21:43:34
+rsync://rsync.cn.gentoo.org/gentoo/
+
+#############################################################
+#                                                           #
+#  Hi,                                                      #
+#                                                           #
+#    This is the Opensource Mirror Hosted and Maintained    #
+#                                                           #
+#  by Information and Network Center of Xiamen University.  #
+#                                                           #
+#  Wish this mirror can help you enjoy free life easily :)  #                
+#                                                           # 
+#    The --checksum (-c) option is disabled to save the     #
+#                                                           #
+#  cpu usage. Thus, please remove the -c before syncing ^_^ #                
+#                                                           #
+#############################################################
+
+
+receiving file list ... done
+./
+distfiles/
+distfiles/PlayOnLinux_4.2.4.tar.gz
+distfiles/ignuit-2.20.0.tar.gz
+distfiles/libbluray-0.6.1.tar.bz2
+distfiles/libdvdcss-1.3.0.tar.bz2
+distfiles/mirall-1.6.2.tar.bz2
+distfiles/nx-libs-3.5.0.27-full.tar.gz
+distfiles/phc-intel-pack-rev16.tar.bz2
+distfiles/plowshare-1.0.4.tar.gz
+io timeout after 121 seconds -- exiting
+rsync error: timeout in data send/receive (code 30) at io.c(200) [receiver=3.0.6]
+rsync: connection unexpectedly closed (1884537 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]

@@ -1,0 +1,23 @@
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mInit[0m]Initializing
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mInit[0m]Starting stat watcheri
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mInit[0m]Checking for logs
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mInit[0m]Obtaining mirror list
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mInit[0m]Ready for syncing [31m0[0m mirror(s)
+[[33m1[0m][[32m2014-05-17-21-38-01[0m][[32mChecking[0m]Prepare to terminate
+[[33m1[0m][[32m2014-05-17-21-38-11[0m][[32mTerminating[0m]Stopping stat watcher
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[32mInit[0m]Initializing
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[33mInit[0m]Making directory [31m"/home/sync/test/log/"[0m
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[33mInit[0m]Making directory [31m"/home/sync/test/var/"[0m
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[33mInit[0m]Making directory [31m"/home/sync/test/tmp/"[0m
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[32mInit[0m]Starting stat watcheri
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[32mInit[0m]Checking for logs
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[32mInit[0m]Obtaining mirror list
+[[33m1[0m][[32m2014-05-17-21-40-48[0m][[32mInit[0m]Ready for syncing [31m2[0m mirror(s)
+[[33m1[0m][[32m2014-05-17-21-40-49[0m][[32mStart[0m]Syncing mirror named [31m"gentoo-portage" 1/2[0m
+[[33m1[0m][[32m2014-05-17-21-40-49[0m][[32mSyncing[0m]Logging in [31m/home/sync/test/log/2014-05-17-21-40-48.gentoo-portage.log[0m
+[[33m1[0m][[32m2014-05-17 21:40:52[0m][Source 1][Trying 1][From rsync://mirrors.ustc.edu.cn/gentoo-portage/][To /mirrors/gentoo-portage/]
+[[33m1[0m][[32m2014-05-17-21-41-18[0m][[32mFinished[0m]Mirror named [31m"gentoo-portage"[0m has been synced
+[[33m1[0m][[32m2014-05-17-21-41-18[0m][[32mStart[0m]Syncing mirror named [31m"kali-security" 2/2[0m
+[[33m1[0m][[32m2014-05-17-21-41-18[0m][[32mSyncing[0m]Logging in [31m/home/sync/test/log/2014-05-17-21-40-48.kali-security.log[0m
+[[33m1[0m][[32m2014-05-17-21-41-19[0m][[32mFinished[0m]Mirror named [31m"kali-security"[0m has been synced
+[[33m1[0m][[32m2014-05-17-21-41-19[0m][[32mChecking[0m]Prepare to terminate

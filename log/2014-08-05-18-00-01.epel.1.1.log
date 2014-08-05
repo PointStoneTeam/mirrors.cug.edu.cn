@@ -1,0 +1,34 @@
+2014-08-05 18:00:02
+rsync://dl.fedoraproject.org/fedora-epel/
+----------------------------
+Fedora Master Mirror Servers
+----------------------------
+Modules for Fedora Core and Extras have been removed, as this content is
+no longer updated. See the instructions below for how to mirror current
+content.
+
+See http://fedoraproject.org/wiki/Infrastructure/Mirroring for
+instructions.
+----------------------------
+
+receiving file list ... done
+./
+fullfilelist
+4/
+4/SRPMS/
+4/SRPMS/headers/
+4/SRPMS/repodata/
+4/SRPMS/repoview/
+4/SRPMS/repoview/layout/
+4/i386/
+4/i386/debug/
+4/i386/debug/headers/
+4/i386/debug/repodata/
+4/i386/debug/repoview/
+4/i386/debug/repoview/layout/
+4/i386/headers/
+rsync error: timeout in data send/receive (code 30) at io.c(137) [sender=3.0.9]
+rsync: connection unexpectedly closed (7366769 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [receiver=3.0.6]
+rsync: connection unexpectedly closed (6986199 bytes received so far) [generator]
+rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]
