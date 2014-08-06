@@ -1,0 +1,1135 @@
++++ dirname shell/stat.sh
+++ cd shell
+++ pwd
++ source /home/sync/shell/../sync.conf
+++ SYNC_ROOT=/home/sync/
+++ MAIN_LOG=/home/sync/sync.log
+++ LOG_DIR=/home/sync/log/
+++ VAR_DIR=/home/sync/var/
+++ TMP_DIR=/home/sync/tmp/
+++ MAX_LOG_FILE=500
+++ EACH_SOURCE_MAX_RETRY=5
+++ EACH_SOURCE_TIMEOUT=30
+++ PARALLEL_POOL=30
+++ SKIP_ERRORS=("error in socket IO (code 10)")
+++ GO_LOG_DIR=/mirrors/logs/
+++ GO_HTML_DIR=/var/www/html/server/goaccess/
++ STAT_LOCK=/home/sync/var/stating.lock
++ '[' -e /home/sync/var/stating.lock ']'
++ echo 5538
++ chmod 600 /home/sync/var/stating.lock
++ trap 'rm -f /home/sync/var/stating.lock; exit 0' 0 1 2 3 9 15
++ STAT_FILE=/home/sync/var/stat
++ LAST_STAT=/home/sync/tmp/stat.18032.last.tmp
++ STAT_BUFFER=/home/sync/tmp/stat.8689.tmp
++ '[' '!' -f /home/sync/var/stat ']'
++ cp /home/sync/var/stat /home/sync/tmp/stat.18032.last.tmp
++ NAME_LIST=/home/sync/tmp/name.tmp
++ grep -v '^#\|^$' /home/sync/sync.conf
++ grep '(){'
++ awk -F '(' '{print $1}'
+++ cat /home/sync/tmp/name.tmp
+++ wc -l
++ NUM=29
++ COUNT=1
++ '[' 1 -le 29 ']'
+++ sed -n 1p /home/sync/tmp/name.tmp
++ NAME=apache
++ alias=
++ apache
++ destination=/mirrorswlzx/apache/
++ source=(rsync://rsync.apache.org/apache-dist/)
++ '[' '' == '' ']'
++ ALIAS=apache
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.apache\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.apache.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.apache.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.apache.1.1.log
++ SOURCE=rsync://rsync.apache.org/apache-dist/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.apache.1.1.log
++ START_TIME='2014-08-06 12:00:03'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.apache.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:44:25'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.apache.1.1.log
++ TAIL='total size is 81525469736  speedup is 256702.79'
++ SYNC_LOCK=/home/sync/var/apache.syncing.sub.lock
+++ echo total size is 81525469736 speedup is 256702.79
+++ grep 'total size'
++ '[' 'total size is 81525469736 speedup is 256702.79' '!=' '' ']'
++ STATUS=finished
+++ awk '{print $4}'
+++ echo total size is 81525469736 speedup is 256702.79
++ SIZE=81525469736
++ echo 'apache|81525469736|rsync://rsync.apache.org/apache-dist/|2014-08-06 12:00:03|2014-08-06 12:44:25|finished'
+++ expr 1 + 1
++ COUNT=2
++ '[' 2 -le 29 ']'
+++ sed -n 2p /home/sync/tmp/name.tmp
++ NAME=archlinux
++ alias=
++ archlinux
++ destination=/mirrorswlzx/archlinux/
++ source=(rsync://mirrors.hustunique.com/archlinux/)
++ '[' '' == '' ']'
++ ALIAS=archlinux
+++ ls -l /home/sync/log/
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.archlinux\.'
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log
++ '[' /home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log
++ SOURCE=rsync://mirrors.hustunique.com/archlinux/
+++ head -1 /home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log
++ START_TIME='2014-08-06 11:38:26'
+++ stat -c %y /home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:23:12'
+++ tail -1 /home/sync/log/2014-08-06-06-12-53.archlinux.1.2.log
++ TAIL=extra/
++ SYNC_LOCK=/home/sync/var/archlinux.syncing.sub.lock
+++ echo extra/
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo extra/
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/archlinux.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ head -1
+++ awk -F '|' '{print $2}'
+++ grep '^archlinux|'
++ SIZE=
++ echo 'archlinux||rsync://mirrors.hustunique.com/archlinux/|2014-08-06 11:38:26|2014-08-06 13:23:12|syncing'
+++ expr 2 + 1
++ COUNT=3
++ '[' 3 -le 29 ']'
+++ sed -n 3p /home/sync/tmp/name.tmp
++ NAME=centos
++ alias=
++ centos
++ destination=/mirrorswlzx/centos/
++ source=(rsync://us-msync.centos.org/CentOS/)
++ '[' '' == '' ']'
++ ALIAS=centos
+++ grep '\.centos\.'
+++ awk '{print $9}'
+++ tail -1
+++ ls -l /home/sync/log/
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.centos.1.5.log
++ '[' /home/sync/log/2014-08-06-12-00-01.centos.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.centos.1.5.log
++ SOURCE=rsync://us-msync.centos.org/CentOS/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.centos.1.5.log
++ START_TIME='2014-08-06 12:40:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.centos.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:49:18'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.centos.1.5.log
++ TAIL='rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]'
++ SYNC_LOCK=/home/sync/var/centos.syncing.sub.lock
+++ grep 'total size'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' '' '!=' '' ']'
+++ grep 'rsync error'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' 'rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]' '!=' '' ']'
++ STATUS=error
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^centos|'
++ SIZE=
++ echo 'centos||rsync://us-msync.centos.org/CentOS/|2014-08-06 12:40:02|2014-08-06 12:49:18|error'
+++ expr 3 + 1
++ COUNT=4
++ '[' 4 -le 29 ']'
+++ sed -n 4p /home/sync/tmp/name.tmp
++ NAME=cygwin
++ alias=
++ cygwin
++ destination=/mirrorswlzx/cygwin/
++ source=(rsync://sourceware.org/cygwin-ftp/)
++ '[' '' == '' ']'
++ ALIAS=cygwin
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.cygwin\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log
++ '[' /home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log
++ SOURCE=rsync://sourceware.org/cygwin-ftp/
+++ head -1 /home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log
++ START_TIME='2014-08-06 11:29:24'
+++ stat -c %y /home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:23:58'
+++ tail -1 /home/sync/log/2014-08-06-06-12-53.cygwin.1.5.log
++ TAIL=x86_64/release/octave/octave-splines/
++ SYNC_LOCK=/home/sync/var/cygwin.syncing.sub.lock
+++ echo x86_64/release/octave/octave-splines/
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo x86_64/release/octave/octave-splines/
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/cygwin.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^cygwin|'
++ SIZE=
++ echo 'cygwin||rsync://sourceware.org/cygwin-ftp/|2014-08-06 11:29:24|2014-08-06 13:23:58|syncing'
+++ expr 4 + 1
++ COUNT=5
++ '[' 5 -le 29 ']'
+++ sed -n 5p /home/sync/tmp/name.tmp
++ NAME=debian
++ alias=
++ debian
++ destination=/mirrorsxgxy/debian/
++ source=(rsync://ftp.cn.debian.org/debian/)
++ '[' '' == '' ']'
++ ALIAS=debian
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.debian\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.debian.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.debian.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.debian.1.1.log
++ SOURCE=rsync://ftp.cn.debian.org/debian/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.debian.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.debian.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:03:27'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.debian.1.1.log
++ TAIL='total size is 969176908804  speedup is 3516.17'
++ SYNC_LOCK=/home/sync/var/debian.syncing.sub.lock
+++ echo total size is 969176908804 speedup is 3516.17
+++ grep 'total size'
++ '[' 'total size is 969176908804 speedup is 3516.17' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 969176908804 speedup is 3516.17
+++ awk '{print $4}'
++ SIZE=969176908804
++ echo 'debian|969176908804|rsync://ftp.cn.debian.org/debian/|2014-08-06 12:00:02|2014-08-06 12:03:27|finished'
+++ expr 5 + 1
++ COUNT=6
++ '[' 6 -le 29 ']'
+++ sed -n 6p /home/sync/tmp/name.tmp
++ NAME=debian-cd
++ alias=
++ debian-cd
++ destination=/mirrorsxgxy/debian-cd/
++ source=(rsync://ftp.cn.debian.org/debian-cd/)
++ '[' '' == '' ']'
++ ALIAS=debian-cd
+++ awk '{print $9}'
+++ grep '\.debian-cd\.'
+++ tail -1
+++ ls -l /home/sync/log/
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log
++ SOURCE=rsync://ftp.cn.debian.org/debian-cd/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log
++ START_TIME='2014-08-06 12:00:03'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:04'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.debian-cd.1.1.log
++ TAIL='total size is 325544214719  speedup is 2351518.45'
++ SYNC_LOCK=/home/sync/var/debian-cd.syncing.sub.lock
+++ echo total size is 325544214719 speedup is 2351518.45
+++ grep 'total size'
++ '[' 'total size is 325544214719 speedup is 2351518.45' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 325544214719 speedup is 2351518.45
+++ awk '{print $4}'
++ SIZE=325544214719
++ echo 'debian-cd|325544214719|rsync://ftp.cn.debian.org/debian-cd/|2014-08-06 12:00:03|2014-08-06 12:00:04|finished'
+++ expr 6 + 1
++ COUNT=7
++ '[' 7 -le 29 ']'
+++ sed -n 7p /home/sync/tmp/name.tmp
++ NAME=debian-security
++ alias=
++ debian-security
++ destination=/mirrorsxgxy/debian-security/
++ source=(rsync://security.debian.org/debian-security/)
++ '[' '' == '' ']'
++ ALIAS=debian-security
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.debian-security\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log
++ SOURCE=rsync://security.debian.org/debian-security/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log
++ START_TIME='2014-08-06 12:00:03'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:24'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.debian-security.1.1.log
++ TAIL='total size is 57748732866  speedup is 49390.95'
++ SYNC_LOCK=/home/sync/var/debian-security.syncing.sub.lock
+++ echo total size is 57748732866 speedup is 49390.95
+++ grep 'total size'
++ '[' 'total size is 57748732866 speedup is 49390.95' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 57748732866 speedup is 49390.95
+++ awk '{print $4}'
++ SIZE=57748732866
++ echo 'debian-security|57748732866|rsync://security.debian.org/debian-security/|2014-08-06 12:00:03|2014-08-06 12:00:24|finished'
+++ expr 7 + 1
++ COUNT=8
++ '[' 8 -le 29 ']'
+++ sed -n 8p /home/sync/tmp/name.tmp
++ NAME=deepin
++ alias=
++ deepin
++ destination=/mirrorswlzx/deepin/
++ source=(rsync://packages.linuxdeepin.com/packages/)
++ '[' '' == '' ']'
++ ALIAS=deepin
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.deepin\.'
+++ ls -l /home/sync/log/
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.deepin.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.deepin.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.deepin.1.1.log
++ SOURCE=rsync://packages.linuxdeepin.com/packages/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.deepin.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.deepin.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:09:39'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.deepin.1.1.log
++ TAIL='total size is 62589354836  speedup is 74975.18'
++ SYNC_LOCK=/home/sync/var/deepin.syncing.sub.lock
+++ echo total size is 62589354836 speedup is 74975.18
+++ grep 'total size'
++ '[' 'total size is 62589354836 speedup is 74975.18' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 62589354836 speedup is 74975.18
+++ awk '{print $4}'
++ SIZE=62589354836
++ echo 'deepin|62589354836|rsync://packages.linuxdeepin.com/packages/|2014-08-06 12:00:02|2014-08-06 13:09:39|finished'
+++ expr 8 + 1
++ COUNT=9
++ '[' 9 -le 29 ']'
+++ sed -n 9p /home/sync/tmp/name.tmp
++ NAME=deepin-cd
++ alias=
++ deepin-cd
++ destination=/mirrorswlzx/deepin-cd/
++ source=(rsync://packages.linuxdeepin.com/cdimage/)
++ '[' '' == '' ']'
++ ALIAS=deepin-cd
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.deepin-cd\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log
++ SOURCE=rsync://packages.linuxdeepin.com/cdimage/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:02:13'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.deepin-cd.1.1.log
++ TAIL='total size is 90299897125  speedup is 6721242.81'
++ SYNC_LOCK=/home/sync/var/deepin-cd.syncing.sub.lock
+++ echo total size is 90299897125 speedup is 6721242.81
+++ grep 'total size'
++ '[' 'total size is 90299897125 speedup is 6721242.81' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 90299897125 speedup is 6721242.81
+++ awk '{print $4}'
++ SIZE=90299897125
++ echo 'deepin-cd|90299897125|rsync://packages.linuxdeepin.com/cdimage/|2014-08-06 12:00:02|2014-08-06 12:02:13|finished'
+++ expr 9 + 1
++ COUNT=10
++ '[' 10 -le 29 ']'
+++ sed -n 10p /home/sync/tmp/name.tmp
++ NAME=eclipse
++ alias=
++ eclipse
++ destination=/mirrorsxgxy/eclipse/
++ source=(rsync://rsync.osuosl.org/eclipse/)
++ '[' '' == '' ']'
++ ALIAS=eclipse
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.eclipse\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log
++ SOURCE=rsync://rsync.osuosl.org/eclipse/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:15:50'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.eclipse.1.1.log
++ TAIL='total size is 499156138458  speedup is 1283.70'
++ SYNC_LOCK=/home/sync/var/eclipse.syncing.sub.lock
+++ echo total size is 499156138458 speedup is 1283.70
+++ grep 'total size'
++ '[' 'total size is 499156138458 speedup is 1283.70' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 499156138458 speedup is 1283.70
+++ awk '{print $4}'
++ SIZE=499156138458
++ echo 'eclipse|499156138458|rsync://rsync.osuosl.org/eclipse/|2014-08-06 12:00:02|2014-08-06 12:15:50|finished'
+++ expr 10 + 1
++ COUNT=11
++ '[' 11 -le 29 ']'
+++ sed -n 11p /home/sync/tmp/name.tmp
++ NAME=epel
++ alias=
++ epel
++ destination=/mirrorswlzx/epel/
++ source=(rsync://dl.fedoraproject.org/fedora-epel/)
++ '[' '' == '' ']'
++ ALIAS=epel
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.epel\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.epel.1.5.log
++ '[' /home/sync/log/2014-08-06-12-00-01.epel.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.epel.1.5.log
++ SOURCE=rsync://dl.fedoraproject.org/fedora-epel/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.epel.1.5.log
++ START_TIME='2014-08-06 12:21:11'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.epel.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:26:15'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.epel.1.5.log
++ TAIL='rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]'
++ SYNC_LOCK=/home/sync/var/epel.syncing.sub.lock
+++ grep 'total size'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' '' '!=' '' ']'
+++ grep 'rsync error'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' 'rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]' '!=' '' ']'
++ STATUS=error
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^epel|'
++ SIZE=
++ echo 'epel||rsync://dl.fedoraproject.org/fedora-epel/|2014-08-06 12:21:11|2014-08-06 12:26:15|error'
+++ expr 11 + 1
++ COUNT=12
++ '[' 12 -le 29 ']'
+++ sed -n 12p /home/sync/tmp/name.tmp
++ NAME=fedora
++ alias=
++ fedora
++ destination=/mirrorsxgxy/fedora/
++ source=(rsync://dl.fedoraproject.org/fedora-enchilada/linux/)
++ '[' '' == '' ']'
++ ALIAS=fedora
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ tail -1
+++ grep '\.fedora\.'
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-54.fedora.1.2.log
++ '[' /home/sync/log/2014-08-06-06-12-54.fedora.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-54.fedora.1.2.log
++ SOURCE=rsync://dl.fedoraproject.org/fedora-enchilada/linux/
+++ head -1 /home/sync/log/2014-08-06-06-12-54.fedora.1.2.log
++ START_TIME='2014-08-06 12:55:41'
+++ stat -c %y /home/sync/log/2014-08-06-06-12-54.fedora.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:24:09'
+++ tail -1 /home/sync/log/2014-08-06-06-12-54.fedora.1.2.log
++ TAIL=development/21/armhfp/os/Packages/a/asl-1.42-0.20.bld92.fc21.armv7hl.rpm
++ SYNC_LOCK=/home/sync/var/fedora.syncing.sub.lock
+++ echo development/21/armhfp/os/Packages/a/asl-1.42-0.20.bld92.fc21.armv7hl.rpm
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo development/21/armhfp/os/Packages/a/asl-1.42-0.20.bld92.fc21.armv7hl.rpm
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/fedora.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ head -1
+++ awk -F '|' '{print $2}'
+++ grep '^fedora|'
++ SIZE=
++ echo 'fedora||rsync://dl.fedoraproject.org/fedora-enchilada/linux/|2014-08-06 12:55:41|2014-08-06 13:24:09|syncing'
+++ expr 12 + 1
++ COUNT=13
++ '[' 13 -le 29 ']'
+++ sed -n 13p /home/sync/tmp/name.tmp
++ NAME=gentoo
++ alias=
++ gentoo
++ destination=/mirrorswlzx/gentoo/
++ source=(rsync://rsync.cn.gentoo.org/gentoo/)
++ '[' '' == '' ']'
++ ALIAS=gentoo
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.gentoo\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log
++ '[' /home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log
++ SOURCE=rsync://rsync.cn.gentoo.org/gentoo/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log
++ START_TIME='2014-08-06 13:00:34'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:00:53'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.gentoo.1.2.log
++ TAIL='receiving file list ... done'
++ SYNC_LOCK=/home/sync/var/gentoo.syncing.sub.lock
+++ echo receiving file list ... done
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo receiving file list ... done
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/gentoo.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ head -1
+++ awk -F '|' '{print $2}'
+++ grep '^gentoo|'
++ SIZE=
++ echo 'gentoo||rsync://rsync.cn.gentoo.org/gentoo/|2014-08-06 13:00:34|2014-08-06 13:00:53|syncing'
+++ expr 13 + 1
++ COUNT=14
++ '[' 14 -le 29 ']'
+++ sed -n 14p /home/sync/tmp/name.tmp
++ NAME=gentoo-portage
++ alias=
++ gentoo-portage
++ destination=/mirrorswlzx/gentoo-portage/
++ source=(rsync://ftp.ussg.iu.edu/gentoo-portage/)
++ '[' '' == '' ']'
++ ALIAS=gentoo-portage
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.gentoo-portage\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log
++ '[' /home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log
++ SOURCE=rsync://ftp.ussg.iu.edu/gentoo-portage/
+++ head -1 /home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log
++ START_TIME='2014-08-06 11:30:26'
+++ stat -c %y /home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:24:10'
+++ tail -1 /home/sync/log/2014-08-06-06-12-54.gentoo-portage.1.5.log
++ TAIL=dev-haskell/dlist/
++ SYNC_LOCK=/home/sync/var/gentoo-portage.syncing.sub.lock
+++ echo dev-haskell/dlist/
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo dev-haskell/dlist/
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/gentoo-portage.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ head -1
+++ awk -F '|' '{print $2}'
+++ grep '^gentoo-portage|'
++ SIZE=
++ echo 'gentoo-portage||rsync://ftp.ussg.iu.edu/gentoo-portage/|2014-08-06 11:30:26|2014-08-06 13:24:10|syncing'
+++ expr 14 + 1
++ COUNT=15
++ '[' 15 -le 29 ']'
+++ sed -n 15p /home/sync/tmp/name.tmp
++ NAME=gnu
++ alias=
++ gnu
++ destination=/mirrorswlzx/gnu/
++ source=(rsync://mirror.team-cymru.org/gnu/)
++ '[' '' == '' ']'
++ ALIAS=gnu
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.gnu\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.gnu.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.gnu.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.gnu.1.1.log
++ SOURCE=rsync://mirror.team-cymru.org/gnu/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.gnu.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.gnu.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:13:34'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.gnu.1.1.log
++ TAIL='total size is 42158583041  speedup is 64671.41'
++ SYNC_LOCK=/home/sync/var/gnu.syncing.sub.lock
+++ echo total size is 42158583041 speedup is 64671.41
+++ grep 'total size'
++ '[' 'total size is 42158583041 speedup is 64671.41' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 42158583041 speedup is 64671.41
+++ awk '{print $4}'
++ SIZE=42158583041
++ echo 'gnu|42158583041|rsync://mirror.team-cymru.org/gnu/|2014-08-06 12:00:02|2014-08-06 13:13:34|finished'
+++ expr 15 + 1
++ COUNT=16
++ '[' 16 -le 29 ']'
+++ sed -n 16p /home/sync/tmp/name.tmp
++ NAME=kali
++ alias=
++ kali
++ destination=/mirrorsxgxy/kali/
++ source=(rsync://kali.mirror.garr.it/kali/)
++ '[' '' == '' ']'
++ ALIAS=kali
+++ ls -l /home/sync/log/
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.kali\.'
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.kali.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.kali.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.kali.1.1.log
++ SOURCE=rsync://kali.mirror.garr.it/kali/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.kali.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.kali.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:09:12'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.kali.1.1.log
++ TAIL='total size is 365634628262  speedup is 43150.21'
++ SYNC_LOCK=/home/sync/var/kali.syncing.sub.lock
+++ echo total size is 365634628262 speedup is 43150.21
+++ grep 'total size'
++ '[' 'total size is 365634628262 speedup is 43150.21' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 365634628262 speedup is 43150.21
+++ awk '{print $4}'
++ SIZE=365634628262
++ echo 'kali|365634628262|rsync://kali.mirror.garr.it/kali/|2014-08-06 12:00:02|2014-08-06 12:09:12|finished'
+++ expr 16 + 1
++ COUNT=17
++ '[' 17 -le 29 ']'
+++ sed -n 17p /home/sync/tmp/name.tmp
++ NAME=kali-images
++ alias=
++ kali-images
++ destination=/mirrorsxgxy/kali-images/
++ source=(rsync://kali.mirror.garr.it/kali-images/)
++ '[' '' == '' ']'
++ ALIAS=kali-images
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.kali-images\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log
++ SOURCE=rsync://kali.mirror.garr.it/kali-images/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:07'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.kali-images.1.1.log
++ TAIL='total size is 31769585324  speedup is 12038493.87'
++ SYNC_LOCK=/home/sync/var/kali-images.syncing.sub.lock
+++ echo total size is 31769585324 speedup is 12038493.87
+++ grep 'total size'
++ '[' 'total size is 31769585324 speedup is 12038493.87' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 31769585324 speedup is 12038493.87
+++ awk '{print $4}'
++ SIZE=31769585324
++ echo 'kali-images|31769585324|rsync://kali.mirror.garr.it/kali-images/|2014-08-06 12:00:02|2014-08-06 12:00:07|finished'
+++ expr 17 + 1
++ COUNT=18
++ '[' 18 -le 29 ']'
+++ sed -n 18p /home/sync/tmp/name.tmp
++ NAME=kali-security
++ alias=
++ kali-security
++ destination=/mirrorsxgxy/kali-security/
++ source=(rsync://kali.mirror.garr.it/kali-security/)
++ '[' '' == '' ']'
++ ALIAS=kali-security
+++ ls -l /home/sync/log/
+++ tail -1
+++ awk '{print $9}'
+++ grep '\.kali-security\.'
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log
++ '[' /home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log
++ SOURCE=rsync://kali.mirror.garr.it/kali-security/
+++ head -1 /home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log
++ START_TIME='2014-08-06 12:00:16'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:21'
+++ tail -1 /home/sync/log/2014-08-06-12-00-02.kali-security.1.2.log
++ TAIL='total size is 13424797462  speedup is 97949.75'
++ SYNC_LOCK=/home/sync/var/kali-security.syncing.sub.lock
+++ echo total size is 13424797462 speedup is 97949.75
+++ grep 'total size'
++ '[' 'total size is 13424797462 speedup is 97949.75' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 13424797462 speedup is 97949.75
+++ awk '{print $4}'
++ SIZE=13424797462
++ echo 'kali-security|13424797462|rsync://kali.mirror.garr.it/kali-security/|2014-08-06 12:00:16|2014-08-06 12:00:21|finished'
+++ expr 18 + 1
++ COUNT=19
++ '[' 19 -le 29 ']'
+++ sed -n 19p /home/sync/tmp/name.tmp
++ NAME=linuxmint
++ alias=
++ linuxmint
++ destination=/mirrorsxgxy/linuxmint/
++ source=(rsync://packages.linuxmint.com/packages/)
++ '[' '' == '' ']'
++ ALIAS=linuxmint
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.linuxmint\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log
++ SOURCE=rsync://packages.linuxmint.com/packages/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:11'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.linuxmint.1.1.log
++ TAIL='total size is 16855335670  speedup is 45465.01'
++ SYNC_LOCK=/home/sync/var/linuxmint.syncing.sub.lock
+++ echo total size is 16855335670 speedup is 45465.01
+++ grep 'total size'
++ '[' 'total size is 16855335670 speedup is 45465.01' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 16855335670 speedup is 45465.01
+++ awk '{print $4}'
++ SIZE=16855335670
++ echo 'linuxmint|16855335670|rsync://packages.linuxmint.com/packages/|2014-08-06 12:00:02|2014-08-06 12:00:11|finished'
+++ expr 19 + 1
++ COUNT=20
++ '[' 20 -le 29 ']'
+++ sed -n 20p /home/sync/tmp/name.tmp
++ NAME=linuxmint-cd
++ alias=
++ linuxmint-cd
++ destination=/mirrorsxgxy/linuxmint-cd/
++ source=(rsync://ftp.heanet.ie/pub/linuxmint.com/)
++ '[' '' == '' ']'
++ ALIAS=linuxmint-cd
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.linuxmint-cd\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log
++ SOURCE=rsync://ftp.heanet.ie/pub/linuxmint.com/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log
++ START_TIME='2014-08-06 12:00:03'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:00:07'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.linuxmint-cd.1.1.log
++ TAIL='total size is 194385175458  speedup is 16894244.35'
++ SYNC_LOCK=/home/sync/var/linuxmint-cd.syncing.sub.lock
+++ echo total size is 194385175458 speedup is 16894244.35
+++ grep 'total size'
++ '[' 'total size is 194385175458 speedup is 16894244.35' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 194385175458 speedup is 16894244.35
+++ awk '{print $4}'
++ SIZE=194385175458
++ echo 'linuxmint-cd|194385175458|rsync://ftp.heanet.ie/pub/linuxmint.com/|2014-08-06 12:00:03|2014-08-06 12:00:07|finished'
+++ expr 20 + 1
++ COUNT=21
++ '[' 21 -le 29 ']'
+++ sed -n 21p /home/sync/tmp/name.tmp
++ NAME=opensuse
++ alias=
++ opensuse
++ destination=/mirrorswlzx/opensuse/
++ source=(rsync://mirrors.hustunique.com/opensuse/)
++ '[' '' == '' ']'
++ ALIAS=opensuse
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ tail -1
+++ grep '\.opensuse\.'
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log
++ '[' /home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log
++ SOURCE=distribution/
+++ head -1 /home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log
++ START_TIME=./
+++ stat -c %y /home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:17:45'
+++ tail -1 /home/sync/log/2014-08-06-06-12-54.opensuse.1.2.log
++ TAIL=distribution/12.2/repo/oss/suse/i586/cracklib-dict-full-2.8.12-57.2.1.i586.rpm
++ SYNC_LOCK=/home/sync/var/opensuse.syncing.sub.lock
+++ echo distribution/12.2/repo/oss/suse/i586/cracklib-dict-full-2.8.12-57.2.1.i586.rpm
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo distribution/12.2/repo/oss/suse/i586/cracklib-dict-full-2.8.12-57.2.1.i586.rpm
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/opensuse.syncing.sub.lock ']'
++ STATUS=error
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^opensuse|'
++ SIZE=
++ echo 'opensuse||distribution/|./|2014-08-06 13:17:45|error'
+++ expr 21 + 1
++ COUNT=22
++ '[' 22 -le 29 ']'
+++ sed -n 22p /home/sync/tmp/name.tmp
++ NAME=packman
++ alias=
++ packman
++ destination=/mirrorswlzx/packman/
++ source=(rsync://mirrors.hust.edu.cn/packman/)
++ '[' '' == '' ']'
++ ALIAS=packman
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.packman\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-09-00-02.packman.1.5.log
++ '[' /home/sync/log/2014-08-06-09-00-02.packman.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-09-00-02.packman.1.5.log
++ SOURCE=rsync://mirrors.hust.edu.cn/packman/
+++ head -1 /home/sync/log/2014-08-06-09-00-02.packman.1.5.log
++ START_TIME='2014-08-06 12:03:15'
+++ stat -c %y /home/sync/log/2014-08-06-09-00-02.packman.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:20:13'
+++ tail -1 /home/sync/log/2014-08-06-09-00-02.packman.1.5.log
++ TAIL='rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]'
++ SYNC_LOCK=/home/sync/var/packman.syncing.sub.lock
+++ grep 'total size'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' '' '!=' '' ']'
+++ grep 'rsync error'
+++ echo rsync error: error in rsync protocol data stream '(code' '12)' at 'io.c(600)' '[generator=3.0.6]'
++ '[' 'rsync error: error in rsync protocol data stream (code 12) at io.c(600) [generator=3.0.6]' '!=' '' ']'
++ STATUS=error
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^packman|'
++ SIZE=
++ echo 'packman||rsync://mirrors.hust.edu.cn/packman/|2014-08-06 12:03:15|2014-08-06 12:20:13|error'
+++ expr 22 + 1
++ COUNT=23
++ '[' 23 -le 29 ']'
+++ sed -n 23p /home/sync/tmp/name.tmp
++ NAME=raspbian
++ alias=
++ raspbian
++ destination=/mirrorswlzx/raspbian/
++ source=(rsync://archive.raspbian.org/archive/)
++ '[' '' == '' ']'
++ ALIAS=raspbian
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.raspbian\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log
++ '[' /home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log
++ SOURCE=rsync://archive.raspbian.org/archive/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log
++ START_TIME='2014-08-06 12:31:17'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:23:31'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.raspbian.1.2.log
++ TAIL=raspbian/pool/main/a/audiocd-kio/kdemultimedia-kio-plugins_4.13.3-1_all.deb
++ SYNC_LOCK=/home/sync/var/raspbian.syncing.sub.lock
+++ echo raspbian/pool/main/a/audiocd-kio/kdemultimedia-kio-plugins_4.13.3-1_all.deb
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo raspbian/pool/main/a/audiocd-kio/kdemultimedia-kio-plugins_4.13.3-1_all.deb
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/raspbian.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ head -1
+++ awk -F '|' '{print $2}'
+++ grep '^raspbian|'
++ SIZE=
++ echo 'raspbian||rsync://archive.raspbian.org/archive/|2014-08-06 12:31:17|2014-08-06 13:23:31|syncing'
+++ expr 23 + 1
++ COUNT=24
++ '[' 24 -le 29 ']'
+++ sed -n 24p /home/sync/tmp/name.tmp
++ NAME=remi
++ alias=
++ remi
++ destination=/mirrorswlzx/remi/
++ source=(rsync://mirrors.hustunique.com/remi/)
++ '[' '' == '' ']'
++ ALIAS=remi
+++ awk '{print $9}'
+++ ls -l /home/sync/log/
+++ tail -1
+++ grep '\.remi\.'
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-54.remi.1.3.log
++ '[' /home/sync/log/2014-08-06-06-12-54.remi.1.3.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-54.remi.1.3.log
++ SOURCE=enterprise/4/remi/x86_64/repoview/
+++ head -1 /home/sync/log/2014-08-06-06-12-54.remi.1.3.log
++ START_TIME=enterprise/4/remi/x86_64/repodata/
+++ stat -c %y /home/sync/log/2014-08-06-06-12-54.remi.1.3.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:22:19'
+++ tail -1 /home/sync/log/2014-08-06-06-12-54.remi.1.3.log
++ TAIL=fedora/17/remi/i386/
++ SYNC_LOCK=/home/sync/var/remi.syncing.sub.lock
+++ echo fedora/17/remi/i386/
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo fedora/17/remi/i386/
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/remi.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^remi|'
++ SIZE=
++ echo 'remi||enterprise/4/remi/x86_64/repoview/|enterprise/4/remi/x86_64/repodata/|2014-08-06 13:22:19|syncing'
+++ expr 24 + 1
++ COUNT=25
++ '[' 25 -le 29 ']'
+++ sed -n 25p /home/sync/tmp/name.tmp
++ NAME=repoforge
++ alias=
++ repoforge
++ destination=/mirrorswlzx/repoforge/
++ source=(rsync://ftp.riken.jp/repoforge/)
++ '[' '' == '' ']'
++ ALIAS=repoforge
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.repoforge\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log
++ '[' /home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log
++ SOURCE=rsync://ftp.riken.jp/repoforge/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log
++ START_TIME='2014-08-06 12:21:44'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:27:55'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.repoforge.1.5.log
++ TAIL='rsync error: timeout in data send/receive (code 30) at io.c(200) [receiver=3.0.6]'
++ SYNC_LOCK=/home/sync/var/repoforge.syncing.sub.lock
+++ echo rsync error: timeout in data send/receive '(code' '30)' at 'io.c(200)' '[receiver=3.0.6]'
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ grep 'rsync error'
+++ echo rsync error: timeout in data send/receive '(code' '30)' at 'io.c(200)' '[receiver=3.0.6]'
++ '[' 'rsync error: timeout in data send/receive (code 30) at io.c(200) [receiver=3.0.6]' '!=' '' ']'
++ STATUS=error
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^repoforge|'
++ SIZE=
++ echo 'repoforge||rsync://ftp.riken.jp/repoforge/|2014-08-06 12:21:44|2014-08-06 12:27:55|error'
+++ expr 25 + 1
++ COUNT=26
++ '[' 26 -le 29 ']'
+++ sed -n 26p /home/sync/tmp/name.tmp
++ NAME=rpmfusion
++ alias=
++ rpmfusion
++ destination=/mirrorswlzx/rpmfusion/
++ source=(rsync://download1.rpmfusion.org/rpmfusion)
++ '[' '' == '' ']'
++ ALIAS=rpmfusion
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.rpmfusion\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log
++ SOURCE=rsync://download1.rpmfusion.org/rpmfusion
+++ head -1 /home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:23:05'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.rpmfusion.1.1.log
++ TAIL=free/fedora/releases/12/Everything/ppc/os/repoview/
++ SYNC_LOCK=/home/sync/var/rpmfusion.syncing.sub.lock
+++ echo free/fedora/releases/12/Everything/ppc/os/repoview/
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo free/fedora/releases/12/Everything/ppc/os/repoview/
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/rpmfusion.syncing.sub.lock ']'
++ STATUS=syncing
+++ cat /home/sync/tmp/stat.18032.last.tmp
+++ awk -F '|' '{print $2}'
+++ head -1
+++ grep '^rpmfusion|'
++ SIZE=
++ echo 'rpmfusion||rsync://download1.rpmfusion.org/rpmfusion|2014-08-06 12:00:02|2014-08-06 13:23:05|syncing'
+++ expr 26 + 1
++ COUNT=27
++ '[' 27 -le 29 ']'
+++ sed -n 27p /home/sync/tmp/name.tmp
++ NAME=sagemath
++ alias=
++ sagemath
++ destination=/mirrorswlzx/sagemath/
++ source=(rsync://mirrors.hust.edu.cn/sagemath/)
++ '[' '' == '' ']'
++ ALIAS=sagemath
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.sagemath\.'
+++ tail -1
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log
++ SOURCE=rsync://mirrors.hust.edu.cn/sagemath/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:15:54'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.sagemath.1.1.log
++ TAIL='total size is 37453545417  speedup is 331479.57'
++ SYNC_LOCK=/home/sync/var/sagemath.syncing.sub.lock
+++ echo total size is 37453545417 speedup is 331479.57
+++ grep 'total size'
++ '[' 'total size is 37453545417 speedup is 331479.57' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 37453545417 speedup is 331479.57
+++ awk '{print $4}'
++ SIZE=37453545417
++ echo 'sagemath|37453545417|rsync://mirrors.hust.edu.cn/sagemath/|2014-08-06 12:00:02|2014-08-06 12:15:54|finished'
+++ expr 27 + 1
++ COUNT=28
++ '[' 28 -le 29 ']'
+++ sed -n 28p /home/sync/tmp/name.tmp
++ NAME=ubuntu
++ alias=
++ ubuntu
++ destination=/mirrorswlzx/ubuntu/
++ source=(rsync://archive.ubuntu.com/ubuntu)
++ '[' '' == '' ']'
++ ALIAS=ubuntu
+++ tail -1
+++ ls -l /home/sync/log/
+++ awk '{print $9}'
+++ grep '\.ubuntu\.'
++ LOG_FILE=/home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log
++ '[' /home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log
++ SOURCE=rsync://archive.ubuntu.com/ubuntu
+++ head -1 /home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log
++ START_TIME='2014-08-06 11:29:28'
+++ stat -c %y /home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 13:24:10'
+++ tail -1 /home/sync/log/2014-08-06-06-12-54.ubuntu.1.5.log
++ TAIL=dists/trusty-security/main/binary-amd64/Release
++ SYNC_LOCK=/home/sync/var/ubuntu.syncing.sub.lock
+++ echo dists/trusty-security/main/binary-amd64/Release
+++ grep 'total size'
++ '[' '' '!=' '' ']'
+++ echo dists/trusty-security/main/binary-amd64/Release
+++ grep 'rsync error'
++ '[' '' '!=' '' ']'
++ '[' -e /home/sync/var/ubuntu.syncing.sub.lock ']'
++ STATUS=syncing
+++ head -1
+++ grep '^ubuntu|'
+++ awk -F '|' '{print $2}'
+++ cat /home/sync/tmp/stat.18032.last.tmp
++ SIZE=
++ echo 'ubuntu||rsync://archive.ubuntu.com/ubuntu|2014-08-06 11:29:28|2014-08-06 13:24:10|syncing'
+++ expr 28 + 1
++ COUNT=29
++ '[' 29 -le 29 ']'
+++ sed -n 29p /home/sync/tmp/name.tmp
++ NAME=ubuntu-releases
++ alias=
++ ubuntu-releases
++ destination=/mirrorswlzx/ubuntu-releases/
++ source=(rsync://rsync.releases.ubuntu.com/releases/)
++ '[' '' == '' ']'
++ ALIAS=ubuntu-releases
+++ tail -1
+++ awk '{print $9}'
+++ ls -l /home/sync/log/
+++ grep '\.ubuntu-releases\.'
++ LOG_FILE=/home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log
++ '[' /home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log == /home/sync/log/ ']'
+++ sed -n 2p /home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log
++ SOURCE=rsync://rsync.releases.ubuntu.com/releases/
+++ head -1 /home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log
++ START_TIME='2014-08-06 12:00:02'
+++ stat -c %y /home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log
+++ awk -F . '{print $1}'
++ END_TIME='2014-08-06 12:03:49'
+++ tail -1 /home/sync/log/2014-08-06-12-00-01.ubuntu-releases.1.1.log
++ TAIL='total size is 32731573125  speedup is 1100516.88'
++ SYNC_LOCK=/home/sync/var/ubuntu-releases.syncing.sub.lock
+++ echo total size is 32731573125 speedup is 1100516.88
+++ grep 'total size'
++ '[' 'total size is 32731573125 speedup is 1100516.88' '!=' '' ']'
++ STATUS=finished
+++ echo total size is 32731573125 speedup is 1100516.88
+++ awk '{print $4}'
++ SIZE=32731573125
++ echo 'ubuntu-releases|32731573125|rsync://rsync.releases.ubuntu.com/releases/|2014-08-06 12:00:02|2014-08-06 12:03:49|finished'
+++ expr 29 + 1
++ COUNT=30
++ '[' 30 -le 29 ']'
++ cp /home/sync/tmp/stat.8689.tmp /home/sync/var/stat
++ rm /home/sync/tmp/stat.8689.tmp
++ rm /home/sync/tmp/stat.18032.last.tmp
++ rm -f /home/sync/var/stating.lock
++ exit 0
