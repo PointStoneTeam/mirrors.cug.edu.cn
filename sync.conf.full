@@ -63,13 +63,22 @@ GO_HTML_DIR=/var/www/html/server/goaccess/
 #		)
 #}
 
+apache(){
+        #alias="Apache"
+        destination=/mirrorswlzx/apache/
+        source=(
+            rsync://rsync.apache.org/apache-dist/
+            #rsync://mirrors.hust.edu.cn/apache/
+        )
+}
+
 archlinux(){
         #alias="Arch Linux"
         destination=/mirrorswlzx/archlinux/
         source=(
             #rsync://mirror.us.leaseweb.net/archlinux/
-            rsync://mirrors.hust.edu.cn/archlinux/
-            #rsync://mirrors.hustunique.com/archlinux/
+            #rsync://mirrors.hust.edu.cn/archlinux/
+            rsync://mirrors.hustunique.com/archlinux/
         )
     }
 
@@ -79,8 +88,15 @@ centos(){
         source=(
             #rsync://msync.centos.org/CentOS/
             rsync://us-msync.centos.org/CentOS/
-            rsync://mirrors.hust.edu.cn/centos/
             #rsync://eu-msync.centos.org/CentOS/
+        )
+    }
+
+cygwin(){
+        destination=/mirrorswlzx/cygwin/
+        source=(
+            rsync://sourceware.org/cygwin-ftp/
+            #rsync://mirrors.hustunique.com/cygwin/
         )
     }
 
@@ -108,8 +124,8 @@ debian-security(){
         #alias="debian-security"
         destination=/mirrorsxgxy/debian-security/
         source=(
-            #rsync://security.debian.org/debian-security/
-            rsync://mirrors.hust.edu.cn/debian-security/
+            rsync://security.debian.org/debian-security/
+            #rsync://mirrors.hust.edu.cn/debian-security/
         )
     }
 
@@ -135,8 +151,8 @@ eclipse(){
         #alias="eclipse"
         destination=/mirrorsxgxy/eclipse/
         source=(
-            #rsync://rsync.osuosl.org/eclipse/
-            rsync://mirrors.hust.edu.cn/eclipse/
+            rsync://rsync.osuosl.org/eclipse/
+            #rsync://mirrors.hust.edu.cn/eclipse/
             #rsync://mirrors.hustunique.com/eclipse/
         )
     }
@@ -145,8 +161,8 @@ epel(){
         #alias="EPEL"
         destination=/mirrorswlzx/epel/
         source=(
-            #rsync://dl.fedoraproject.org/fedora-epel/
-            rsync://mirrors.hust.edu.cn/epel/
+            rsync://dl.fedoraproject.org/fedora-epel/
+            #rsync://mirrors.hust.edu.cn/epel/
         )
     }
 
@@ -154,9 +170,9 @@ fedora(){
         #alias="fedora"
         destination=/mirrorsxgxy/fedora/
         source=(
-            #rsync://dl.fedoraproject.org/fedora-enchilada/linux/
+            rsync://dl.fedoraproject.org/fedora-enchilada/linux/
             #rsync://ftp.heanet.ie/fedora-enchilada/linux/
-            rsync://mirrors.hustunique.com/fedora/
+            #rsync://mirrors.hust.edu.cn/fedora/
         )
     }
 
@@ -164,9 +180,9 @@ gentoo(){
         #alias="Gentoo"
         destination=/mirrorswlzx/gentoo/
         source=(
-            #rsync://rsync.cn.gentoo.org/gentoo/
+            rsync://rsync.cn.gentoo.org/gentoo/
             #rsync://mirrors.hust.edu.cn/gentoo/
-            rsync://mirrors.hustunique.com/gentoo/
+            #rsync://mirrors.hustunique.com/gentoo/
             #rsync://mirrors.ustc.edu.cn/gentoo/
         )
     }
@@ -175,21 +191,81 @@ gentoo-portage(){
         #alias="Gentoo Portage"
         destination=/mirrorswlzx/gentoo-portage/
         source=(
-            #rsync://ftp.ussg.iu.edu/gentoo-portage/
+            rsync://ftp.ussg.iu.edu/gentoo-portage/
             #rsync://rsync.us.gentoo.org/gentoo-portage/
-            rsync://mirrors.hustunique.com/gentoo-portage/
-            rsync://mirrors.ustc.edu.cn/gentoo-portage/
+            #rsync://mirrors.hustunique.com/gentoo-portage/
+            #rsync://mirrors.ustc.edu.cn/gentoo-portage/
         )
     }
+
+gnu(){
+        #alias="GNU"
+        destination=/mirrorswlzx/gnu/
+        source=(
+            rsync://mirror.team-cymru.org/gnu/
+            #rsync://mirrors.hust.edu.cn/gnu/
+        )
+    }
+
+#kali(){
+        #alias="Deepin CD"
+        #destination=/mirrorsxgxy/kali/
+        #source=(
+            #rsync://kali.mirror.garr.it/kali/
+            #rsync://archive-4.kali.org/kali/
+            #rsync://mirrors.hust.edu.cn/kali/
+            #rsync://mirrors.hustunique.com/kali/
+            #rsync://mirrors.ustc.edu.cn/kali/
+        #)
+    #}
+
+#kali-images(){
+        #alias="kali-images"
+        #destination=/mirrorsxgxy/kali-images/
+        #source=(
+            #rsync://kali.mirror.garr.it/kali-images/
+            #rsync://archive-4.kali.org/kali-images/
+            #rsync://mirrors.hust.edu.cn/kali-images/
+        #)
+    #}
+
+#kali-security(){
+        #alias="kali-security"
+        #destination=/mirrorsxgxy/kali-security/
+        #source=(
+            #rsync://kali.mirror.garr.it/kali-security/
+            #rsync://archive-4.kali.org/kali-security/
+            #rsync://mirrors.hust.edu.cn/kali-security/
+        #)
+    #}
+
+#linuxmint(){
+        #alias="linuxmint"
+        #destination=/mirrorsxgxy/linuxmint/
+        #source=(
+            #rsync://packages.linuxmint.com/packages/
+            #rsync://mirrors.hust.edu.cn/linuxmint/
+        #)
+    #}
+
+#linuxmint-cd(){
+        #alias="linuxmint-cd"
+        #destination=/mirrorsxgxy/linuxmint-cd/
+        #source=(
+            #rsync://ftp.heanet.ie/pub/linuxmint.com/
+            #rsync://mirrors.hust.edu.cn/linuxmint-cd/
+            #rsync://mirrors.hustunique.com/linuxmint-cd/
+        #)
+    #}
 
 opensuse(){
         #alias="openSUSE"
         destination=/mirrorswlzx/opensuse/
         source=(
             #rsync://stage.opensuse.org/opensuse-full-with-factory/opensuse/
-            rsync://mirrors.hust.edu.cn/opensuse/
+            #rsync://mirrors.hust.edu.cn/opensuse/
             rsync://mirrors.hustunique.com/opensuse/
-            rsync://mirrors.ustc.edu.cn/opensuse/
+            #rsync://mirrors.ustc.edu.cn/opensuse/
         )
     }
 
@@ -205,8 +281,8 @@ raspbian(){
         #alias="Raspbian"
         destination=/mirrorswlzx/raspbian/
         source=(
-            #rsync://archive.raspbian.org/archive/
-            rsync://mirrors.hust.edu.cn/raspbian/
+            rsync://archive.raspbian.org/archive/
+            #rsync://mirrors.hust.edu.cn/raspbian/
         )
     }
 
@@ -223,8 +299,8 @@ repoforge(){
         #alias="repoforge"
         destination=/mirrorswlzx/repoforge/
         source=(
-            #rsync://ftp.riken.jp/repoforge/
-            rsync://mirrors.hustunique.com/repoforge/
+            rsync://ftp.riken.jp/repoforge/
+            #rsync://mirrors.hustunique.com/repoforge/
         )
     }
 
@@ -232,13 +308,21 @@ rpmfusion(){
         #alias="RPM Fusion"
         destination=/mirrorswlzx/rpmfusion/
         source=(
-            #rsync://download1.rpmfusion.org/rpmfusion
+            rsync://download1.rpmfusion.org/rpmfusion
             #rsync://fr2.rpmfind.net/linux/rpmfusion/
-            rsync://mirrors.hust.edu.cn/rpmfusion/
+            #rsync://mirrors.hust.edu.cn/rpmfusion/
             #rsync://mirrors.hustunique.com/rpmfusion/
             #rsync://mirrors.ustc.edu.cn/rpmfusion/
         )
     }
+
+#sagemath(){
+#        #alias="sagemath"
+#        destination=/mirrorswlzx/sagemath/
+#        source=(
+#            rsync://mirrors.hust.edu.cn/sagemath/
+#        )
+#    }
 
 ubuntu(){
         #alias="Ubuntu"
